@@ -1,0 +1,29 @@
+/* Home-only entrances; content is visible by default when JavaScript is absent. */
+body[data-page="home"] .home-reveal {
+  opacity: 1;
+  transform: none;
+}
+body[data-page="home"] .home-reveal.is-visible {
+  transition: opacity .8s ease, transform .8s ease;
+}
+body[data-page="home"] .home-reveal.is-pending {
+  opacity: 0;
+  transform: translateY(20px);
+}
+body[data-page="home"] .home-reveal-stationary.is-pending {
+  transform: none;
+}
+body[data-page="home"] .home-reveal:focus-within {
+  opacity: 1;
+  transform: none;
+  transition: none;
+}
+@media (prefers-reduced-motion: reduce), print {
+  body[data-page="home"] .home-reveal,
+  body[data-page="home"] .home-reveal.is-pending,
+  body[data-page="home"] .home-reveal.is-visible {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

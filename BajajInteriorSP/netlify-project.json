@@ -1,0 +1,10 @@
+{
+  "site_id": "337fc8fa-6dcf-4c41-af1e-49721fde8257",
+  "site_name": "bajaj-interiorsp",
+  "team_id": "68645f57df65ca9c721cf615",
+  "team_slug": "marketing-wkwnzoq",
+  "dashboard_url": "https://app.netlify.com/projects/bajaj-interiorsp",
+  "source_project_id": "appgprj_6ad67040eb088191b88af56fde941118",
+  "publish_directory": "dist",
+  "deployment_method": "Netlify CLI, publicação manual do código existente"
+}

@@ -1,0 +1,291 @@
+{
+  "right": {
+    "full": {
+      "file": "d4-right-full.webp",
+      "width": 4153,
+      "height": 2678
+    },
+    "large": {
+      "file": "d4-right-large.webp",
+      "width": 1800,
+      "height": 1161
+    },
+    "small": {
+      "file": "d4-right-small.webp",
+      "width": 900,
+      "height": 580
+    }
+  },
+  "left": {
+    "full": {
+      "file": "d4-left-full.webp",
+      "width": 4362,
+      "height": 3219
+    },
+    "large": {
+      "file": "d4-left-large.webp",
+      "width": 1800,
+      "height": 1328
+    },
+    "small": {
+      "file": "d4-left-small.webp",
+      "width": 900,
+      "height": 664
+    }
+  },
+  "front": {
+    "full": {
+      "file": "d4-front-full.webp",
+      "width": 2385,
+      "height": 3083
+    },
+    "large": {
+      "file": "d4-front-large.webp",
+      "width": 1800,
+      "height": 2327
+    },
+    "small": {
+      "file": "d4-front-small.webp",
+      "width": 900,
+      "height": 1163
+    }
+  },
+  "panel": {
+    "full": {
+      "file": "d4-panel-full.webp",
+      "width": 5760,
+      "height": 3840
+    },
+    "large": {
+      "file": "d4-panel-large.webp",
+      "width": 1800,
+      "height": 1200
+    },
+    "small": {
+      "file": "d4-panel-small.webp",
+      "width": 900,
+      "height": 600
+    }
+  },
+  "headlight": {
+    "full": {
+      "file": "d4-headlight-full.webp",
+      "width": 3840,
+      "height": 5760
+    },
+    "large": {
+      "file": "d4-headlight-large.webp",
+      "width": 1800,
+      "height": 2700
+    },
+    "small": {
+      "file": "d4-headlight-small.webp",
+      "width": 900,
+      "height": 1350
+    }
+  },
+  "seat": {
+    "full": {
+      "file": "d4-seat-full.webp",
+      "width": 5760,
+      "height": 3840
+    },
+    "large": {
+      "file": "d4-seat-large.webp",
+      "width": 1800,
+      "height": 1200
+    },
+    "small": {
+      "file": "d4-seat-small.webp",
+      "width": 900,
+      "height": 600
+    }
+  },
+  "engine": {
+    "full": {
+      "file": "d4-engine-full.webp",
+      "width": 5760,
+      "height": 3840
+    },
+    "large": {
+      "file": "d4-engine-large.webp",
+      "width": 1800,
+      "height": 1200
+    },
+    "small": {
+      "file": "d4-engine-small.webp",
+      "width": 900,
+      "height": 600
+    }
+  },
+  "brake": {
+    "full": {
+      "file": "d4-brake-full.webp",
+      "width": 1600,
+      "height": 1400
+    },
+    "large": {
+      "file": "d4-brake-large.webp",
+      "width": 1600,
+      "height": 1400
+    },
+    "small": {
+      "file": "d4-brake-small.webp",
+      "width": 900,
+      "height": 788
+    }
+  },
+  "fork": {
+    "full": {
+      "file": "d4-fork-full.webp",
+      "width": 1090,
+      "height": 1420
+    },
+    "large": {
+      "file": "d4-fork-large.webp",
+      "width": 1090,
+      "height": 1420
+    },
+    "small": {
+      "file": "d4-fork-small.webp",
+      "width": 900,
+      "height": 1172
+    }
+  },
+  "refresh-dominar-400-gallery0": {
+    "small": {
+      "file": "refresh-dominar-400-gallery0-small.webp",
+      "width": 800,
+      "height": 533
+    },
+    "large": {
+      "file": "refresh-dominar-400-gallery0-large.webp",
+      "width": 1600,
+      "height": 1067
+    },
+    "full": {
+      "file": "refresh-dominar-400-gallery0-full.webp",
+      "width": 1920,
+      "height": 1280
+    }
+  },
+  "refresh-dominar-400-gallery1": {
+    "small": {
+      "file": "refresh-dominar-400-gallery1-small.webp",
+      "width": 800,
+      "height": 533
+    },
+    "large": {
+      "file": "refresh-dominar-400-gallery1-large.webp",
+      "width": 1600,
+      "height": 1067
+    },
+    "full": {
+      "file": "refresh-dominar-400-gallery1-full.webp",
+      "width": 1920,
+      "height": 1280
+    }
+  },
+  "refresh-dominar-400-gallery2": {
+    "small": {
+      "file": "refresh-dominar-400-gallery2-small.webp",
+      "width": 800,
+      "height": 533
+    },
+    "large": {
+      "file": "refresh-dominar-400-gallery2-large.webp",
+      "width": 1600,
+      "height": 1067
+    },
+    "full": {
+      "file": "refresh-dominar-400-gallery2-full.webp",
+      "width": 2400,
+      "height": 1600
+    }
+  },
+  "refresh-dominar-400-gallery3": {
+    "small": {
+      "file": "refresh-dominar-400-gallery3-small.webp",
+      "width": 800,
+      "height": 449
+    },
+    "large": {
+      "file": "refresh-dominar-400-gallery3-large.webp",
+      "width": 1600,
+      "height": 898
+    },
+    "full": {
+      "file": "refresh-dominar-400-gallery3-full.webp",
+      "width": 2400,
+      "height": 1347
+    }
+  },
+  "refresh-dominar-400-gallery4": {
+    "small": {
+      "file": "refresh-dominar-400-gallery4-small.webp",
+      "width": 800,
+      "height": 449
+    },
+    "large": {
+      "file": "refresh-dominar-400-gallery4-large.webp",
+      "width": 1600,
+      "height": 898
+    },
+    "full": {
+      "file": "refresh-dominar-400-gallery4-full.webp",
+      "width": 2400,
+      "height": 1347
+    }
+  },
+  "refresh-dominar-400-feature0": {
+    "small": {
+      "file": "refresh-dominar-400-feature0-small.webp",
+      "width": 533,
+      "height": 800
+    },
+    "large": {
+      "file": "refresh-dominar-400-feature0-large.webp",
+      "width": 1067,
+      "height": 1600
+    },
+    "full": {
+      "file": "refresh-dominar-400-feature0-full.webp",
+      "width": 1600,
+      "height": 2400
+    }
+  },
+  "refresh-dominar-400-feature2": {
+    "small": {
+      "file": "refresh-dominar-400-feature2-small.webp",
+      "width": 800,
+      "height": 449
+    },
+    "large": {
+      "file": "refresh-dominar-400-feature2-large.webp",
+      "width": 1600,
+      "height": 898
+    },
+    "full": {
+      "file": "refresh-dominar-400-feature2-full.webp",
+      "width": 2400,
+      "height": 1347
+    }
+  },
+  "refresh-dominar-400-home-poster": {
+    "small": {
+      "file": "refresh-dominar-400-home-poster-small.webp",
+      "width": 800,
+      "height": 533
+    },
+    "large": {
+      "file": "refresh-dominar-400-home-poster-large.webp",
+      "width": 1600,
+      "height": 1067
+    },
+    "full": {
+      "file": "refresh-dominar-400-home-poster-full.webp",
+      "width": 2400,
+      "height": 1600
+    }
+  }
+}

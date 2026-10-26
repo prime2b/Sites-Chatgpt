@@ -1,0 +1,18 @@
+.openai/*.local.*
+.netlify/
+.impeccable/review/
+raw/
+*.tar.gz
+raw-assets/
+contact-sheet*.jpg
+optimized-preview.jpg
+__pycache__/
+
+# Native PNG build outputs; exact source bytes are stored in source-assets/offers.
+/dist/assets/offers-pulsar-n150.png
+/dist/assets/offers-dominar-ns160.png
+/dist/assets/offers-dominar-ns200.png
+/dist/assets/offers-dominar-ns400z.png
+/dist/assets/offers-dominar-400.png
+
+/native-build-assets/

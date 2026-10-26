@@ -1,0 +1,225 @@
+{
+  "pulsar-n150": {
+    "originalSize": [
+      12000,
+      9000
+    ],
+    "variants": [
+      {
+        "file": "offers-pulsar-n150-160.png",
+        "width": 160,
+        "height": 148
+      },
+      {
+        "file": "offers-pulsar-n150-400.png",
+        "width": 400,
+        "height": 370
+      },
+      {
+        "file": "offers-pulsar-n150-800.png",
+        "width": 800,
+        "height": 740
+      },
+      {
+        "file": "offers-pulsar-n150-1600.png",
+        "width": 1600,
+        "height": 1480
+      },
+      {
+        "file": "offers-pulsar-n150.png",
+        "width": 5900,
+        "height": 5459
+      }
+    ],
+    "full": {
+      "file": "offers-pulsar-n150.png",
+      "width": 5900,
+      "height": 5459
+    },
+    "nativeFull": {
+      "file": "offers-pulsar-n150.png",
+      "width": 7039,
+      "height": 6513
+    }
+  },
+  "dominar-ns160": {
+    "originalSize": [
+      9504,
+      6336
+    ],
+    "variants": [
+      {
+        "file": "offers-dominar-ns160-160.png",
+        "width": 160,
+        "height": 109
+      },
+      {
+        "file": "offers-dominar-ns160-400.png",
+        "width": 400,
+        "height": 272
+      },
+      {
+        "file": "offers-dominar-ns160-800.png",
+        "width": 800,
+        "height": 545
+      },
+      {
+        "file": "offers-dominar-ns160-1600.png",
+        "width": 1600,
+        "height": 1089
+      },
+      {
+        "file": "offers-dominar-ns160.png",
+        "width": 5799,
+        "height": 3947
+      }
+    ],
+    "full": {
+      "file": "offers-dominar-ns160.png",
+      "width": 5799,
+      "height": 3947
+    }
+  },
+  "dominar-ns200": {
+    "originalSize": [
+      9504,
+      6336
+    ],
+    "variants": [
+      {
+        "file": "offers-dominar-ns200-160.png",
+        "width": 160,
+        "height": 112
+      },
+      {
+        "file": "offers-dominar-ns200-400.png",
+        "width": 400,
+        "height": 281
+      },
+      {
+        "file": "offers-dominar-ns200-800.png",
+        "width": 800,
+        "height": 562
+      },
+      {
+        "file": "offers-dominar-ns200-1600.png",
+        "width": 1600,
+        "height": 1125
+      },
+      {
+        "file": "offers-dominar-ns200.png",
+        "width": 6032,
+        "height": 4240
+      }
+    ],
+    "full": {
+      "file": "offers-dominar-ns200.png",
+      "width": 6032,
+      "height": 4240
+    }
+  },
+  "dominar-250": {
+    "originalSize": [
+      1059,
+      706
+    ],
+    "variants": [
+      {
+        "file": "offers-dominar-250-160.png",
+        "width": 160,
+        "height": 119
+      },
+      {
+        "file": "offers-dominar-250-400.png",
+        "width": 400,
+        "height": 298
+      },
+      {
+        "file": "offers-dominar-250.png",
+        "width": 782,
+        "height": 583
+      }
+    ],
+    "full": {
+      "file": "offers-dominar-250.png",
+      "width": 782,
+      "height": 583
+    }
+  },
+  "dominar-ns400z": {
+    "originalSize": [
+      8082,
+      5388
+    ],
+    "variants": [
+      {
+        "file": "offers-dominar-ns400z-160.png",
+        "width": 160,
+        "height": 121
+      },
+      {
+        "file": "offers-dominar-ns400z-400.png",
+        "width": 400,
+        "height": 302
+      },
+      {
+        "file": "offers-dominar-ns400z-800.png",
+        "width": 800,
+        "height": 604
+      },
+      {
+        "file": "offers-dominar-ns400z-1600.png",
+        "width": 1600,
+        "height": 1208
+      },
+      {
+        "file": "offers-dominar-ns400z.png",
+        "width": 5073,
+        "height": 3830
+      }
+    ],
+    "full": {
+      "file": "offers-dominar-ns400z.png",
+      "width": 5073,
+      "height": 3830
+    }
+  },
+  "dominar-400": {
+    "originalSize": [
+      4153,
+      2678
+    ],
+    "variants": [
+      {
+        "file": "offers-dominar-400-160.png",
+        "width": 160,
+        "height": 104
+      },
+      {
+        "file": "offers-dominar-400-400.png",
+        "width": 400,
+        "height": 259
+      },
+      {
+        "file": "offers-dominar-400-800.png",
+        "width": 800,
+        "height": 519
+      },
+      {
+        "file": "offers-dominar-400-1600.png",
+        "width": 1600,
+        "height": 1037
+      },
+      {
+        "file": "offers-dominar-400.png",
+        "width": 4193,
+        "height": 2718
+      }
+    ],
+    "full": {
+      "file": "offers-dominar-400.png",
+      "width": 4193,
+      "height": 2718
+    }
+  }
+}

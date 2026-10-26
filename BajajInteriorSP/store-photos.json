@@ -1,0 +1,42 @@
+{
+  "rio-preto": {
+    "original": "rio-photo.jpg",
+    "url": "https://www.motoo.com.br/fotos/2025/10/960_720/sao-jose-do-rio-preto-1_27102025_66055_960_720.jpg",
+    "source": "https://www.motoo.com.br/bajaj-anuncia-mais-tres-novas-concessionarias-no-brasil-saiba-onde/",
+    "credit": "Divulgação Bajaj",
+    "published": "2025-10-27",
+    "alt": "Fachada da Bajaj InteriorSP de São José do Rio Preto, com letreiros Bajaj e InteriorSP e entrada com rampa.",
+    "variants": {
+      "small": {
+        "file": "unidade-rio-preto-small.webp",
+        "width": 640,
+        "height": 480
+      },
+      "large": {
+        "file": "unidade-rio-preto-large.webp",
+        "width": 960,
+        "height": 720
+      }
+    }
+  },
+  "bauru": {
+    "original": "bauru-primary.jpg",
+    "url": "https://bajaj.com.br/wp-content/uploads/2026/09/IMG_8569-copy-horizontal-1-1-scaled.jpg",
+    "source": "https://bajaj.com.br/bajaj-inaugura-concessionaria-em-bauru-e-chega-a-20-enderecos-no-estado-de-sao-paulo/",
+    "credit": "Divulgação Bajaj",
+    "published": "2026-09-09",
+    "alt": "Fachada da Bajaj InteriorSP de Bauru, com showroom, entrada de serviços e motocicletas à frente.",
+    "variants": {
+      "small": {
+        "file": "unidade-bauru-small.webp",
+        "width": 640,
+        "height": 357
+      },
+      "large": {
+        "file": "unidade-bauru-large.webp",
+        "width": 1600,
+        "height": 893
+      }
+    }
+  }
+}

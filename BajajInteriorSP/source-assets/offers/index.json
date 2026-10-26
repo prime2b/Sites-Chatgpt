@@ -1,0 +1,62 @@
+{
+  "offers-pulsar-n150.png": {
+    "sha256": "a1f19ef17087341b01da7d3e8637f3c90abbbe49122e43c94dfe67b7300a0515",
+    "bytes": 33800094,
+    "parts": [
+      "pulsar-n150-000.part",
+      "pulsar-n150-001.part",
+      "pulsar-n150-002.part",
+      "pulsar-n150-003.part",
+      "pulsar-n150-004.part",
+      "pulsar-n150-005.part",
+      "pulsar-n150-006.part",
+      "pulsar-n150-007.part",
+      "pulsar-n150-008.part"
+    ],
+    "published": {
+      "width": 5900,
+      "height": 5459,
+      "bytes": 25744741,
+      "sha256": "0dae4068aa87666d2542b419198f2693e6c355b6c0082adff642e35d97066c02"
+    }
+  },
+  "offers-dominar-ns160.png": {
+    "sha256": "bf32e4ba9d9577c1fc2e4d305f314326b4b29b5b06ff9a4ead8e66c33be6c252",
+    "bytes": 15719679,
+    "parts": [
+      "dominar-ns160-000.part",
+      "dominar-ns160-001.part",
+      "dominar-ns160-002.part",
+      "dominar-ns160-003.part"
+    ]
+  },
+  "offers-dominar-ns200.png": {
+    "sha256": "162545e461361fdfb8c215893d52aa88297c8f2d821fd4382a10c1783b4d6867",
+    "bytes": 17503026,
+    "parts": [
+      "dominar-ns200-000.part",
+      "dominar-ns200-001.part",
+      "dominar-ns200-002.part",
+      "dominar-ns200-003.part",
+      "dominar-ns200-004.part"
+    ]
+  },
+  "offers-dominar-ns400z.png": {
+    "sha256": "46f7e4862d7049cb8feed5d5feff1b6c8277433a23d4bd9b471052bb0a56dda3",
+    "bytes": 9818804,
+    "parts": [
+      "dominar-ns400z-000.part",
+      "dominar-ns400z-001.part",
+      "dominar-ns400z-002.part"
+    ]
+  },
+  "offers-dominar-400.png": {
+    "sha256": "683cae8e4ac241a5177e272abba83ae69c7527241c19b711faba0aa7588a1488",
+    "bytes": 8568683,
+    "parts": [
+      "dominar-400-000.part",
+      "dominar-400-001.part",
+      "dominar-400-002.part"
+    ]
+  }
+}

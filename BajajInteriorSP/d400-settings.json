@@ -1,0 +1,108 @@
+{
+  "heroVideo": null,
+  "youtubeUrl": "https://www.youtube.com/watch?v=-UPZwyy8RV4",
+  "initialEntry": 8000,
+  "initialTerm": 36,
+  "modes": [
+    {
+      "id": "rain",
+      "label": "RAIN",
+      "description": "Pensado para piso molhado e baixa aderência."
+    },
+    {
+      "id": "road",
+      "label": "ROAD",
+      "description": "Para o dia a dia e as viagens no asfalto."
+    },
+    {
+      "id": "off-road",
+      "label": "OFF-ROAD",
+      "description": "Para terra, cascalho e estradas sem asfalto."
+    },
+    {
+      "id": "sport",
+      "label": "SPORT",
+      "description": "Para uma pilotagem com resposta mais esportiva."
+    }
+  ],
+  "gallery": [
+    {
+      "asset": "refresh-dominar-400-gallery0",
+      "alt": "Lanterna, bagageiro e conjunto traseiro da Dominar 400 Savanna Green."
+    },
+    {
+      "asset": "refresh-dominar-400-gallery1",
+      "alt": "Espelho, proteção de mãos e para-brisa da Dominar 400 Savanna Green."
+    },
+    {
+      "asset": "refresh-dominar-400-gallery2",
+      "alt": "Escapamento, roda traseira e pedaleiras da Dominar 400 Savanna Green, em fotografia oficial de detalhe."
+    },
+    {
+      "asset": "refresh-dominar-400-gallery3",
+      "alt": "Dominar 400 Savanna Green, vista traseira de três quartos pelo lado direito."
+    },
+    {
+      "asset": "refresh-dominar-400-gallery4",
+      "alt": "Dominar 400 Savanna Green, vista traseira de três quartos pelo lado esquerdo."
+    },
+    {
+      "asset": "front",
+      "alt": "Dominar 400 Savanna Green, vista frontal"
+    }
+  ],
+  "features": [
+    {
+      "asset": "refresh-dominar-400-feature0",
+      "alt": "Roda dianteira, disco de freio e pinça da Dominar 400 Savanna Green, em fotografia oficial de detalhe.",
+      "title": "Freio ABS nas duas rodas",
+      "text": "Disco dianteiro de 320 mm, ABS nas duas rodas e controle de tração eletrônico: mais controle em cada frenagem."
+    },
+    {
+      "asset": "engine",
+      "alt": "Motor e proteção inferior da Dominar 400",
+      "title": "Motor DOHC de 373,27 cc",
+      "text": "Refrigeração líquida, 40 cv a 8.800 rpm e 3,569 kgf.m a 6.500 rpm, com câmbio de seis velocidades e embreagem assistida e deslizante."
+    },
+    {
+      "asset": "refresh-dominar-400-feature2",
+      "alt": "Dominar 400 Savanna Green em vista dianteira de três quartos, com o conjunto do garfo invertido visível.",
+      "title": "Suspensão dianteira invertida",
+      "text": "Garfo invertido na dianteira e monochoque com Nitrox na traseira completam o conjunto."
+    },
+    {
+      "asset": "panel",
+      "alt": "Painel digital com Bluetooth da Dominar 400",
+      "title": "Painel digital",
+      "text": "Painel digital com Bluetooth, entrada USB e quatro modos de pilotagem. Escolha um modo:",
+      "modes": true
+    },
+    {
+      "asset": "headlight",
+      "alt": "Farol Full LED da Dominar 400",
+      "title": "Farol Full LED",
+      "text": "Com AutoHeadlamp On (AHO). O design da Dominar 400 combina identidade e funcionalidade."
+    },
+    {
+      "asset": "seat",
+      "alt": "Banco bipartido e posição de pilotagem da Dominar 400",
+      "title": "Banco bipartido",
+      "text": "Veja de perto o banco bipartido e a posição de pilotagem. Solicite um test ride e experimente a ergonomia antes de escolher."
+    }
+  ],
+  "heroYoutube": "-PajWxtTbEM",
+  "additionalVideoUrl": "https://www.youtube.com/watch?v=vDMgUqbv804",
+  "intro": {
+    "title": "Alma de viajante.<br>Presença de Dominar.",
+    "text": "O motor DOHC de 373,27 cc entrega 40 CV, com refrigeração líquida. Do trajeto cotidiano à próxima viagem, a Dominar 400 reúne performance e tecnologia para acompanhar seus planos.",
+    "checks": [
+      "Quatro modos de pilotagem",
+      "Controle de tração eletrônico",
+      "Embreagem assistida e deslizante",
+      "Painel digital com Bluetooth",
+      "Entrada USB"
+    ],
+    "asset": "left",
+    "alt": "Dominar 400 Savanna Green, vista completa do lado esquerdo em três quartos"
+  }
+}

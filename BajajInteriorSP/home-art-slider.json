@@ -1,0 +1,92 @@
+[
+  {
+    "id": "client-campaign-01",
+    "name": "Linha Bajaj",
+    "alt": "Motocicletas da linha Bajaj em composição de estúdio, com a chamada Você leva mais com Bajaj.",
+    "originalFile": "1-Motocicletas Bajaj em destaque-2.webp",
+    "originalSha256": "68fcefde0953bb724f8ce0da18b9d5efe76daa7e07f2251485b7edfa1a4c6fcb",
+    "image": {
+      "file": "campaign-client-01.webp",
+      "width": 1672,
+      "height": 941
+    },
+    "small": {
+      "file": "campaign-client-01-small.webp",
+      "width": 800,
+      "height": 450
+    },
+    "source": "Arte anexada pelo cliente em 23/10/2026"
+  },
+  {
+    "id": "client-campaign-02",
+    "name": "Dominar NS400Z",
+    "alt": "Três motocicletas Dominar NS400Z em ambiente aberto, com a chamada Atenda ao seu desejo por velocidade.",
+    "originalFile": "2-Motocicletas Bajaj em destaque-7.webp",
+    "originalSha256": "46f6c407ccc7eccee2d03f19d96c9b0db0b03e3160683d7b2a53e419000a5bf2",
+    "image": {
+      "file": "campaign-client-02.webp",
+      "width": 1672,
+      "height": 941
+    },
+    "small": {
+      "file": "campaign-client-02-small.webp",
+      "width": 800,
+      "height": 450
+    },
+    "source": "Arte anexada pelo cliente em 23/10/2026"
+  },
+  {
+    "id": "client-campaign-03",
+    "name": "Dominar NS160",
+    "alt": "Três motocicletas Dominar NS160 em ambiente aberto, com a chamada Quer fugir da rotina? Acelere!",
+    "originalFile": "3-Motos Bajaj em destaque no showroom-3.webp",
+    "originalSha256": "ee0217fe0b1e986c17cbd104e4e22b11b3f37361185c089637bac6c12472b73f",
+    "image": {
+      "file": "campaign-client-03.webp",
+      "width": 1672,
+      "height": 941
+    },
+    "small": {
+      "file": "campaign-client-03-small.webp",
+      "width": 800,
+      "height": 450
+    },
+    "source": "Arte anexada pelo cliente em 23/10/2026"
+  },
+  {
+    "id": "client-campaign-04",
+    "name": "Dominar NS200",
+    "alt": "Três motocicletas Dominar NS200 em ambiente aberto, com a chamada Descubra sua nova pilotagem.",
+    "originalFile": "4-Motos Bajaj em destaque no showroom-4.webp",
+    "originalSha256": "4d06abfe4399013e2c69ee57f9db672728dbf4f228169b45ac62a5409f6670a7",
+    "image": {
+      "file": "campaign-client-04.webp",
+      "width": 1672,
+      "height": 941
+    },
+    "small": {
+      "file": "campaign-client-04-small.webp",
+      "width": 800,
+      "height": 450
+    },
+    "source": "Arte anexada pelo cliente em 23/10/2026"
+  },
+  {
+    "id": "client-campaign-05",
+    "name": "Pulsar N150",
+    "alt": "Três motocicletas Pulsar N150 em ambiente aberto, com a chamada Move Bajaj.",
+    "originalFile": "5-Motos Bajaj em destaque no showroom-5.webp",
+    "originalSha256": "9b4b25429f02ff581ff2d1a776fe4e9e89eac88ad54a46d996fb88c5e1beb11f",
+    "image": {
+      "file": "campaign-client-05.webp",
+      "width": 1672,
+      "height": 940
+    },
+    "small": {
+      "file": "campaign-client-05-small.webp",
+      "width": 800,
+      "height": 450
+    },
+    "source": "Arte anexada pelo cliente em 23/10/2026"
+  }
+]

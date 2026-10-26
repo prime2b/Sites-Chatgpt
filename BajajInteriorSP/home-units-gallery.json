@@ -1,0 +1,309 @@
+[
+  {
+    "id": "rio-preto-fachada",
+    "unit": "rio-preto",
+    "city": "Rio Preto",
+    "title": "Fachada",
+    "alt": "Fachada da Bajaj InteriorSP de São José do Rio Preto, com letreiros Bajaj e InteriorSP e entrada com rampa.",
+    "source": "https://www.motoo.com.br/bajaj-anuncia-mais-tres-novas-concessionarias-no-brasil-saiba-onde/",
+    "credit": "Divulgação Bajaj",
+    "variants": {
+      "small": {
+        "file": "unidade-rio-preto-small.webp",
+        "width": 640,
+        "height": 480
+      },
+      "large": {
+        "file": "unidade-rio-preto-large.webp",
+        "width": 960,
+        "height": 720
+      }
+    }
+  },
+  {
+    "id": "interiorsp-acervo-cliente-01",
+    "unit": null,
+    "city": "InteriorSP",
+    "title": "Showroom",
+    "alt": "Motocicleta preta em destaque no showroom, com outras motos ao fundo e iluminação linear no teto.",
+    "source": "Arquivo enviado pelo cliente nesta conversa",
+    "credit": "Acervo fornecido pelo cliente",
+    "originalFile": "Motocicleta-preta-no-showroom-iluminado-1.webp",
+    "variants": {
+      "small": {
+        "file": "interiorsp-acervo-cliente-01-small.webp",
+        "width": 640,
+        "height": 480
+      },
+      "large": {
+        "file": "interiorsp-acervo-cliente-01-large.webp",
+        "width": 1448,
+        "height": 1086
+      }
+    }
+  },
+  {
+    "id": "interiorsp-acervo-cliente-02",
+    "unit": null,
+    "city": "InteriorSP",
+    "title": "Atendimento e showroom",
+    "alt": "Ambiente interno com motocicletas expostas, mesas de atendimento e iluminação linear.",
+    "source": "Arquivo enviado pelo cliente nesta conversa",
+    "credit": "Acervo fornecido pelo cliente",
+    "originalFile": "4-Interior moderno de concessionária de motos-4.webp",
+    "variants": {
+      "small": {
+        "file": "interiorsp-acervo-cliente-02-small.webp",
+        "width": 640,
+        "height": 480
+      },
+      "large": {
+        "file": "interiorsp-acervo-cliente-02-large.webp",
+        "width": 1448,
+        "height": 1086
+      }
+    }
+  },
+  {
+    "id": "interiorsp-acervo-cliente-03",
+    "unit": null,
+    "city": "InteriorSP",
+    "title": "Entrada do showroom",
+    "alt": "Entrada envidraçada do showroom Bajaj, com motocicletas expostas e adesivo azul na porta.",
+    "source": "Arquivo enviado pelo cliente nesta conversa",
+    "credit": "Acervo fornecido pelo cliente",
+    "originalFile": "5-Showroom Bajaj com adesivo azul-1.webp",
+    "variants": {
+      "small": {
+        "file": "interiorsp-acervo-cliente-03-small.webp",
+        "width": 640,
+        "height": 480
+      },
+      "large": {
+        "file": "interiorsp-acervo-cliente-03-large.webp",
+        "width": 1448,
+        "height": 1086
+      }
+    }
+  },
+  {
+    "id": "interiorsp-acervo-cliente-04",
+    "unit": null,
+    "city": "InteriorSP",
+    "title": "Ambiente interno",
+    "alt": "Showroom com motocicletas expostas, mesas de atendimento e material promocional azul no ambiente.",
+    "source": "Arquivo enviado pelo cliente nesta conversa",
+    "credit": "Acervo fornecido pelo cliente",
+    "originalFile": "1-Banner azul ZERO IPVA no showroom Bajaj-5.webp",
+    "variants": {
+      "small": {
+        "file": "interiorsp-acervo-cliente-04-small.webp",
+        "width": 640,
+        "height": 480
+      },
+      "large": {
+        "file": "interiorsp-acervo-cliente-04-large.webp",
+        "width": 1448,
+        "height": 1086
+      }
+    }
+  },
+  {
+    "id": "interiorsp-acervo-cliente-05",
+    "unit": null,
+    "city": "InteriorSP",
+    "title": "Fachada à noite",
+    "alt": "Fachada iluminada da concessionária Bajaj InteriorSP à noite, com reflexos no pavimento molhado.",
+    "source": "Arquivo enviado pelo cliente nesta conversa",
+    "credit": "Acervo fornecido pelo cliente",
+    "originalFile": "2-Concessionária Bajaj iluminada na noite chuvosa-2.webp",
+    "variants": {
+      "small": {
+        "file": "interiorsp-acervo-cliente-05-small.webp",
+        "width": 640,
+        "height": 480
+      },
+      "large": {
+        "file": "interiorsp-acervo-cliente-05-large.webp",
+        "width": 1448,
+        "height": 1086
+      }
+    }
+  },
+  {
+    "id": "interiorsp-acervo-cliente-06",
+    "unit": null,
+    "city": "InteriorSP",
+    "title": "Entrada e serviços",
+    "alt": "Entrada da concessionária Bajaj InteriorSP durante o dia, com motocicletas e acesso de serviços.",
+    "source": "Arquivo enviado pelo cliente nesta conversa",
+    "credit": "Acervo fornecido pelo cliente",
+    "originalFile": "3-Concessionária Bajaj iluminada na noite chuvosa-3.webp",
+    "variants": {
+      "small": {
+        "file": "interiorsp-acervo-cliente-06-small.webp",
+        "width": 640,
+        "height": 480
+      },
+      "large": {
+        "file": "interiorsp-acervo-cliente-06-large.webp",
+        "width": 1448,
+        "height": 1086
+      }
+    }
+  },
+  {
+    "id": "interiorsp-acervo-cliente-07",
+    "unit": null,
+    "city": "InteriorSP",
+    "title": "Entrada da concessionária",
+    "alt": "Motocicletas e duas pessoas diante da entrada da concessionária, com arco azul Bajaj.",
+    "source": "Arquivo enviado pelo cliente nesta conversa",
+    "credit": "Acervo fornecido pelo cliente",
+    "originalFile": "Concessionária-com-arco-azul-e-motocicletas-2.webp",
+    "variants": {
+      "small": {
+        "file": "interiorsp-acervo-cliente-07-small.webp",
+        "width": 640,
+        "height": 480
+      },
+      "large": {
+        "file": "interiorsp-acervo-cliente-07-large.webp",
+        "width": 1448,
+        "height": 1086
+      }
+    }
+  },
+  {
+    "id": "interiorsp-acervo-cliente-08",
+    "unit": null,
+    "city": "InteriorSP",
+    "title": "Showroom e exposição",
+    "alt": "Vista do showroom com motocicletas expostas, mesas de atendimento e plataforma azul.",
+    "source": "Arquivo enviado pelo cliente nesta conversa",
+    "credit": "Acervo fornecido pelo cliente",
+    "originalFile": "Concessionária-com-arco-azul-e-motocicletas-3.webp",
+    "variants": {
+      "small": {
+        "file": "interiorsp-acervo-cliente-08-small.webp",
+        "width": 640,
+        "height": 480
+      },
+      "large": {
+        "file": "interiorsp-acervo-cliente-08-large.webp",
+        "width": 1448,
+        "height": 1086
+      }
+    }
+  },
+  {
+    "id": "interiorsp-acervo-cliente-09",
+    "unit": null,
+    "city": "InteriorSP",
+    "title": "Motos em exposição",
+    "alt": "Motocicletas alinhadas no showroom, com paredes azuis e pretas e balcão ao fundo.",
+    "source": "Arquivo enviado pelo cliente nesta conversa",
+    "credit": "Acervo fornecido pelo cliente",
+    "originalFile": "Motos-Bajaj-em-showroom-moderno-6.webp",
+    "variants": {
+      "small": {
+        "file": "interiorsp-acervo-cliente-09-small.webp",
+        "width": 640,
+        "height": 480
+      },
+      "large": {
+        "file": "interiorsp-acervo-cliente-09-large.webp",
+        "width": 1448,
+        "height": 1086
+      }
+    }
+  },
+  {
+    "id": "interiorsp-acervo-cliente-10",
+    "unit": null,
+    "city": "InteriorSP",
+    "title": "Plataforma de exposição",
+    "alt": "Motocicleta em plataforma azul no showroom Bajaj, com outras motos e área de atendimento ao fundo.",
+    "source": "Arquivo enviado pelo cliente nesta conversa",
+    "credit": "Acervo fornecido pelo cliente",
+    "originalFile": "Showroom-de-motos-com-plataforma-azul-5.webp",
+    "variants": {
+      "small": {
+        "file": "interiorsp-acervo-cliente-10-small.webp",
+        "width": 640,
+        "height": 480
+      },
+      "large": {
+        "file": "interiorsp-acervo-cliente-10-large.webp",
+        "width": 1448,
+        "height": 1086
+      }
+    }
+  },
+  {
+    "id": "interiorsp-acervo-cliente-11",
+    "unit": null,
+    "city": "InteriorSP",
+    "title": "Oficina",
+    "alt": "Motocicleta preta sobre elevador azul na oficina, com ferramentas e bancada de trabalho.",
+    "source": "Arquivo enviado pelo cliente nesta conversa",
+    "credit": "Acervo fornecido pelo cliente",
+    "originalFile": "Oficina-com-moto-preta-e-bancada-azul-4.webp",
+    "variants": {
+      "small": {
+        "file": "interiorsp-acervo-cliente-11-small.webp",
+        "width": 640,
+        "height": 480
+      },
+      "large": {
+        "file": "interiorsp-acervo-cliente-11-large.webp",
+        "width": 1448,
+        "height": 1086
+      }
+    }
+  },
+  {
+    "id": "interiorsp-acervo-cliente-12",
+    "unit": null,
+    "city": "InteriorSP",
+    "title": "Área de manutenção",
+    "alt": "Oficina com motocicletas em elevadores azuis e profissionais trabalhando.",
+    "source": "Arquivo enviado pelo cliente nesta conversa",
+    "credit": "Acervo fornecido pelo cliente",
+    "originalFile": "Oficina-com-três-motos-em-elevadores-azuis-8.webp",
+    "variants": {
+      "small": {
+        "file": "interiorsp-acervo-cliente-12-small.webp",
+        "width": 640,
+        "height": 480
+      },
+      "large": {
+        "file": "interiorsp-acervo-cliente-12-large.webp",
+        "width": 1448,
+        "height": 1086
+      }
+    }
+  },
+  {
+    "id": "interiorsp-acervo-cliente-13",
+    "unit": null,
+    "city": "InteriorSP",
+    "title": "Entrega de motocicleta",
+    "alt": "Três pessoas junto a uma motocicleta no showroom Bajaj.",
+    "source": "Arquivo enviado pelo cliente nesta conversa",
+    "credit": "Acervo fornecido pelo cliente",
+    "originalFile": "Entrega-de-moto-Bajaj-com-três-pessoas-7.webp",
+    "variants": {
+      "small": {
+        "file": "interiorsp-acervo-cliente-13-small.webp",
+        "width": 640,
+        "height": 480
+      },
+      "large": {
+        "file": "interiorsp-acervo-cliente-13-large.webp",
+        "width": 1448,
+        "height": 1086
+      }
+    }
+  }
+]

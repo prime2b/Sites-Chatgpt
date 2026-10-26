@@ -1,0 +1,120 @@
+/* Four-stop ownership journey. All styles are scoped to this section. */
+.ownership-journey{--j-blue:#0E5FB4;--j-navy:#13233A;background:#F3F5F8;color:#152435;padding:clamp(56px,7vw,112px) var(--gutter);font-family:DIN,Helvetica,Arial,sans-serif}
+.ownership-journey .j-container{width:100%;max-width:none;min-width:0}
+.ownership-journey button,.ownership-journey input,.ownership-journey svg text{font-family:DIN,Helvetica,Arial,sans-serif}
+.ownership-journey :is(button,a,input):focus-visible{outline:3px solid #0E5FB4;outline-offset:3px}
+.ownership-journey .j-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:36px;margin-bottom:46px}
+.ownership-journey .j-heading>div{min-width:0}
+.ownership-journey .j-label{color:#0E5FB4;font-size:13px;font-weight:700;letter-spacing:.16em;line-height:1.5;text-transform:uppercase;margin:0 0 20px;max-width:none}
+.ownership-journey h2{font-size:clamp(40px,5.2vw,76px);font-weight:800;line-height:.98;letter-spacing:-.035em;color:#13233A;margin:0;text-wrap:initial}
+.ownership-journey .j-intro{flex:0 1 412px}
+.ownership-journey p{font-size:20px;line-height:30px;color:#152435}
+.ownership-journey .j-intro>p{margin-bottom:22px}
+.ownership-journey .j-status{display:flex;align-items:center;flex-wrap:wrap;gap:12px}
+.ownership-journey .j-odometer{background:#13233A;color:white;border-radius:999px;padding:9px 15px;font-size:13px;font-weight:700;letter-spacing:.16em;white-space:nowrap;font-variant-numeric:tabular-nums}
+.ownership-journey .j-odometer>span:first-child{display:flex;align-items:center;gap:5px;height:28px;text-transform:uppercase}
+.ownership-journey .j-odometer b{margin-left:4px}
+.ownership-journey .j-digit-window{height:28px;width:23px;border-radius:4px;background:white;color:#13233A;overflow:hidden;text-align:center;letter-spacing:0}
+.ownership-journey .j-digit-reel{display:block;transform:translateY(calc(var(--journey-stop)*-28px));transition:transform .9s cubic-bezier(.2,1.4,.35,1)}
+.ownership-journey .j-digit-reel>span{display:block;height:28px;line-height:28px;font-size:18px}
+.ownership-journey .j-autoplay{display:inline-flex;gap:8px;align-items:center;justify-content:center;min-height:46px;padding:9px 15px;border:1px solid #C3CEDC;background:transparent;border-radius:999px;color:#13233A;font-size:14px;font-weight:700;line-height:1.3}
+.ownership-journey .j-autoplay:hover{border-color:#0E5FB4;background:white;color:#0A467F}
+.ownership-journey .j-autoplay svg{flex-shrink:0}
+.ownership-journey .j-road-scene{position:relative;margin-bottom:30px}
+.ownership-journey .j-phases{display:grid;grid-template-columns:1fr 110px 1fr;gap:24px;align-items:center;margin-bottom:18px;min-height:78px;color:#4A5A70;font-size:13px;font-weight:700;letter-spacing:.16em;text-transform:uppercase}
+.ownership-journey .j-phases>span{display:flex;align-items:center;gap:20px;white-space:nowrap}
+.ownership-journey .j-phases i{border-top:1px dashed #AAB9CB;flex:1;min-width:10px}
+.ownership-journey .j-purchase{display:grid;justify-items:center;gap:4px;font-size:12px;color:#13233A}
+.ownership-journey .j-mileposts{height:90px;position:relative;z-index:2}
+.ownership-journey .j-mileposts button{position:absolute;top:0;left:12.5%;transform:translateX(-50%);min-height:44px;min-width:76px;padding:10px;border:1px solid #C3CEDC;border-radius:8px;background:white;color:#4A5A70;font-size:14px;font-weight:700;letter-spacing:.16em;line-height:22px;white-space:nowrap;transition:background .25s,color .25s,border-color .25s}
+.ownership-journey .j-mileposts button:nth-child(2){left:37.5%}.ownership-journey .j-mileposts button:nth-child(3){left:62.5%}.ownership-journey .j-mileposts button:nth-child(4){left:87.5%}
+.ownership-journey .j-mileposts button:after{content:"";position:absolute;width:2px;height:29px;top:100%;left:calc(50% - 1px);background:#AAB9CB;z-index:-1}
+.ownership-journey .j-mileposts button.is-passed{color:white;background:#13233A;border-color:#13233A}
+.ownership-journey .j-mileposts button.is-active{color:white;background:#0E5FB4;border-color:#0E5FB4;box-shadow:0 5px 15px #0E5FB41A}
+.ownership-journey .j-mileposts button:hover{border-color:#0E5FB4}
+.ownership-journey .j-roadway{height:68px;background:#1A2B42;border-radius:999px;box-shadow:inset 0 -9px 0 #13233A;position:relative}
+.ownership-journey .j-asphalt-lines{width:100%;height:68px;display:block;border-radius:999px;overflow:hidden}
+.ownership-journey .j-center-line{animation:j-road 1.2s linear infinite}
+.ownership-journey .j-motorcycle{position:absolute;width:clamp(88px,12vw,156px);height:auto;left:var(--journey-position);bottom:7px;transform:translateX(-50%);transition:left 1.4s cubic-bezier(.65,0,.25,1);overflow:visible;filter:drop-shadow(0 5px 5px #0002)}
+.ownership-journey .j-wheel{animation:j-turn .8s linear infinite;transform-origin:0 0}
+.ownership-journey .j-headlight-beam{animation:j-beam 1.8s ease-in-out infinite}
+.ownership-journey .j-progress{height:4px;background:#DCE3EC;border-radius:999px;margin-top:19px;overflow:hidden}
+.ownership-journey .j-progress>span{display:block;height:100%;background:#0E5FB4;width:var(--journey-position);transition:width 1.4s cubic-bezier(.65,0,.25,1);border-radius:inherit}
+.ownership-journey .j-tabs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-bottom:24px}
+.ownership-journey .j-tabs>button{display:flex;flex-direction:column;align-items:flex-start;min-width:0;text-align:left;padding:22px 20px 24px;min-height:240px;border:1px solid #D5DEE9;border-radius:16px;background:transparent;transition:background .25s,border-color .25s,box-shadow .25s}
+.ownership-journey .j-tabs>button:hover{border-color:#0E5FB4;background:#FFFFFF80}
+.ownership-journey .j-tabs>button[aria-selected=true]{background:white;border-color:#0E5FB4;box-shadow:0 8px 24px #0E5FB410}
+.ownership-journey .j-tab-phase{color:#4A5A70;font-weight:700;font-size:13px;letter-spacing:.16em;line-height:1.4;text-transform:uppercase;margin-bottom:15px}
+.ownership-journey [aria-selected=true] .j-tab-phase{color:#0E5FB4}
+.ownership-journey .j-tab-icon{display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:#E3EBF5;color:#0E5FB4;margin-bottom:15px}
+.ownership-journey [aria-selected=true] .j-tab-icon{background:#0E5FB4;color:white}
+.ownership-journey .j-tab-icon svg{fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.ownership-journey .j-tabs strong{font-size:21px;font-weight:700;line-height:1.2;color:#13233A;margin-bottom:10px}
+.ownership-journey .j-tab-description{font-size:15px;font-weight:400;line-height:1.5;color:#4A5A70}
+.ownership-journey .j-panel{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));background:white;border:1px solid #E0E6EE;border-radius:24px;isolation:isolate;min-height:450px;overflow:hidden}
+.ownership-journey .j-art{position:relative;background:#EAF1F9;display:flex;flex-direction:column;justify-content:center;min-width:0;padding:24px;overflow:hidden}
+.ownership-journey .j-art>svg{width:100%;height:auto;max-height:390px;display:block}
+.ownership-journey .j-dark{background:#13233A}
+.ownership-journey .j-panel-copy{min-width:0;padding:clamp(26px,3.5vw,56px);display:flex;flex-direction:column;justify-content:center}
+.ownership-journey .j-panel-copy .j-label{font-size:13px;line-height:1.5;margin-bottom:16px}
+.ownership-journey .j-panel-copy h3{color:#13233A;font-size:clamp(30px,2.7vw,42px);font-weight:700;line-height:1.08;letter-spacing:-.025em;margin-bottom:20px;text-wrap:balance}
+.ownership-journey .j-panel-copy p:not(.j-label){font-size:17px;line-height:1.6;margin-bottom:23px}
+.ownership-journey .j-cta{display:inline-flex;align-items:center;justify-content:space-between;gap:20px;min-height:50px;max-width:100%;padding:14px 20px;background:#0E5FB4;color:white;border:1px solid #0E5FB4;border-radius:12px;font-size:17px;line-height:1.35;font-weight:700;transition:background .2s}
+.ownership-journey .j-cta:hover{background:#0A467F;border-color:#0A467F}
+.ownership-journey .j-cta>span{flex-shrink:0;font-size:22px;line-height:1}
+.ownership-journey .j-cities{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:24px}
+.ownership-journey .j-cities button{min-height:44px;padding:10px 20px;border-radius:999px;border:1px solid #C3CEDC;background:white;font-size:16px;font-weight:700;line-height:1.35}
+.ownership-journey .j-cities button[aria-checked=true]{background:#0E5FB4;color:white;border-color:#0E5FB4}
+.ownership-journey .j-cities button:hover{border-color:#0E5FB4}
+.ownership-journey .j-map-label{fill:#4A5A70;font-size:14px;font-weight:700;letter-spacing:.16em}
+.ownership-journey .j-map-route{animation:j-route 2s linear infinite}
+.ownership-journey .j-pin path{fill:#8EA4BD;transform:scale(.85);transform-origin:0 -25px;transition:fill .3s,transform .4s}
+.ownership-journey .j-pin-dot{fill:white;transform:scale(.85);transform-origin:0 -25px;transition:transform .4s}
+.ownership-journey .j-pin.is-selected path{fill:#0E5FB4;transform:scale(1.12)}
+.ownership-journey .j-pin.is-selected .j-pin-dot{transform:scale(1.12)}
+.ownership-journey .j-pin-ring{fill:none;stroke:#0E5FB4;stroke-width:2;opacity:0;transform-origin:0 0}
+.ownership-journey .is-selected .j-pin-ring{animation:j-ring 2.2s ease-out infinite}
+.ownership-journey .j-art>.j-chat{position:absolute;right:22px;top:40px;width:54%;max-width:300px;height:auto;animation:j-float 3s ease-in-out infinite}
+.ownership-journey .j-needle{transform-origin:260px 220px;transition:transform .9s cubic-bezier(.2,1.4,.35,1)}
+.ownership-journey .j-gauge-fill{transition:stroke-dasharray .7s ease}
+.ownership-journey .j-gauge-word{font-size:20px;font-weight:700;letter-spacing:.04em}
+.ownership-journey .j-throttle{width:100%;max-width:390px;margin:0 auto 8px;color:white}
+.ownership-journey .j-throttle label{font-size:13px;letter-spacing:.16em;font-weight:700;text-transform:uppercase;margin-bottom:12px}
+.ownership-journey .j-throttle>div{display:flex;align-items:center;gap:16px}
+.ownership-journey .j-throttle input{flex:1;width:100%;min-width:0;min-height:44px;margin:0;padding:0;border:0;border-radius:0;background:transparent;accent-color:#F2B705;cursor:pointer}
+.ownership-journey .j-throttle output{font-size:14px;min-width:90px;text-align:right;font-weight:700}
+.ownership-journey .j-gear{transform-origin:0 0;animation:j-turn 18s linear infinite}
+.ownership-journey .j-gear-medium{animation-direction:reverse;animation-duration:13s}.ownership-journey .j-gear-small{animation-duration:9s}
+.ownership-journey .j-wrench{animation:j-float 3s ease-in-out infinite}
+.ownership-journey .j-service-checks{display:flex;flex-wrap:wrap;gap:9px;margin-bottom:25px}
+.ownership-journey .j-service-checks button{display:flex;align-items:center;gap:9px;text-align:left;min-height:44px;padding:9px 12px;background:white;border:1px solid #C3CEDC;border-radius:12px;font-size:15px;line-height:1.4}
+.ownership-journey .j-service-checks button[aria-checked=true]{border-color:#0E5FB4;color:#0E5FB4;background:#F4F8FD}
+.ownership-journey .j-check-box{width:20px;height:20px;display:grid;place-items:center;border:1px solid #A7B8CC;border-radius:4px;font-size:14px;flex-shrink:0;color:transparent}
+.ownership-journey [aria-checked=true] .j-check-box{background:#0E5FB4;color:white;border-color:#0E5FB4}
+.ownership-journey .j-shield-check{stroke-dasharray:100;stroke-dashoffset:0;animation:j-draw 1s .15s ease both}
+.ownership-journey .j-spark{animation:j-spark 2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.ownership-journey .j-spark-late{animation-delay:.7s}
+.ownership-journey .j-support-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-bottom:25px}
+.ownership-journey .j-support-cards>div{border:1px solid #D5DEE9;border-radius:16px;padding:18px 15px;background:#F8FAFD;min-width:0}
+.ownership-journey .j-support-cards strong{display:block;color:#13233A;font-size:17px;line-height:1.3;margin-bottom:8px}
+.ownership-journey .j-support-cards p:not(.j-label){font-size:15px;line-height:1.6;margin:0;color:#4A5A70}
+.ownership-journey .j-enter{animation:j-enter .6s ease both}
+.ownership-journey .j-enter:nth-child(2){animation-delay:.12s}.ownership-journey .j-enter:nth-child(3){animation-delay:.24s}
+.ownership-journey .j-sr{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.ownership-journey[data-motion-active=false] :is(.j-center-line,.j-wheel,.j-headlight-beam,.j-map-route,.j-pin-ring,.j-chat,.j-gear,.j-wrench,.j-spark){animation-play-state:paused}
+@keyframes j-road{to{stroke-dashoffset:-44}}@keyframes j-route{to{stroke-dashoffset:-34}}@keyframes j-turn{to{transform:rotate(360deg)}}@keyframes j-beam{50%{opacity:.38}}@keyframes j-ring{0%{opacity:.6;transform:scale(.5)}100%{opacity:0;transform:scale(1.6)}}@keyframes j-float{50%{transform:translateY(-7px)}}@keyframes j-spark{50%{opacity:.4;transform:scale(.75)}}@keyframes j-draw{from{stroke-dashoffset:100}to{stroke-dashoffset:0}}@keyframes j-enter{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:1100px){.ownership-journey .j-heading{gap:28px}.ownership-journey .j-intro{flex-basis:340px}.ownership-journey .j-tabs{gap:12px}.ownership-journey .j-tabs>button{padding:20px 15px}.ownership-journey .j-tab-phase{font-size:13px;letter-spacing:.12em}.ownership-journey .j-art{padding:18px}.ownership-journey .j-support-cards{grid-template-columns:1fr}.ownership-journey .j-panel-copy{padding:28px}.ownership-journey .j-panel-copy h3{font-size:32px}}
+@media(max-width:859px){.ownership-journey .j-heading{display:block;margin-bottom:34px}.ownership-journey .j-intro{max-width:580px;margin-top:28px}.ownership-journey .j-heading .j-label{max-width:38ch}.ownership-journey h2{font-size:clamp(40px,7.2vw,62px)}.ownership-journey .j-phases{display:none}.ownership-journey .j-mileposts{height:85px}.ownership-journey .j-tabs{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.ownership-journey .j-tabs>button{min-height:220px;padding:20px}.ownership-journey .j-panel{grid-template-columns:minmax(0,1fr);min-height:0}.ownership-journey .j-art{min-height:260px;padding:20px}.ownership-journey .j-art>svg{max-height:310px}.ownership-journey .j-gauge-art{padding-bottom:28px}.ownership-journey .j-gauge-art>svg{max-height:270px}.ownership-journey .j-panel-copy{padding:32px}.ownership-journey .j-panel-copy h3{font-size:clamp(30px,5.2vw,40px)}.ownership-journey .j-support-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:428px){.ownership-journey h2{font-size:40px;letter-spacing:-.04em}.ownership-journey .j-heading .j-label{font-size:13px;letter-spacing:.12em}.ownership-journey .j-status{gap:9px}.ownership-journey .j-autoplay{padding:9px 11px;font-size:13px}.ownership-journey .j-odometer{padding-inline:12px;letter-spacing:.12em}.ownership-journey .j-mileposts button{min-width:0;width:60px;padding:10px 5px;font-size:13px;letter-spacing:.1em}.ownership-journey .j-tabs>button{padding:17px 13px;min-height:245px}.ownership-journey .j-tab-phase{font-size:13px;letter-spacing:.1em}.ownership-journey .j-tabs strong{font-size:21px}.ownership-journey .j-tab-description{font-size:15px}.ownership-journey .j-panel-copy{padding:26px 22px}.ownership-journey .j-art{padding:10px;min-height:230px}.ownership-journey .j-throttle{padding:0 14px 15px}.ownership-journey .j-support-cards{grid-template-columns:1fr}.ownership-journey .j-cta{padding:13px 15px;gap:14px}.ownership-journey .j-throttle>div{gap:10px}}
+@media(prefers-reduced-motion:reduce){.ownership-journey *,.ownership-journey *:before,.ownership-journey *:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+@media(max-width:859px){.ownership-journey .j-map-art{padding-bottom:24px}.ownership-journey .j-art>.j-chat{position:static;align-self:center;width:100%;max-width:300px;margin-top:-15px}.ownership-journey .j-map-label{font-size:22px}}
+@media(max-width:428px){.ownership-journey .j-map-label{font-size:26px}.ownership-journey .j-art>.j-chat{margin-top:0}}
+
+@media(max-width:359px){.ownership-journey .j-tabs>button{padding-inline:6px}}
+/* Full-bleed institutional images; natural ratio protects the people in each scene. */
+.ownership-journey .j-panel:has(.j-photo-art){min-height:0}
+.ownership-journey .j-photo-art{margin:0;padding:0;background:#EAF1F9;align-self:stretch;display:block;min-width:0;min-height:0;aspect-ratio:3/2}
+.ownership-journey .j-photo-art img{display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 50%}
+@media(min-width:1280px) and (max-width:1599px){.ownership-journey .j-panel:has(.j-photo-art) .j-panel-copy{padding:28px}.ownership-journey .j-panel:has(.j-photo-art) .j-panel-copy h3{font-size:32px}}
+@media(max-width:1279px){.ownership-journey .j-panel:has(.j-photo-art){grid-template-columns:minmax(0,1fr)}.ownership-journey .j-photo-art{padding:0;min-height:0;aspect-ratio:3/2}.ownership-journey .j-photo-art img{position:static;height:auto;aspect-ratio:3/2;object-fit:contain}}
