@@ -64,8 +64,8 @@
       }
     ],
     "intro": {
-      "title": "Estilo Pulsar.<br>Praticidade todo dia.",
-      "text": "A Pulsar N150 é a porta de entrada para o universo Bajaj. Herdeira do DNA esportivo da linha Pulsar, ela combina visual moderno, motor de 149,68 cc com 14 CV e um pacote de tecnologia raro na categoria — tudo pensado para quem quer economia no dia a dia sem abrir mão de desempenho e estilo.",
+      "title": "Sua parceira para trabalhar e conquistar mais",
+      "text": "Para quem está comprando a primeira moto ou passa o dia entre compromissos, a Pulsar N150 traz a praticidade de uma zero km para trabalhar, estudar e circular pela cidade.",
       "checks": [
         "Motor 149,68 cc com 14 CV",
         "Freio dianteiro a disco com ABS",
@@ -81,7 +81,7 @@
         "asset": "n150-1",
         "alt": "Pulsar N150 branca em ensaio oficial de produto",
         "title": "ABS na roda dianteira",
-        "text": "Disco dianteiro de 260 mm com ABS. Na traseira, freio a tambor de 130 mm, conforme a ficha do modelo."
+        "text": "O ABS auxilia a frenagem na roda dianteira, equipada com disco de 260 mm. Na traseira, o freio é a tambor de 130 mm."
       },
       {
         "asset": "n150-5",
@@ -93,7 +93,7 @@
         "asset": "n150-6",
         "alt": "Painel digital da Pulsar N150",
         "title": "Painel digital conectado",
-        "text": "Conectividade Bluetooth e entrada USB para acompanhar o dia a dia. Consulte os recursos e a compatibilidade no atendimento."
+        "text": "Acompanhe as informações de bordo no painel digital com Bluetooth. A entrada USB ajuda a manter o celular carregado ao longo do dia."
       },
       {
         "asset": "n150-4",
@@ -169,8 +169,8 @@
       }
     ],
     "intro": {
-      "title": "Atitude naked.<br>Seu próximo caminho.",
-      "text": "A Dominar NS160 traz a pegada naked esportiva da família Dominar para a categoria 160. Seu motor de 160,3 cc com tecnologia de duas velas entrega 17 CV a 9.000 rpm, com resposta viva para o trânsito e fôlego para a estrada.",
+      "title": "Uma urbana mais equipada para a sua rotina",
+      "text": "A NS160 é para quem já pilota todos os dias e quer subir um degrau em desempenho e equipamentos. O visual naked dá personalidade aos deslocamentos da semana.",
       "checks": [
         "Motor 160,3 cc com 17 CV e 2 velas",
         "Garfo invertido (USD)",
@@ -192,19 +192,19 @@
         "asset": "ns160-4",
         "alt": "Dominar NS160 vermelha, vista em três quartos",
         "title": "ABS nas duas rodas",
-        "text": "Freios a disco de 300 mm na dianteira e 230 mm na traseira, ambos com ABS."
+        "text": "O ABS atua nas duas rodas para auxiliar nas frenagens da rotina. Os freios a disco têm 300 mm na dianteira e 230 mm na traseira."
       },
       {
         "asset": "refresh-dominar-ns160-feature2",
         "alt": "Farol LED e conjunto dianteiro da Dominar NS160 cinza, em fotografia oficial de detalhe.",
         "title": "Iluminação Full LED",
-        "text": "Farol Full LED com acendimento automático AHO. Painel digital com Bluetooth e entrada USB completam o conjunto."
+        "text": "Farol Full LED com acendimento automático AHO para os deslocamentos do dia a dia. O painel digital com Bluetooth e a entrada USB complementam o conjunto."
       },
       {
         "asset": "refresh-dominar-ns160-feature3",
         "alt": "Garfo dianteiro invertido e conjunto do farol da Dominar NS160 cinza, com a inscrição ABS na bengala.",
         "title": "Garfo dianteiro invertido",
-        "text": "Suspensão dianteira USD e monochoque traseiro com Nitrox, em conjunto com o chassi perimetral."
+        "text": "O garfo dianteiro invertido integra o conjunto ciclístico da NS160, com monochoque traseiro com Nitrox e chassi perimetral."
       }
     ],
     "videoTitle": "Dominar NS160"
@@ -274,8 +274,8 @@
       }
     ],
     "intro": {
-      "title": "Mais fôlego.<br>Seu ritmo na cidade.",
-      "text": "A Dominar NS200 é para quem quer mais. O motor de 199,5 cc com refrigeração líquida e três velas de ignição entrega 24 CV a 9.750 rpm, acoplado a um câmbio de 6 velocidades que deixa a moto à vontade tanto na cidade quanto na rodovia.",
+      "title": "Mais prazer em cada percurso",
+      "text": "A NS200 é um primeiro passo para quem quer uma pilotagem mais esportiva. Os 24 cv e o câmbio de seis marchas dão mais fôlego ao trajeto, seja na cidade ou na rodovia.",
       "checks": [
         "Motor 199,5 cc com refrigeração líquida e 24 CV",
         "Câmbio de 6 velocidades",
@@ -291,7 +291,7 @@
         "asset": "ns200-1",
         "alt": "Dominar NS200 branca em rodagem, ensaio oficial Bajaj",
         "title": "24 CV e seis velocidades",
-        "text": "Motor SOHC de 199,5 cc com refrigeração líquida e três velas. Potência de 24 CV a 9.750 rpm e torque de 1,896 kgf.m a 8.000 rpm."
+        "text": "O motor de 199,5 cc com refrigeração líquida entrega 24 CV a 9.750 rpm. As seis marchas ajudam a encontrar a relação adequada para o ritmo da cidade ou da rodovia."
       },
       {
         "asset": "refresh-dominar-ns200-feature1",
@@ -396,8 +396,8 @@
       }
     ],
     "intro": {
-      "title": "Alma de viajante.<br>Novas rotas à frente.",
-      "text": "A Nova Dominar 250 é a sport-tourer de média cilindrada da Bajaj, criada para quem transforma qualquer fim de semana em viagem. O motor monocilíndrico DOHC de 248,77 cc com refrigeração líquida rende 27 CV e 2,39 kgf.m de torque, com câmbio de 6 velocidades e embreagem assistida e deslizante para trocas mais leves e reduções mais seguras.",
+      "title": "Uma moto para a semana inteira e para o fim de semana",
+      "text": "A Dominar 250 combina a praticidade de uma moto para os deslocamentos da semana com o fôlego de 27 cv para os passeios de fim de semana.",
       "checks": [
         "Motor 248,77 cc DOHC com 27 CV",
         "Embreagem assistida e deslizante",
@@ -419,14 +419,14 @@
         "asset": "refresh-dominar-250-feature1",
         "alt": "Painel digital da Dominar 250, com velocímetro, indicador de marcha e luzes de controle.",
         "title": "Três modos de pilotagem",
-        "text": "Rain, Road e Off-Road fazem parte da configuração 2026/2027. Explore os modos e consulte suas funções no manual.",
+        "text": "Na Dominar 250 2026/2027, os modos Rain, Road e Off-Road permitem escolher a configuração conforme as condições do percurso. Consulte as orientações do manual.",
         "modes": true
       },
       {
         "asset": "refresh-dominar-250-feature2",
         "alt": "Piloto equipado conduzindo a Dominar 250 preta, vista lateral em três quartos em uma avenida.",
         "title": "Controle de tração",
-        "text": "Controle de tração eletrônico e ABS nas duas rodas integram o pacote da Dominar 250 2026/2027."
+        "text": "Na versão 2026/2027, o controle de tração eletrônico ajuda a controlar a perda de aderência da roda traseira na aceleração. O ABS atua nas duas rodas durante a frenagem."
       },
       {
         "asset": "d250-4",
@@ -444,7 +444,7 @@
         "asset": "refresh-dominar-250-feature5",
         "alt": "Celular com aplicativo Bajaj Ride Connect diante do guidão e painel da Dominar 250.",
         "title": "Conectividade na viagem",
-        "text": "Painel digital com Bluetooth, entrada USB e farol Full LED com DRL. Confira disponibilidade de cores e configuração na unidade."
+        "text": "O painel digital com Bluetooth da Dominar 250 2026/2027 permite conectar o celular ao painel. A versão também conta com entrada USB e farol Full LED com DRL."
       }
     ],
     "videoTitle": "Dominar 250"
@@ -535,8 +535,8 @@
       }
     ],
     "intro": {
-      "title": "Presença naked.<br>Performance para sentir.",
-      "text": "A Dominar NS400Z é a naked esportiva mais potente da Bajaj no Brasil. Ela leva o motor DOHC de 373,27 cc com refrigeração líquida — 40 CV e 3,57 kgf.m — para um chassi compacto e leve, com apenas 174 kg em ordem de marcha. O resultado é uma moto explosiva nas retomadas e divertida em qualquer curva.",
+      "title": "Uma naked esportiva para subir de categoria",
+      "text": "Para quem quer sentir respostas mais fortes ao acelerar, a NS400Z coloca 40 cv em uma proposta naked de visual esportivo.",
       "checks": [
         "Motor 373,27 cc DOHC com 40 CV",
         "174 kg em ordem de marcha",
@@ -564,7 +564,7 @@
         "asset": "refresh-dominar-ns400z-feature2",
         "alt": "Piloto equipado conduzindo a Dominar NS400Z em uma pista, vista em três quartos dianteiros.",
         "title": "Quatro modos de pilotagem",
-        "text": "Sport, Rain, Road e Off-Road fazem parte da NS400Z. Conheça os modos e consulte as orientações do manual.",
+        "text": "O acelerador eletrônico trabalha com os quatro modos Sport, Rain, Road e Off-Road. Consulte o manual para escolher o modo adequado às condições da pilotagem.",
         "modes": true
       },
       {
@@ -577,7 +577,7 @@
         "asset": "refresh-dominar-ns400z-feature4",
         "alt": "Roda dianteira e disco de freio da Dominar NS400Z vermelha, em vista lateral.",
         "title": "ABS e controle de tração",
-        "text": "ABS nas duas rodas, disco dianteiro de 320 mm e controle de tração eletrônico. Recursos que complementam a pilotagem."
+        "text": "O controle de tração eletrônico auxilia nas acelerações quando há perda de aderência. O ABS de dois canais atua na frenagem das duas rodas."
       },
       {
         "asset": "refresh-dominar-ns400z-feature5",

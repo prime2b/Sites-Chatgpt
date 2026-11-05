@@ -50,7 +50,8 @@ export function initHero(root, models, env = window) {
     root.dataset.heroActive = String(position);
     stage.setAttribute('aria-label', `${model.name}, ${position + 1} de ${models.length}`);
     q('[data-hero-name]').textContent = model.name;
-    q('[data-hero-description]').textContent = `${model.tag} ${model.catalogDescription}`;
+    q('[data-hero-benefit]').textContent = model.commercial.headline;
+    q('[data-hero-description]').textContent = model.commercial.description;
     q('[data-hero-credit]').textContent = `${current.film ? 'Filme' : 'Imagem'} oficial Bajaj · ${model.name}`;
     contact.dataset.model = model.id;
     contact.hidden = true;
