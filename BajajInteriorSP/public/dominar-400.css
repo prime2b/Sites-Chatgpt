@@ -42,7 +42,7 @@ body[data-page=product] #gallery-dialog{width:100vw;max-width:none;height:100dvh
 .d4-hero{--d4-video-opacity:.25;padding:48px var(--gutter) 40px}
 .d4-hero-media video,.d4-youtube-background{opacity:var(--d4-video-opacity);filter:none}
 .d4-hero-media video{animation:none}
-.d4-video-tint{opacity:.1}
+.d4-video-tint{opacity:.35;mix-blend-mode:normal}
 .d4-video-vignette{background:radial-gradient(80% 70% at 50% 40%,transparent 45%,#0a0b0d66 100%)}
 .d4-video-fade{background:linear-gradient(180deg,#0a0b0d22,transparent 24%,transparent 65%,#0a0b0daa 100%)}
 .d4-hero-title h1{font-size:clamp(32px,3.2vw,48px);margin-bottom:8px}
