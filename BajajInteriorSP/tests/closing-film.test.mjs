@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {initClosingFilm} from '../dist/closing-film.mjs';
+import {initClosingFilm} from '../public/closing-film.mjs';
 const tick=()=>new Promise(resolve=>setImmediate(resolve));
 
 test('filme do fechamento só carrega visível, pausa fora da tela e respeita movimento e dados',async()=>{

@@ -1,0 +1,127 @@
+{
+  "checked_on": "2026-10-30",
+  "manual_source": "https://bajaj.com.br/pos-vendas/#manual-do-proprietario",
+  "manual_source_sha256": "76aa8f73e3a3c4fe749753608c80bc91cd6644e792162bd7a4f9029ecf35569e",
+  "warranty_source": "https://bajaj.com.br/garantia-bajaj/",
+  "consortium_source": "https://bajaj.com.br/servicos-financeiros/",
+  "consortium_rules_source": "https://www.ancoraconsorcios.com.br/",
+  "revision_source": "https://bajaj.com.br/manutencao-periodica/",
+  "revision_source_valid_until": "2026-12-31",
+  "manuals": [
+    {
+      "model": "pulsar-n150",
+      "years": [
+        "2025/2026",
+        "2026/2026"
+      ],
+      "url": "https://bajaj.com.br/wp-content/uploads/2026/03/manual_pulsar150_2026_v3-1.pdf",
+      "verified_pdf": {
+        "sha256": "7edfe7f981b4f072600ffc4dcc4c2d0872559b076ffac016f69cc7ab17837c96",
+        "bytes": 17672552,
+        "pages": 90
+      }
+    },
+    {
+      "model": "dominar-ns160",
+      "years": [
+        "2025/2026",
+        "2026/2026"
+      ],
+      "url": "https://bajaj.com.br/wp-content/uploads/2026/03/manual_ns160_2026_v3.pdf",
+      "verified_pdf": {
+        "sha256": "2e4d7824bb0270d4d73645e4dfc3efeeca61176d4714be0b3c51a1e105d6c027",
+        "bytes": 18119781,
+        "pages": 90
+      }
+    },
+    {
+      "model": "dominar-ns200",
+      "years": [
+        "2025/2026",
+        "2026/2026"
+      ],
+      "url": "https://bajaj.com.br/wp-content/uploads/2026/03/manual_ns200_2026_v3.pdf",
+      "verified_pdf": {
+        "sha256": "40631d2091f9491e8b530d4573117a838eea8a47673158ac9c2b4f17d9230754",
+        "bytes": 17898321,
+        "pages": 95
+      }
+    },
+    {
+      "model": "dominar-250",
+      "years": [
+        "2024/2024",
+        "2024/2025",
+        "2025/2025",
+        "2025/2026",
+        "2026/2026"
+      ],
+      "url": "https://bajaj.com.br/wp-content/uploads/2026/02/manual_250_v5-1.pdf",
+      "verified_pdf": {
+        "sha256": "624ac00f5346566d8c4513ce466dcff14d949ee74989b12264f1a6fbbe382a41",
+        "bytes": 17382001,
+        "pages": 87
+      }
+    },
+    {
+      "model": "dominar-250",
+      "years": [
+        "2026/2027"
+      ],
+      "url": "https://bajaj.com.br/wp-content/uploads/2026/10/manual_nova_dominar_250.pdf",
+      "verified_pdf": {
+        "sha256": "352d9cef70ca88bc8bf111b7eb1197da423cf68c05aa6bf0cad5ea8d2c98f037",
+        "checked_on": "2026-11-09"
+      }
+    },
+    {
+      "model": "dominar-400",
+      "years": [
+        "2022/2023",
+        "2023/2023",
+        "2023/2024"
+      ],
+      "url": "https://bajaj.com.br/wp-content/uploads/2024/11/manual-dominar-400.pdf",
+      "verified_pdf": {
+        "sha256": "c1ee351d44d3dd83dbfb02e235237d156a0562c7c6f20630a8881f071004978e",
+        "bytes": 6125319,
+        "pages": 59
+      }
+    },
+    {
+      "model": "dominar-400",
+      "years": [
+        "2024/2024",
+        "2024/2025",
+        "2025/2025",
+        "2025/2026",
+        "2026/2026"
+      ],
+      "url": "https://bajaj.com.br/wp-content/uploads/2026/03/manual_400_2026_v2.pdf"
+    },
+    {
+      "model": "dominar-ns400z",
+      "years": [
+        "2025/2026",
+        "2026/2026"
+      ],
+      "url": "https://bajaj.com.br/wp-content/uploads/2026/03/manual_ns400z_2026_v3.pdf",
+      "verified_pdf": {
+        "sha256": "eaa17dd07a8d7b05bfb84201c0828307e7ed0f95be045858b355ee0404d28e1b",
+        "bytes": 9805559,
+        "pages": 102
+      }
+    },
+    {
+      "model": "dominar-400",
+      "years": [
+        "2026/2027"
+      ],
+      "url": "https://bajaj.com.br/wp-content/uploads/2026/10/manual_nova_dominar_400.pdf",
+      "verified_pdf": {
+        "sha256": "46d7f38aa507905133df376aaf55b807e2e713e5b63d07df3cffa1a2b424a34a",
+        "checked_on": "2026-11-09"
+      }
+    }
+  ]
+}

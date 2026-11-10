@@ -2,7 +2,7 @@
 from PIL import Image
 from pathlib import Path
 import json
-P=Path(__file__).resolve().parents[1];out=P/'dist/assets';manifest={}
+P=Path(__file__).resolve().parents[1];out=P/'public/assets';manifest={}
 sources={'right':'d400-angle3.png','left':'d400-angle7.png','front':'dominar-400.png','panel':'d400-7267.jpg','headlight':'d400-headlight-source.jpg','seat':'d400-7206.jpg','engine':'d400-7189.jpg'}
 for key,name in sources.items():
  im=Image.open(P/'raw-assets'/name);im.load()

@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {whatsappURL,money,intents} from '../dist/core.mjs';
+import {whatsappURL,money,intents} from '../public/core.mjs';
 const data=JSON.parse(readFileSync(new URL('../data.json',import.meta.url)));
 test('cada modelo e intenção segue para os dois números corretos com contexto',()=>{
  for(const unit of data.units)for(const model of data.models)for(const intent of Object.keys(intents)){

@@ -20,22 +20,22 @@
     }
   },
   "bauru": {
-    "original": "bauru-primary.jpg",
-    "url": "https://bajaj.com.br/wp-content/uploads/2026/09/IMG_8569-copy-horizontal-1-1-scaled.jpg",
-    "source": "https://bajaj.com.br/bajaj-inaugura-concessionaria-em-bauru-e-chega-a-20-enderecos-no-estado-de-sao-paulo/",
-    "credit": "Divulgação Bajaj",
-    "published": "2026-09-09",
-    "alt": "Fachada da Bajaj InteriorSP de Bauru, com showroom, entrada de serviços e motocicletas à frente.",
+    "original": "bajaj-bauru-2.webp",
+    "url": "/assets/bajaj-bauru-cliente.webp",
+    "source": "/assets/bajaj-bauru-cliente.webp",
+    "credit": "Bajaj InteriorSP",
+    "published": "2026-11-09",
+    "alt": "Fachada noturna da Bajaj InteriorSP Bauru, com showroom iluminado e letreiro Bajaj.",
     "variants": {
       "small": {
-        "file": "unidade-bauru-small.webp",
-        "width": 640,
-        "height": 357
+        "file": "bajaj-bauru-cliente.webp",
+        "width": 515,
+        "height": 510
       },
       "large": {
-        "file": "unidade-bauru-large.webp",
-        "width": 1600,
-        "height": 893
+        "file": "bajaj-bauru-cliente.webp",
+        "width": 515,
+        "height": 510
       }
     }
   }

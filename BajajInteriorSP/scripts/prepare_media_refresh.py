@@ -4,7 +4,7 @@ from PIL import Image, ImageOps
 import concurrent.futures, hashlib, json, sys
 
 ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT/'dist/assets'
+OUT=ROOT/'public/assets'
 plan=json.loads(Path(sys.argv[1]).read_text())['recommendations']
 posters=json.loads(Path(sys.argv[2]).read_text())
 settings=json.loads((ROOT/'model-settings.json').read_text())

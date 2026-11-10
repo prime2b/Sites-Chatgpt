@@ -1,0 +1,32 @@
+/* Stage 1: commercial routes and the BIA introduction, preserving approved media. */
+.showroom-content{width:66%;max-width:920px}
+.showroom-content h1{margin-bottom:16px}
+.showroom-benefit{font-size:clamp(22px,1.9vw,36px);line-height:1.18;font-weight:500;max-width:30ch;margin:0 0 14px;text-wrap:balance}
+.showroom-description{max-width:55ch;min-height:3.3em}
+.showroom-bottom{display:block;max-width:760px}
+.showroom-actions{display:flex;flex-wrap:wrap;align-items:center;gap:12px}
+.showroom-cta.secondary{background:#071d3659;border-color:#fff}
+.showroom-cta.secondary:hover{background:#ffffff24}
+.showroom-bia{display:inline-flex;align-items:center;gap:12px;min-height:50px;padding:10px 6px;border:0;border-bottom:1px solid #ffffff80;background:transparent;color:#fff;font:inherit;font-size:16px;text-align:left}
+.showroom-bia:hover{border-color:#fff}
+.showroom-bia:focus-visible{outline-color:#fff}
+.showroom-bia svg{width:18px;height:18px;flex-shrink:0}
+.showroom-navigation{display:flex;align-items:center;gap:20px;margin-top:26px}
+.showroom-controls button{width:50px;height:50px;background:#071d368c;border-color:#fff}
+.showroom-counter{font-size:16px;font-variant-numeric:tabular-nums;letter-spacing:.06em}
+.showroom-model-hint{margin:20px var(--gutter) 0;color:var(--muted);font-size:14px}
+.catalog-actions{display:flex;flex-direction:column;align-items:stretch;gap:10px;max-width:340px}
+.catalog-actions .text-link{align-self:flex-start;font-size:16px}
+.slider-list .catalog-list-actions{display:flex;flex-wrap:wrap;gap:4px 20px}
+@media(min-width:1921px){.showroom-benefit{font-size:1.9vw}.showroom-navigation{gap:1vw;margin-top:1.3vw}.showroom-counter{font-size:.85vw}.showroom-model-hint{font-size:.8vw}}
+@media(max-width:1100px){.showroom-content{width:76%}.showroom-credit{font-size:10px}.showroom-cta{font-size:15px;padding:13px 18px}.showroom-benefit{font-size:26px}}
+@media(max-width:767px){.showroom-content{width:100%;max-width:none;padding-bottom:72px}.showroom-benefit{font-size:24px;max-width:29ch}.showroom-description{min-height:0;font-size:16px;line-height:1.5;margin-bottom:22px}.showroom-actions{display:grid;grid-template-columns:1fr;gap:10px}.showroom-cta{width:100%;justify-content:space-between;min-height:48px;font-size:15px;padding:13px 18px}.showroom-bia{justify-self:start;min-height:44px;font-size:15px}.showroom-navigation{justify-content:space-between;margin-top:20px}.showroom-controls button{width:48px;height:48px}.showroom-model-hint{font-size:13px;margin-top:14px}.catalog-actions{max-width:none}.catalog-actions .text-link{font-size:15px}.slider-list .catalog-list-actions{flex-basis:100%;display:grid;gap:2px}}
+@media(max-width:375px){.showroom-benefit{font-size:22px}}
+
+/* Approved November adjustments: navigation follows the model title. */
+.showroom-heading-row{display:flex;align-items:center;gap:clamp(16px,3vw,48px)}
+.showroom-heading-row h1{margin:0}.showroom-heading-row .showroom-navigation{flex:none;margin:0;gap:12px}.showroom-heading-row .showroom-counter{font-size:13px}
+.showroom-play,.showroom-watch{position:absolute;z-index:4;right:clamp(20px,5vw,80px);bottom:52px;border:1px solid #ffffff80;border-radius:6px;padding:10px 16px;background:#13233ab3;color:white;font:inherit;font-size:13px;cursor:pointer;text-decoration:none}.showroom-watch{bottom:14px;border:0;background:transparent;padding:4px 0}.showroom-hero.is-playing .showroom-play{display:none}.showroom-play[hidden],.showroom-watch[hidden]{display:none}
+@media(max-width:767px){.showroom-heading-row{gap:12px;flex-wrap:wrap}.showroom-heading-row .showroom-navigation{gap:8px}.showroom-heading-row .showroom-counter{display:none}.showroom-heading-row .showroom-controls button{width:40px;height:40px}.showroom-play{bottom:44px;right:16px}.showroom-watch{right:16px;font-size:11px}.showroom-credit{max-width:45%}}
+
+.showroom-play{top:24px;bottom:auto}.showroom-watch{top:64px;bottom:auto}@media(max-width:767px){.showroom-play{top:16px;bottom:auto}.showroom-watch{top:60px;bottom:auto}}

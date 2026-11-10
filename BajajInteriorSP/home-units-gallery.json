@@ -21,6 +21,25 @@
     }
   },
   {
+    "id": "bauru-fachada",
+    "city": "Bauru",
+    "title": "Fachada à noite",
+    "alt": "Fachada noturna da Bajaj InteriorSP Bauru, com showroom iluminado e letreiro Bajaj.",
+    "source": "/assets/bajaj-bauru-cliente.webp",
+    "variants": {
+      "small": {
+        "file": "bajaj-bauru-cliente.webp",
+        "width": 515,
+        "height": 510
+      },
+      "large": {
+        "file": "bajaj-bauru-cliente.webp",
+        "width": 515,
+        "height": 510
+      }
+    }
+  },
+  {
     "id": "interiorsp-acervo-cliente-01",
     "unit": null,
     "city": "InteriorSP",

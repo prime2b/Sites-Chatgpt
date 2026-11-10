@@ -13,14 +13,15 @@ test('cada contexto de vídeo tem um filme distinto, com autor e modelo conferid
  add('qtKc_UTKBgo');add(json('home-closing-media.json').youtube);
  for(const model of models){
   const cfg=configs[model.id];
+  assert.ok(cfg.heroYoutube,`Hero sem vídeo: ${model.id}`);
   for(const id of [cfg.heroYoutube,cfg.heroVideo,new URL(cfg.youtubeUrl).searchParams.get('v')].filter(Boolean))add(id);
   const film=sources.find(x=>x.youtube===new URL(cfg.youtubeUrl).searchParams.get('v'));
   assert.equal(film.author,'Bajaj do Brasil');assert.ok(film.title.toLowerCase().includes(model.name.replace('Dominar ','').toLowerCase()));
-  const html=read(`dist/motos/${model.id}/index.html`);
+  const html=read(`public/motos/${model.id}/index.html`);
   assert.match(html,/class="d4-detail-player"[^>]*loading="lazy"/);
   assert.equal(html.includes('<div class="d4-video-card"><img'),false);
  }
- assert.equal(ids.length,16);
+ assert.equal(ids.length,20);
 });
 
 test('apresentação, galeria, recursos e posters usam originais diferentes, inclusive entre variantes',()=>{
@@ -37,7 +38,7 @@ test('apresentação, galeria, recursos e posters usam originais diferentes, inc
    const slot=p.use==='intro'?cfg.intro:cfg[p.use==='gallery'?'gallery':'features'][p.index];
    assert.equal(slot.asset,p.asset);assert.equal(slot.alt,p.alt);
    if(model.id==='dominar-400')assert.notEqual(p.id,heroOriginal);
-   assert.ok(read(`dist/motos/${model.id}/index.html`).includes('/assets/'+assets[p.asset].large.file));
+   assert.ok(read(`public/motos/${model.id}/index.html`).includes('/assets/'+assets[p.asset].large.file));
   }
   if(model.id!=='dominar-250'){
    const poster=photos.find(p=>p.model_id===model.id&&p.use==='home-poster');

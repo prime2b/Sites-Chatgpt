@@ -1,5 +1,20 @@
 # Verificação da prévia
 
+## Integração Netlify — 03/11/2026
+
+- 148/148 testes aprovados, incluindo sete novos testes do gateway: assinatura e expiração, domínio e rota, origem de escrita, IP confiável, filtragem de cookies e identidade, login/sessão/logout com o CMS real em banco isolado, permissões e central, upload de 12 MB como stream, falha de conexão e cobertura das rotas dinâmicas.
+- TypeScript aprovado. Nenhum teste cria contatos ou usuários na produção. Publicação e verificações públicas no Netlify serão registradas após a implantação.
+
+## Central de Ajuda e Treinamento online — 03/11/2026
+
+- Entrega: 35 conteúdos protegidos (17 manuais, 12 aulas, três guias e três referências técnicas), 32 perguntas, busca, progresso por conta/versão, avaliação corrigida no servidor, apresentação para multiplicadores, observações de prática e editor com rascunho/publicação/revisões.
+- Testes automatizados: 141/141 aprovados. A nova suíte verifica ausência de gabaritos no bootstrap, públicos por permissão, origem das mutações, autoria do progresso, cálculo da nota e erro crítico, gabarito histórico, conflito de edição, restauração sem republicação, retirada sem recriação pelo seed e ausência de gravação comercial no treinamento.
+- Navegador com dados locais fictícios: busca por “reservar”; etapa da aula do Blog; conclusão e prova de 100%; recarregamento e persistência; editor, salvamento e publicação de manual; observação por administrador e leitura na conta do aluno; menus de Editor sem Contatos/equipe/multiplicadores; apresentação do roteiro com avanço de etapa.
+- Simulador: ordem de fotos e publicação de seminova, publicação de artigo pelo formulário compartilhado e pausa de campanha com ocultação do banner. Nenhum exercício chama as APIs comerciais de escrita. Sessões e pessoas de validação ficaram apenas no D1 local; o mecanismo temporário de UI e a página de dimensões foram removidos antes do pacote.
+- Responsividade: quadros de 428, 1024 e 1920 px. Larguras úteis observadas de 413, 1009 e 1905 px, respectivamente, sem overflow horizontal do documento. Manual e aula mantiveram seus fluxos responsivos.
+- Python e verificação estática: 17 páginas preservadas, com dimensões/alt/rótulos e destinos válidos. TypeScript e build Vinext aprovados antes da verificação visual; o pacote final é recompilado após os ajustes de navegação.
+- A conferência visual ocorreu em ambiente local isolado. Não se acessaram credenciais ou contatos de produção. Piloto com pessoas da Bajaj e treinamento ao vivo dependem da disponibilidade da equipe.
+
 ## Executado
 - Sintaxe dos módulos JavaScript e do gerador Python.
 - Testes de construção dos links WhatsApp: 6 modelos × 2 unidades × todas as intenções. Números, contexto, preço e codificação conferidos.
@@ -212,3 +227,175 @@ No navegador, a navegação percorreu as cinco artes e retornou à primeira. Fra
 - No navegador: os 11 blocos iniciaram pendentes abaixo da primeira tela, apareceram ao rolar e ficaram visíveis ao retornar; o catálogo permaneceu sem transform. Hero, cabeçalho e rodapé não recebem o efeito.
 - Movimento reduzido, impressão, foco de teclado e ausência de IntersectionObserver mantêm o conteúdo acessível. Verificação de inicialização confirmou que movimento reduzido e navegador sem suporte não modificam os blocos.
 - Sintaxe JavaScript, verificação estática de 14 páginas e os 52 testes existentes aprovados. Comparação de HTML confirmou apenas as duas novas inclusões de CSS/JS na Home; conteúdo da Home e as outras 13 páginas permanecem idênticos.
+
+## 30/10/2026 — Giro 360° oficial
+
+- Importação: seis modelos, 16 sequências, 255 quadros; imagens decodificadas e integridade/procedência registradas. Sem ativos N125 ou cor inventada.
+- Build: 14 páginas geradas. Checagem estática aprovada; 59 testes Node aprovados, incluindo carregamento parcial/falha, limite de simultaneidade, troca atrasada de cor, navegação circular e preservação de modelo/arquivos.
+- Navegador de prévia: seis giros ativados e girados; 16 combinações verificadas, incluindo o último quadro das cores adicionais de NS160/NS200/NS400Z. Troca N150 branca/preta, teclado e arrasto real conferidos. Imagens carregadas, sem overflow horizontal no viewport disponível de 1363 × 936.
+- Limite: não foi feita emulação dos cinco viewports acordados nem ensaio em aparelho móvel real nesta execução. O CSS inclui a composição em coluna abaixo de 767 px e o gesto mantém `touch-action: pan-y`; esses comportamentos ainda exigem homologação nos aparelhos-alvo.
+- Os quatro links provisórios da jornada da Home já existentes permanecem conforme a base anterior. A frente Home/BIA e os módulos novos do plano ainda não foram implementados.
+
+## 30/10/2026 — Etapa 1: Home comercial, BIA e navegação
+
+- Autorização: Fred solicitou executar somente a etapa 1 do roteiro. Os demais módulos continuam fora deste lote.
+- Home: seis mensagens por necessidade, três CTAs no hero e no catálogo, contador visível e setas de 50px. A seleção inicial permanece na Dominar 250. A apresentação da BIA substitui a seção KMs, sem avatar ou vídeo novo; /#bia e o antigo /#vantagens têm destino válido. A avaliação genérica de moto usada foi retirada.
+- Navegação: Comprar reúne financiamento, consórcio pelo fluxo existente e test ride; Pós-venda mantém o nome. Blog entrará junto da página funcional da etapa 5, sem link vazio nesta entrega.
+- Fluxos reais no navegador: seis seleções do hero conferidas com nome, poster carregado, contador, produto, contato e URL de simulação correspondentes. NS400Z/Bauru e N150/Rio Preto produziram os números comerciais e mensagens corretos no modal, sem enviar mensagem. Pelo catálogo, NS200/Rio Preto chegou ao formulário com modelo/unidade preenchidos. A preferência da unidade acompanha a navegação.
+- Teclado: Home, End e ArrowRight fizeram a seleção circular; Escape fechou o menu Comprar e devolveu o foco ao gatilho. Em quadro de 428px, arrasto real do mouse de 250px para a esquerda trocou D250 por D400; arrasto vertical preservou D400. Não houve ensaio em aparelho móvel físico.
+- Responsividade: página real dentro de iframe com larguras de 375, 428, 1024, 1440 e 1920px; larguras úteis de 365, 418, 1014, 1430 e 1910px por causa da barra de rolagem. Sem overflow horizontal; os três CTAs, os blocos BIA e as ações do catálogo permaneceram dentro da largura útil. Inspeção visual do hero e BIA em desktop e dos arranjos em coluna de 375/428px. Página temporária de QA removida antes do pacote.
+- Vídeos: vídeo local da D250 reproduziu (readyState 4, avanço observado até 18,12s) e ficou pausado ao sair do hero. Testes cobrem retorno à página/visibilidade, movimento reduzido, economia de dados, troca rápida, erro e rejeição atrasada de play. A rejeição de um pedido anterior não remove o vídeo novo em reprodução.
+- Limite de verificação: na amostra YouTube N150, iframe e identificação estavam corretos, mudo e sem pausa solicitada, mas a mídia permaneceu em readyState 0 e currentTime 0. A reprodução contínua dos filmes YouTube não ficou confirmada neste navegador; o poster correspondente e os CTAs funcionaram. Não houve evidência suficiente para atribuir a causa à internet do cliente, ao site ou a bloqueio anti-bot.
+- Build das 14 páginas; 64 testes Node aprovados (59 anteriores e cinco dos novos fluxos), checagem estática sem exceção de placeholders e git diff --check aprovados. Os testes do componente KMs preservado em arquivo são legado, não evidência de uma seção ainda presente na Home.
+- Comparação com a base 01bc48e: data.json, corpos das seis páginas de produto, CSS/JS dos heroes de produto, componente 360° e manifesto permanecem byte a byte iguais. As páginas recebem somente o header compartilhado revisado. Não houve reimportação de mídia ou alteração de preços/fichas.
+- A entrega usa a prévia existente do Sites. Netlify e o repositório externo não são atualizados por este lote. Captação persistente, painel, Blog, Seminovas e novas páginas de Consórcio/Pós-venda não são declarados concluídos.
+
+
+## Etapa 2 — Base funcional e painel restrito — 30/10/2026
+
+- 73 testes aprovados: os 64 existentes e 9 cenários administrativos com SQLite real em memória, R2 em memória e o mesmo handler do Worker.
+- A suíte cobre identidade ausente e não cadastrada, editor, administrador, autorização independente de contatos, suspensão, proteção do responsável, CSRF, privacidade do rascunho e arquivos, publicação HTML, alteração privada de uma publicação, retirada, conflito de versão, restauração com preservação de contatos, três áreas separadas, upload de conteúdo incompatível, arquivo ausente e exportação.
+- Checagem estática das 14 páginas e TypeScript sem erros. Build com bindings DB, BUCKET e ASSETS. Migração local inicial aplicada.
+- Comparação SHA-256: 679 arquivos da publicação anterior preservados integralmente em public, sem arquivos faltantes ou diferenças de conteúdo. Inclui Home da etapa 1, seis heroes restaurados e giros aprovados.
+- Navegador na prévia gerenciada: página de entrada e Home renderizadas no viewport disponível de 1363 × 936. Autenticação simulada é desativada nesse ambiente; os cenários autenticados foram exercitados no handler por testes, aguardando conferência na hospedagem. Não afirmar homologação móvel completa ou dos cinco viewports.
+- Não houve atualização do Netlify ou repositório GitHub externo. Publicação pelo fluxo Sites no mesmo projeto/audiência, sem novo serviço pago contratado. Não existe campanha, estoque, artigo ou contato de teste na base hospedada.
+
+
+## Login independente e Blog — 30/10/2026
+
+- 82 testes aprovados: regressões e cenários de autenticação própria/Blog. Ativação de uso único, hash de senha, atributos de cookie, login sem identidade ChatGPT, rejeição da credencial anterior, limitação de tentativas, CSRF, saída, redefinição, revogação de sessões, permissões de editor e contatos, três artigos persistentes, não sobrescrita de edição, retirada de Home/Blog, vínculos, campanhas futuras/vencidas e renderização segura.
+- Migração adicional somente de esquema, mantendo a primeira imutável. Carga editorial por rotina idempotente separada.
+- Navegador: Home, Blog, artigo e login conferidos em iframes de 375, 428, 1024, 1440 e 1920 px; sem transbordamento horizontal. Home e Blog exibem três cards; artigo tem três ofertas relacionadas. Fotos carregadas sem falha.
+- Composição da página do artigo: título e categorias, foto e texto, autor/data na lateral, motos citadas, banner, lojas, três ofertas; Leia também ao final. Identidade, header e rodapé Bajaj mantidos. Login possui arte decorativa editada com ImageGen a partir da imagem selecionada; artigos usam acervo aprovado.
+- Não foi digitada uma senha de usuário no navegador da automação. Credenciais e permissões foram exercitadas em testes do handler com SQLite e R2 de homologação. Primeiro acesso de produção será definido pelo responsável por ativação privada.
+- Manter noindex na prévia. A liberação da barreira ChatGPT atende ao pedido de login independente e não libera dados administrativos. Não atualizar Netlify/GitHub externos sem fluxo próprio.
+
+- Checagem na hospedagem identificou entrega direta do HTML estático da Home antes do Worker. A seção foi ligada também a `/api/blog/latest` com renderizador compartilhado de cards; assim, os últimos posts são atualizados no navegador mesmo nesse caminho de entrega. Não há cópia fixa de artigo retirado como fallback. Os artigos individuais continuam entregues em HTML pelo servidor.
+
+## Redesenho Conheça a BIA — 30/10/2026
+
+- Aplicado o plano v1 aprovado: fundo gelo, composição de mídia à esquerda no desktop, textos em primeira pessoa e um CTA. No móvel a ordem é título, mídia e apresentação/botão. O material publicado é tipográfico, pois não há foto/avatar/vídeo aprovado da personagem.
+- 87 testes Node aprovados: 82 regressões e cinco cenários do controlador de mídia (carga por clique, erro/repetição, pausa fora da área inclusive com play atrasado, imagem quebrada e YouTube criado somente ao interagir). Não houve nova importação de mídia.
+- Navegador com a Home real em iframes de 375, 428, 1024, 1440 e 1920px (larguras úteis 365, 418, 1014, 1430 e 1910px): sem overflow horizontal, área de mídia 4:5 preservada e ordem correta dos três blocos. Inspeção visual da composição desktop e do texto/CTA móvel. Acessibilidade: Enter abre o seletor, Escape fecha e devolve o foco ao botão; destinos Rio Preto e Bauru conferidos sem enviar mensagens. Textos auxiliares da seção têm contraste mínimo calculado de 4,55:1.
+- Comparação SHA-256 dos 689 arquivos públicos anteriores: somente index.html e o CSS legado da Home alterados; os outros 687 permanecem idênticos. O HTML da Home fora da BIA e das duas novas importações é idêntico, incluindo o formulário de financiamento. CSS do novo componente isolado.
+- Limite: a BIA publicada não tem player nem solicita mídia externa. Comportamentos dos modos futuros são cobertos por testes, mas reprodução real, capa, legendas e enquadramento da personagem dependem de receber material aprovado. Não houve ensaio em aparelho móvel físico. Página temporária de QA removida antes do pacote final.
+
+
+## Etapa 3 — Captação e acompanhamento — 30/10/2026
+
+- 102 testes Node aprovados: 87 regressões e 15 cenários da captação. Incluem persistência sem WhatsApp, idempotência concorrente, falha de confirmação após gravar seguida de reenvio, validação/origem/honeypot, indisponibilidade de D1, rate limit, recibo secreto, permissões independentes, filtros/paginação, conflito de atualização, campanha futura/vencida/retirada, exemplar retirado, privacidade dos eventos e escape da apresentação. As combinações dos seis modelos, duas unidades e nove intenções são conferidas com dados comerciais do servidor.
+- TypeScript, geração/checagem estática das 14 páginas e git diff --check aprovados. Migração local 0002 aplicada uma vez, após conferir o esquema. Migrações e snapshots anteriores preservados. Sem dados de exemplo em migração.
+- Auditoria de HTML: 234 chamadas de atendimento nas 14 páginas. Nenhum link direto ao WhatsApp fora da contingência sem JavaScript, que informa que o site não registrará o contato. A API só libera o destino depois da confirmação de persistência.
+- Navegador na prévia gerenciada: telefone inválido recebeu erro sem registro; test ride NS400Z/Bauru e simulação NS200/Rio Preto foram registrados sem abrir o WhatsApp. A simulação conservou entrada de R$ 8.000 e prazo de 36 meses. Consórcio/Rio Preto e peças NS400Z/Bauru foram registrados sem link de vendas presumido; a descrição de peças foi preservada. Quatro registros exclusivamente na base local, todos com handoff_attempted_at vazio. Não houve mensagem enviada ou contato de teste criado na base publicada.
+- Ofertas/NS200 abriu a captação compartilhada. O seletor de unidade do cabeçalho permaneceu sem campos pessoais e não gravou contato. Enter/teclado, Escape e retorno do foco ao acionador conferidos; conclusão foca a confirmação, falha tem alerta acessível. Testes verificam que eventos não incluem nome, telefone, entrada, prazo ou descrição.
+- Formulário real em iframes de 375, 428, 1024, 1440 e 1920px: sem overflow horizontal, inputs dentro da janela e rolagem interna em altura curta/móvel. No teste de 900px de altura, o formulário cabe no desktop e o móvel mantém o acesso ao botão por rolagem. Corrigidos o min-height herdado da caixa de confirmação e a criação de UUID na prévia HTTP.
+- Lista e detalhe de Contatos conferidos visualmente em amostra local com os mesmos renderizadores e CSS do painel nas cinco larguras, sem overflow horizontal. Esta inspeção visual não usou uma sessão administrativa de produção. Consulta, permissão, paginação e mudanças de situação foram exercitadas pelo handler real em SQLite de testes. Não houve ensaio em aparelho móvel físico. Fixture removida antes do pacote.
+- Comparação SHA-256: dos 691 arquivos públicos anteriores, 672 permanecem iguais. Alterados somente os HTML das 14 páginas e cinco módulos de interação; cinco módulos/estilos novos são específicos da captação e da fila. Apresentação BIA e heroes dos seis produtos byte a byte preservados. Preços, dados, fontes, fotos, vídeos e componente/arquivos 360° preservados.
+- Limites: sem integração direta com CRM/Syonet e sem canal de consórcio/pós-venda inventado. Esses registros ficam disponíveis para acompanhamento autorizado. A operação deve definir responsável pela fila e política de retenção; não há exclusão automática sem essa definição. Arquivar não apaga dados. A atualização contempla o Sites, sem declarar Netlify/GitHub externos atualizados.
+
+
+## Etapa 4 — Campanhas e seminovas — 30/10/2026
+
+- 117 testes Node aprovados. Os testes anteriores foram adaptados à substituição da escada de catálogo por rotas dinâmicas; 16 cenários novos cobrem São Paulo/calendário, até três alternativas e IDs preservados, publicação incompleta, rascunho/preview privados, programação/expiração, pausa/retomada/encerramento, banner separado, mídia privada, estoque único, galeria, reserva/venda, tombstone, reativação restrita, restauração sem reviver estoque, filtros/ordenação/paginação, escape e atualização do Blog.
+- Captação conferida com o handler real, SQLite e objetos em memória. Condição escolhida, preço/código e unidade vêm da publicação. Rejeita versão pública antiga, opção/unidade incompatível, estoque indisponível e mudança entre resolução e gravação. INSERT condicional confere a publicação exata e a validade no instante da execução SQL. Reenvio de um contato já confirmado continua idempotente mesmo após mudança do anúncio. Rascunho privado não invalida a versão comercial que ainda está publicada.
+- Controlador de atualização testado para respostas fora de ordem, falha, suspensão e validade consumida em trânsito. O relógio civil do navegador não decide promoção; tempo monotônico só desconta a duração da consulta. Em erro, condições não confirmadas são ocultadas. HTML, fragmentos e mídia de campanhas não usam cache público. Conteúdo idêntico não recria a galeria nem troca a escolha do cliente.
+- Migração 0003 de esquema gerada e aplicada localmente após inspeção. Só acrescenta commerce_page e código de estoque único/nullable. SQL, snapshots e journal das migrações 0000–0002 preservados. Sem campanhas, seminovas, fotos fictícias ou usuários de teste em migração.
+- TypeScript sem erros; 13 páginas estáticas passaram por arquivos, âncoras, imagens, SEO e destinos. Ofertas e Blog são rotas dinâmicas verificadas pelos handlers. Build Vinext com os mesmos bindings DB/BUCKET/ASSETS. Arquivo estático public/ofertas/index.html removido para impedir que a hospedagem desvie a listagem do servidor.
+- Navegador na prévia gerenciada: campanhas, detalhes de campanha e detalhes de seminova em iframes de 360, 390, 768, 1366 e 1920 px, sem overflow horizontal nas 15 combinações. Larguras úteis descontam a barra de rolagem. Layout em uma coluna no móvel e duas no desktop para detalhes; foto inteira preservada. Galeria, seleção de foto, ampliação, seleção da alternativa C e abertura da captação conferidas. Ajustado alinhamento dos filtros e preservação da foto nas consultas de disponibilidade sem mudança do anúncio.
+- Uma solicitação fictícia de campanha foi registrada somente no D1 local, identificando Dominar 250, alternativa 3, preço de R$ 24.000 e Bauru. A mensagem pronta continha a condição correta; não houve abertura do WhatsApp ou envio de mensagem. Esses valores existem só no teste local e não são dados comerciais publicados.
+- O editor completo foi inspecionado com o admin.mjs, renderizadores e CSS reais em fixture local, com API simulada no navegador e sem gravação em servidor. Salvamento, seleção de imagens, banner desktop/mobile e reordenação da galeria conferidos; mudar fotos/ordem desmarca a confirmação de revisão. Editor de estoque nas cinco larguras sem overflow, somando cinco combinações às 15 públicas. A inspeção do painel não usou sessão/credenciais de produção; autenticação, permissões e mutações persistentes foram verificadas pelos testes do handler.
+- Comparação SHA-256 dos 696 arquivos públicos anteriores: 691 preservados, quatro alterados (admin.mjs, contact-admin.mjs, contact-capture.mjs e rótulo de navegação em a-interiorsp/index.html) e um removido (Ofertas estática). Home, Conheça a BIA, seis produtos, preços, fichas, fontes, fotos, vídeos e 360° mantêm os mesmos bytes. Novos módulos/CSS são específicos do comércio e da atualização dos vínculos comerciais do Blog.
+- Fixtures, SQL de seed, estado local, credenciais de homologação e arquivos temporários ficam fora do pacote. A publicação não contém anúncios fictícios. Falta receber uma campanha real e uma seminova real para homologar arte, enquadramento das fotos e operação comercial com a equipe. Não houve teste em aparelho físico, remoção automática de placas/EXIF, documento pessoal, sincronização com banners da Home ou atualização de Netlify/GitHub externos.
+
+
+## Catálogo 0 km restaurado e seis seminovas fictícias — 30/10/2026
+
+- Solicitação explícita posterior à etapa 4: restaurar o catálogo anterior na aba 0 km e cadastrar seis seminovas fictícias completas. O catálogo mantém os seis preços aprovados, filtros por linha/investimento, escada, ordenação, links de produto e captação compartilhada. Campanhas permanecem separadas abaixo; a atualização de validade não reinicializa os filtros do catálogo.
+- Seis registros persistentes, um por modelo, com código único DEMO, ano de fabricação/modelo, km, cor, preço de exemplo, unidade, descrição e quatro imagens oficiais ilustrativas por cadastro. Cópias integrais das 24 imagens no R2 e metadados/revisões em D1; sem imagens geradas ou novas condições reais. Carga autorizada fora das migrações, idempotente, sem sobrescrever edições/retiradas nem criar usuário/senha. Migrações existentes intactas.
+- Marcador is_demo preservado no servidor. Cards, detalhes e painel identificam os exemplos; preço tem rótulo de valor fictício. A página não emite schema de oferta real e o contato não leva ID/preço do exemplar fictício. A API também bloqueia tentativa de compra por esse ID. Para estoque real, criar cadastro separado com dados/fotos reais.
+- 121 testes Node aprovados, incluindo os quatro cenários novos: catálogo original e preços/ações, carga completa/persistência/retirada sem recriação, demonstração sem oferta real/captação de compra e recuperação de imagem indisponível sem publicação incompleta. O mock de ASSETS exige a origem do próprio Site, cobrindo o ajuste observado na prévia. TypeScript e checagem estática completam a validação antes da publicação.
+- Navegador: catálogo 0 km, lista de seminovas e detalhe em 375, 428, 1024, 1440 e 1920 px, sem overflow nas 15 combinações. Seis fotos principais carregadas. Filtro Linha NS, preço descendente, limite mínimo sem resultados e reset para todos conferidos. Contato do catálogo abriu com Dominar 250 e escolha de unidade; nenhum formulário foi enviado.
+- Galeria do exemplo NS160 percorreu quatro fotos e, na ampliação, próxima após foto 4 voltou à foto 1. Contato de estoque real abriu com o modelo, sem código ou valor fictício. Detalhe D400 inspecionado visualmente no móvel, com aviso, imagem inteira, quatro miniaturas, ficha e valor identificado. Não houve ensaio em aparelho físico ou sessão administrativa de produção; persistência/permissões/edição são cobertas pelos handlers de teste.
+- O clone exigiu restauração do perfil de execução local antes de retomar a prévia. A leitura das imagens passou a usar a URL da própria requisição ao binding ASSETS, conferida no navegador. Harness temporário removido antes do pacote. Home, BIA, seis produtos e seus recursos/mídias permanecem fora desta alteração. A entrega usa o Sites existente, sem alterar audiência ou publicar no Netlify/GitHub externos.
+
+## 30/10/2026 — Etapa 6: Consórcio e Pós-venda
+
+- Escopo recuperado do Roteiro de implementação de 30/10/2026: Consórcio próprio e ampliação de Pós-venda, preservando a decisão de não inventar condições nem canais. Não se confunde com os giros 360° já aprovados.
+- Criadas quatro páginas e reconstruída a central: Consórcio, Garantia, Manuais e Revisões. Menu Comprar/Pós-venda, rodapé, sitemap e rotas do Worker atualizados, com noindex/nofollow e domínio/canonical existentes preservados.
+- Curadoria manual das fontes oficiais Bajaj e Âncora. O catálogo oficial vincula oito PDFs a 23 pares de modelo/ano. Downloads completos dos oito arquivos verificados (assinatura PDF, leitura, páginas e SHA-256); capas renderizadas e inspecionadas, inclusive o manual próprio da nova D250 2026/2027. Documentos permanecem nos links oficiais, sem copiar PDFs para a publicação nem introduzir importação automática.
+- Garantia contém apresentação e link aos termos oficiais, sem substituir o contrato do exemplar. Revisões mostram condições sob consulta: a página nacional informa vigência encerrada em 30/09/2026 e nenhum desses valores foi publicado como atual. Consórcio não contém taxas, parcelas, prazos de contemplação ou aprovação inventados.
+- Captação preserva modelo, ano, km, data aplicável, unidade e origem. Cinco testes novos verificam correspondência exata de manuais, contexto dos formulários, gravação/idempotência, restrição de acesso e rejeição de campos inválidos. Os canais pendentes continuam sem WhatsApp direto; nenhuma chamada real foi enviada no navegador.
+- Navegador gerenciado: Consórcio D250/Bauru; filtros D250 2026/2027 e combinação ausente NS160 2026/2027; ajuda de manual com ano/km; revisão D400/Rio Preto com 0 km e data; abertura da captação com contexto correto. Não foi preenchido nome/telefone nem confirmado contato no site publicado. Gravação de ponta a ponta validada somente no banco isolado de testes.
+- Medição responsiva em iframe de mesma origem: cinco páginas × 375, 428, 1024, 1440 e 1920 px, 25 combinações após carregamento dos estilos, sem overflow horizontal ou controles/textos fora da largura. Menu móvel de Pós-venda e seus destinos conferidos a 375 px. Não houve teste em dispositivo físico. Página temporária de QA retirada antes do pacote final.
+- Suíte Node: 126 testes aprovados. Checagem estática das 17 páginas, TypeScript e build gerenciado aprovados. Comparação do conteúdo principal confirma alteração apenas em Pós-venda e Privacidade entre as páginas antigas; outras páginas receberam somente navegação/rodapé compartilhados.
+- Pendências operacionais reais: condições de Consórcio aprovadas; preços de revisão vigentes e condições locais; canais específicos e responsável da fila por unidade; responsável por manter documentos e valores. A implementação não declara essas dependências resolvidas nem integração CRM/Syonet ativa. Publicação somente no Sites; Netlify/GitHub externos não atualizados.
+
+## 30/10/2026 — Ilustração das páginas da etapa 6
+
+Solicitação de Fred: aplicar as imagens correspondentes das referências oficiais de Garantia, Manuais e Serviços. Cinco páginas receberam banners oficiais; Garantia ganhou imagem de diagnóstico, a central de Pós-venda ganhou cartões e fotografia de Serviços e os oito manuais receberam suas capas reais. A imagem oficial de Consórcio veio da própria seção de Consórcio da fabricante. Fotos e composições mobile conferidas visualmente antes da aplicação; procedência, originais e variantes documentados em `owner-media.json` e `ASSETS.md`.
+
+Todas as imagens servidas localmente, com dimensões, alt e srcset; hero prioritário e imagens internas com carregamento sob demanda. As composições oficiais de celular são selecionadas por picture. Nenhuma moto, pessoa ou capa foi reconstruída ou recortada; texto permanece em HTML e as imagens conservam sua proporção. Conteúdo comercial, PDFs, filtros, URLs, formulário e encaminhamento não foram alterados.
+
+Browser gerenciado: Garantia conferida em desktop e 375 px; Manuais em desktop, com filtro D250 2026/2027 confirmando capa, ano e URL do documento correto. Medição em iframe de mesma origem: cinco páginas × 375/428/1024/1440/1920 px, 25 combinações sem overflow horizontal nem textos/controles fora da largura. Não houve teste em aparelho físico nem envio de contato. Página temporária de QA excluída antes do pacote.
+
+## Ajuste solicitado — padrão dos heroes internos
+
+- Removidos os heroes fotográficos das cinco páginas da etapa 6. Todos usam o mesmo `service-hero` das demais internas, sem img/picture ou estilos exclusivos para imagem no hero.
+- Imagens oficiais aplicadas nos blocos de conteúdo: Consórcio na introdução, Manuais na apresentação da biblioteca e Revisões junto às orientações e condições. Fotos de diagnóstico/Serviços, cartões da central e capas dos PDFs mantidos.
+- Verificação estrutural dos cinco heroes: navegação, título e descrição presentes; nenhuma foto no hero. Os dez testes relevantes de páginas e serviços passaram; checagem estática das 17 páginas, TypeScript e whitespace aprovados. Nenhum teste novo para a alteração visual.
+- Browser gerenciado: Manuais em desktop, Consórcio em 375 px; cinco páginas × 375/428/1024/1440/1920 px medidas em iframe de mesma origem, 25 combinações sem overflow horizontal nem textos/controles fora da largura. Não houve teste em aparelho físico ou envio de contato. Página temporária de QA excluída antes do pacote final.
+
+
+## 31/10/2026 — Vídeo comercial na seção Conheça a BIA
+
+- Vídeo fornecido pelo cliente integrado à configuração existente; poster extraído do próprio MP4. Autoplay silencioso ao entrar na tela, inclusive por atalhos e acesso direto às âncoras. Fonte adiada até a visibilidade; sem atributo autoplay que antecipe reprodução fora da seção.
+- Controles nativos e botão Ativar som/Silenciar, com estado acessível sincronizado com volume e mute. Ativar som após o fim repete a apresentação com áudio. Pausa fora da tela e em aba oculta; retorno retoma ou reinicia após o fim, sem loop contínuo. Pausa manual respeitada na visita atual. Movimento reduzido, economia de dados e bloqueio do navegador oferecem reprodução por clique.
+- QA real na prévia gerenciada identificou que o carregador genérico de app.mjs voltava a chamar load() no evento play, interrompendo a BIA. Exclusão pontual de data-bia-video corrigiu o conflito sem alterar os demais players.
+- Navegador Chrome: acesso direto a /#bia e clique em Conheça a BIA iniciaram com paused=false e muted=true; rolagem normal iniciou e avançou a 8,17 s; sair da seção pausou a 3,88 s, antes do fim. Ativação do áudio alterou muted para false. Não foram enviados contatos.
+- Layout medido em iframe de mesma origem com larguras 375, 428, 1024 e 1920 px: sem overflow horizontal nem textos, botões ou player fora da largura; enquadramento 16:9 preservado e controle de som com 44 px. Conferência visual em desktop e celular. Harness temporário removido. Sem teste em dispositivo físico ou Safari/iOS.
+- 26 testes Node dos componentes de mídia e jornadas comerciais aprovados, incluindo sete cenários novos de autoplay/visibilidade/retorno/pausa manual/bloqueio/preferências/áudio. Checagem estática das 17 páginas, TypeScript, sintaxe dos módulos e git diff --check aprovados. MP4 faststart conferido. Build e pacote seguem o helper Sites do projeto existente.
+
+
+## 31/10/2026 — Rotação automática dos banners publicitários
+
+- Galeria Universo Bajaj da Home passa a avançar a cada 5 segundos, com retorno ao primeiro banner depois do último. Setas anterior/próxima, teclado, swipe, imagens e ordem preservados. A troca espera a imagem decodificar e reinicia o intervalo após navegação manual.
+- Controle de pausar/retomar no padrão visual das setas. Temporizador suspenso quando a galeria está fora da tela, a aba está oculta, há hover do mouse, foco nos controles ou gesto de toque em andamento. Movimento reduzido começa com rotação pausada; a pessoa pode retomá-la pelo controle. Contador anuncia apenas trocas manuais.
+- Prévia gerenciada em Chrome: avanço automático observado de 01/05 para 03/05 sem clicar nas setas. Com a rotação pausada, próxima avançou 04→05 e anterior retornou 05→04; controle passou a Retomar troca automática dos banners. Layout desktop e preservação dos anúncios conferidos visualmente. Sem teste em aparelho físico e sem envio de contatos.
+- Sete testes existentes de mídia/jornadas comerciais passaram; checagem estática das 17 páginas, sintaxe do módulo e git diff --check aprovados. Nenhum teste novo para a mudança de interação reversível. Apenas a galeria publicitária foi alterada; vídeo da BIA e demais carrosséis continuam com seus próprios controladores.
+
+
+## 03/11/2026 — Revisão dos heroes das motos
+
+- Quatro heroes estavam com heroYoutube nulo. Foram vinculados filmes oficiais do modelo/família correspondentes, com autor/título confirmados pelo oEmbed e fontes registradas. Os vídeos de D250 e D400 foram preservados. Retirada a exclusão por largura móvel; continuam visibilidade, aba ativa, pausa manual, movimento reduzido e economia de dados.
+- Hero compartilhado compactado, sem o bloco extra de reflexão. As seis fotos agora ficam em quadro 8:5 com limites ópticos normalizados; pose frontal em três quartos, frente à direita, referência D250 preservada. Preço e ações passam a compartilhar a faixa inferior no desktop; no celular, especificações ocupam duas linhas e ações continuam acessíveis.
+- Navegador gerenciado: seis modelos × 428×926, 1024×1366 e 1920×1080, 18 combinações. Todos apresentaram a mesma altura e posição do quadro em cada categoria, vídeo com display block e opacidade 0,30, sem overflow horizontal nem textos/controles fora da largura. Alturas dos heroes: aproximadamente 908 px no celular, 948 px no tablet e 917 px no desktop. NS400Z também conferida em 375×812, com hero de 885 px e sem overflow. A referência D250 a 1363 px passou de 1655 para 912 px, redução de aproximadamente 45%.
+- Confirmada a criação dos seis players no celular e seus seis IDs corretos. Os streams do YouTube permaneceram com readyState=0 e tempo 0 nesta sessão, inclusive no D250 anteriormente publicado; a reprodução real não é certificada neste ambiente. Metadados e players são válidos, com movimento automático solicitado sem áudio. Sem teste em dispositivo físico ou Safari/iOS.
+- Vinte testes existentes de produtos, formulários, vídeo e auditoria de mídia aprovados; a contagem passou de 16 para 20 contextos distintos devido aos quatro fundos novos. Checagem estática das 17 páginas, sintaxe e git diff --check aprovados. Nenhum teste novo para ajustes visuais reversíveis. Comparação byte a byte confirmou preservação integral do conteúdo após o hero e antes da configuração de runtime nas seis páginas. Harness responsivo temporário retirado da origem e do pacote final, com verificação explícita após o build.
+
+A conferência da publicação identificou textos do player visíveis antes do início do stream. O cenário alternativo voltou a cobrir a interface durante o carregamento, sendo ocultado apenas no evento playing; a camada do vídeo permanece com opacidade 0,30 quando reproduz.
+
+
+## 03/11/2026 — Ajuste pontual de opacidade e tamanho
+
+- Somente três declarações no CSS dos heroes alteradas: opacidade compartilhada de 0,30 para 0,25; largura máxima da foto de 640 para 800 px (25% maior em desktop/tablet); no celular, quadro ampliado até a largura útil da tela, mantendo a proporção, o ângulo e o alinhamento anteriores. Textos, fontes, espaçamentos verticais, vídeos, fotos e demais componentes não foram modificados.
+- Conferência no navegador em larguras de iframe 375, 428, 1024 e 1920 px: opacidade computada 0,25, quadro de 800×500 em tablet/desktop e largura útil inteira no celular; sem overflow horizontal. Comparação da origem confirmou apenas os três ajustes de estilo no produto. Nenhum teste novo para a alteração visual reversível. Harness temporário removido e exclusão conferida antes do pacote.
+
+## Ajustes aprovados em 09/11/2026 — execução 10/11
+
+- Home inicia em Pulsar N150, com setas ao lado do nome e contexto consistente em miniaturas/contador/CTAs. Textos editoriais aprovados preservados. YouTube solicita autoplay silenciado; comando manual e filme oficial ficam disponíveis como fallback. O navegador de nuvem retornou vídeo YouTube sem dados de reprodução (readyState 0); MP4 da D250 reproduziu. No Chrome conectado do usuário, com viewport 390×844, a N150 reproduziu automaticamente (is-playing) e não houve overflow. Safari em iPhone físico não está disponível neste ambiente.
+- N150 e D250 vermelhas e D400 vermelha/verde/azul/branca usam seis fotografias oficiais brasileiras 2026/27, sem recoloração. Sequências oficiais não variam pela cor; as novas seleções identificam foto estática e indisponibilidade do giro.
+- Rain/Road/Off-Road nas NS160/NS200 e D250; quatro modos em NS400Z/D400. Fontes por versão em riding-modes-sources.json. Manual da nova D400 separado dos anos anteriores.
+- Sete tabelas/49 linhas de revisão, somas em centavos conferidas, validade 31/12/2026. D400 três velas e NS400Z sinalizam divergência 1/3 meses na primeira revisão; não se presume um prazo.
+- Atualização autenticada diária Netlify às 10:00 UTC/7h São Paulo. Fonte descoberta por rótulo modelo/versão, PDFs capturados e identificados por SHA256, armazenamento R2, versões e histórico. Publicação automática apenas para texto completo reconhecido, somas/prazos/vigência consistentes. PDFs escaneados alterados ou ambíguos exigem revisão; versão anterior mantida somente enquanto vigente. Aprovação requer administrador, sessão, origem correta e conferência documentada.
+- Rio Preto pós-venda tel:+551730420708; telefones das lojas separados da BIA. Bauru segue acompanhamento no CMS até definição do canal específico. Registro de solicitação não confirma agendamento.
+- Foto de Bauru enviada pelo cliente preservada em 515×510, nas unidades e galeria da Home.
+- Campanhas precedem catálogo no HTML entregue pelo servidor. Regras de vigência, filtros, detalhes e aba Seminovas preservadas.
+- 153 testes automatizados passaram; build Vinext/Worker concluído. Nenhuma alteração de domínios ou privacidade (itens 7/8 adiados).
+
+Na conferência publicada foi removida a consulta redundante imediata de Ofertas: o HTML validado no servidor permanece visível até a primeira expiração. A contagem desconta o tempo total da navegação e as regras de ocultação por expiração/suspensão continuam ativas.
+
+## Fechamento de implantação — 10/11/2026
+
+- 155 testes aprovados, incluindo duas regressões de abertura das campanhas: HTML confirmado permanece visível pelo prazo restante; HTML vencido ou sem validade exige nova confirmação.
+- Gerador Python, verificação estática das 17 páginas, TypeScript e build Vinext/Worker aprovados.
+- Removida uma cópia temporária de imagem sem referências no site; os arquivos de trabalho de imagem foram incluídos nas exclusões de controle de versão.

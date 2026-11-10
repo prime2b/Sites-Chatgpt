@@ -1,12 +1,12 @@
 {
   "pulsar-n150": {
     "heroVideo": null,
-    "heroYoutube": null,
+    "heroYoutube": "cVJQqLX9_2A",
     "youtubeUrl": "https://www.youtube.com/watch?v=M-C5T-QMEjo",
     "initialEntry": 5000,
     "initialTerm": 36,
-    "heroAsset": "pulsar-n150-hero",
-    "heroAlt": "Pulsar N150 — vista completa em imagem oficial Bajaj",
+    "heroAsset": "pulsar-n150-hero-front",
+    "heroAlt": "Pulsar N150 Pearl Metallic White — vista oficial em três quartos, com a frente para a direita",
     "caption": "Imagem oficial ilustrativa. Consulte cores, configuração e estoque.",
     "outline": "PULSAR",
     "summary": [
@@ -102,16 +102,22 @@
         "text": "O tanque e as linhas da N150 reforçam sua identidade esportiva. Conheça a moto de perto na unidade escolhida."
       }
     ],
-    "videoTitle": "Pulsar N150"
+    "videoTitle": "Pulsar N150",
+    "heroBounds": {
+      "x": 211,
+      "y": 78,
+      "width": 582,
+      "height": 549
+    }
   },
   "dominar-ns160": {
     "heroVideo": null,
-    "heroYoutube": null,
+    "heroYoutube": "S76QunE4hY8",
     "youtubeUrl": "https://www.youtube.com/watch?v=CVOqevGpepo",
     "initialEntry": 6000,
     "initialTerm": 36,
-    "heroAsset": "dominar-ns160-hero",
-    "heroAlt": "Dominar NS160 — vista completa em imagem oficial Bajaj",
+    "heroAsset": "dominar-ns160-hero-front",
+    "heroAlt": "Dominar NS160 Cocktail Wine Red — vista oficial em três quartos, com a frente para a direita",
     "caption": "Imagem oficial ilustrativa. Consulte cores, configuração e estoque.",
     "outline": "DOMINAR",
     "summary": [
@@ -141,7 +147,23 @@
         "Velocidades"
       ]
     ],
-    "modes": [],
+    "modes": [
+      {
+        "id": "rain",
+        "label": "RAIN",
+        "description": "Ajusta a calibração do ABS para chuva e pisos de menor aderência."
+      },
+      {
+        "id": "road",
+        "label": "ROAD",
+        "description": "Calibração do ABS para o uso diário em ruas, avenidas e rodovias pavimentadas."
+      },
+      {
+        "id": "off-road",
+        "label": "OFF-ROAD",
+        "description": "Adapta a atuação do ABS para trechos de terra e outras vias não pavimentadas."
+      }
+    ],
     "gallery": [
       {
         "asset": "ns160-1",
@@ -192,7 +214,8 @@
         "asset": "ns160-4",
         "alt": "Dominar NS160 vermelha, vista em três quartos",
         "title": "ABS nas duas rodas",
-        "text": "O ABS atua nas duas rodas para auxiliar nas frenagens da rotina. Os freios a disco têm 300 mm na dianteira e 230 mm na traseira."
+        "text": "ABS nas duas rodas e três modos de calibração: Rain, Road e Off-Road. Escolha um modo para conhecer sua aplicação e siga o manual da versão.",
+        "modes": true
       },
       {
         "asset": "refresh-dominar-ns160-feature2",
@@ -207,16 +230,23 @@
         "text": "O garfo dianteiro invertido integra o conjunto ciclístico da NS160, com monochoque traseiro com Nitrox e chassi perimetral."
       }
     ],
-    "videoTitle": "Dominar NS160"
+    "videoTitle": "Dominar NS160",
+    "heroBounds": {
+      "x": 193,
+      "y": 30,
+      "width": 714,
+      "height": 627
+    },
+    "modesSource": "https://bajaj.com.br/wp-content/uploads/2026/03/manual_ns160_2026_v3.pdf"
   },
   "dominar-ns200": {
     "heroVideo": null,
-    "heroYoutube": null,
+    "heroYoutube": "R2N-V9BWXEc",
     "youtubeUrl": "https://www.youtube.com/watch?v=U6jtmlLniZA",
     "initialEntry": 6000,
     "initialTerm": 36,
-    "heroAsset": "dominar-ns200-hero",
-    "heroAlt": "Dominar NS200 — vista completa em imagem oficial Bajaj",
+    "heroAsset": "dominar-ns200-hero-front",
+    "heroAlt": "Dominar NS200 Pearl Metallic White — vista oficial em três quartos, com a frente para a direita",
     "caption": "Imagem oficial ilustrativa. Consulte cores, configuração e estoque.",
     "outline": "DOMINAR",
     "summary": [
@@ -246,7 +276,23 @@
         "Velocidades"
       ]
     ],
-    "modes": [],
+    "modes": [
+      {
+        "id": "rain",
+        "label": "RAIN",
+        "description": "Ajusta a calibração do ABS para chuva e pisos de menor aderência."
+      },
+      {
+        "id": "road",
+        "label": "ROAD",
+        "description": "Calibração do ABS para o uso diário em ruas, avenidas e rodovias pavimentadas."
+      },
+      {
+        "id": "off-road",
+        "label": "OFF-ROAD",
+        "description": "Adapta a atuação do ABS para trechos de terra e outras vias não pavimentadas."
+      }
+    ],
     "gallery": [
       {
         "asset": "refresh-dominar-ns200-gallery0",
@@ -297,7 +343,8 @@
         "asset": "refresh-dominar-ns200-feature1",
         "alt": "Dominar NS200 branca em vista lateral, com os conjuntos de roda e freio visíveis.",
         "title": "ABS nas duas rodas",
-        "text": "Discos de 300 mm na dianteira e 230 mm na traseira, com ABS nas duas rodas."
+        "text": "ABS nas duas rodas e três modos de calibração: Rain, Road e Off-Road. Escolha um modo para conhecer sua aplicação e siga o manual da versão.",
+        "modes": true
       },
       {
         "asset": "refresh-dominar-ns200-feature2",
@@ -313,7 +360,14 @@
       }
     ],
     "videoTitle": "Família NS160 e NS200",
-    "videoAsset": "family-ns-cover"
+    "videoAsset": "family-ns-cover",
+    "heroBounds": {
+      "x": 164,
+      "y": 6,
+      "width": 759,
+      "height": 676
+    },
+    "modesSource": "https://bajaj.com.br/wp-content/uploads/2026/03/manual_ns200_2026_v3.pdf"
   },
   "dominar-250": {
     "heroVideo": null,
@@ -356,17 +410,17 @@
       {
         "id": "rain",
         "label": "RAIN",
-        "description": "Modo Rain: conheça os ajustes para chuva no manual do modelo."
+        "description": "Calibração do ABS para pisos molhados ou de baixa aderência, com atuação mais suave do sistema durante as frenagens."
       },
       {
         "id": "road",
         "label": "ROAD",
-        "description": "Modo Road: configuração para os trajetos no asfalto, conforme o manual."
+        "description": "Modo recomendado para o dia a dia em vias urbanas e rodovias, com frenagem equilibrada em piso seco e estável."
       },
       {
         "id": "off-road",
         "label": "OFF-ROAD",
-        "description": "Modo Off-Road: consulte os ajustes e as limitações de uso no manual."
+        "description": "Configuração do ABS para estradas de terra e trechos irregulares, adaptando a frenagem às superfícies não pavimentadas."
       }
     ],
     "gallery": [
@@ -419,7 +473,7 @@
         "asset": "refresh-dominar-250-feature1",
         "alt": "Painel digital da Dominar 250, com velocímetro, indicador de marcha e luzes de controle.",
         "title": "Três modos de pilotagem",
-        "text": "Na Dominar 250 2026/2027, os modos Rain, Road e Off-Road permitem escolher a configuração conforme as condições do percurso. Consulte as orientações do manual.",
+        "text": "Escolha um modo para conhecer sua aplicação. A seleção e os procedimentos de uso devem seguir o manual da sua versão.",
         "modes": true
       },
       {
@@ -447,16 +501,23 @@
         "text": "O painel digital com Bluetooth da Dominar 250 2026/2027 permite conectar o celular ao painel. A versão também conta com entrada USB e farol Full LED com DRL."
       }
     ],
-    "videoTitle": "Dominar 250"
+    "videoTitle": "Dominar 250",
+    "heroBounds": {
+      "x": 101,
+      "y": 41,
+      "width": 711,
+      "height": 534
+    },
+    "modesSource": "https://bajaj.com.br/wp-content/uploads/2026/10/manual_nova_dominar_250.pdf"
   },
   "dominar-ns400z": {
     "heroVideo": null,
-    "heroYoutube": null,
+    "heroYoutube": "v0epzoJpspk",
     "youtubeUrl": "https://www.youtube.com/watch?v=Hmo9eyBJm2Y",
     "initialEntry": 8000,
     "initialTerm": 36,
-    "heroAsset": "dominar-ns400z-hero",
-    "heroAlt": "Dominar NS400Z — vista completa em imagem oficial Bajaj",
+    "heroAsset": "dominar-ns400z-hero-front",
+    "heroAlt": "Dominar NS400Z Brooklyn Black — vista oficial em três quartos, com a frente para a direita",
     "caption": "Imagem oficial ilustrativa. Consulte cores, configuração e estoque.",
     "outline": "DOMINAR",
     "summary": [
@@ -490,22 +551,22 @@
       {
         "id": "rain",
         "label": "RAIN",
-        "description": "Modo Rain: conheça os ajustes para chuva no manual do modelo."
+        "description": "Suaviza a resposta do acelerador e limita a entrega de potência para pisos molhados ou escorregadios. O ABS também recebe uma calibração específica para essas condições."
       },
       {
         "id": "road",
         "label": "ROAD",
-        "description": "Modo Road: configuração para os trajetos no asfalto, conforme o manual."
+        "description": "Entrega potência de forma equilibrada, com resposta progressiva do acelerador e atuação do ABS para o uso cotidiano em vias pavimentadas."
       },
       {
         "id": "off-road",
         "label": "OFF-ROAD",
-        "description": "Modo Off-Road: consulte os ajustes e as limitações de uso no manual."
+        "description": "Ajusta a entrega de potência e a atuação do ABS para terrenos irregulares e superfícies não pavimentadas."
       },
       {
         "id": "sport",
         "label": "SPORT",
-        "description": "Modo Sport: confira os ajustes disponíveis e as orientações do manual."
+        "description": "Oferece respostas mais rápidas do acelerador para uma pilotagem mais dinâmica, com calibração própria do motor e do ABS."
       }
     ],
     "gallery": [
@@ -564,7 +625,7 @@
         "asset": "refresh-dominar-ns400z-feature2",
         "alt": "Piloto equipado conduzindo a Dominar NS400Z em uma pista, vista em três quartos dianteiros.",
         "title": "Quatro modos de pilotagem",
-        "text": "O acelerador eletrônico trabalha com os quatro modos Sport, Rain, Road e Off-Road. Consulte o manual para escolher o modo adequado às condições da pilotagem.",
+        "text": "Escolha um modo para conhecer sua aplicação. A seleção e os procedimentos de uso devem seguir o manual da sua versão.",
         "modes": true
       },
       {
@@ -586,6 +647,13 @@
         "text": "Conjunto com câmbio de seis velocidades e embreagem assistida e deslizante, conforme a ficha técnica do modelo."
       }
     ],
-    "videoTitle": "Dominar NS400Z"
+    "videoTitle": "Dominar NS400Z",
+    "heroBounds": {
+      "x": 150,
+      "y": 52,
+      "width": 512,
+      "height": 487
+    },
+    "modesSource": "https://bajaj.com.br/wp-content/uploads/2026/03/MANUAL-DO-PROPRIETARIO-DOMINAR-NS400Z-2.pdf"
   }
 }

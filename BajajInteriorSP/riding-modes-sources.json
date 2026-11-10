@@ -1,0 +1,154 @@
+{
+  "checked_on": "2026-11-09",
+  "modes": {
+    "dominar-ns160": [
+      {
+        "id": "rain",
+        "label": "RAIN",
+        "description": "Ajusta a calibração do ABS para chuva e pisos de menor aderência."
+      },
+      {
+        "id": "road",
+        "label": "ROAD",
+        "description": "Calibração do ABS para o uso diário em ruas, avenidas e rodovias pavimentadas."
+      },
+      {
+        "id": "off-road",
+        "label": "OFF-ROAD",
+        "description": "Adapta a atuação do ABS para trechos de terra e outras vias não pavimentadas."
+      }
+    ],
+    "dominar-ns200": [
+      {
+        "id": "rain",
+        "label": "RAIN",
+        "description": "Ajusta a calibração do ABS para chuva e pisos de menor aderência."
+      },
+      {
+        "id": "road",
+        "label": "ROAD",
+        "description": "Calibração do ABS para o uso diário em ruas, avenidas e rodovias pavimentadas."
+      },
+      {
+        "id": "off-road",
+        "label": "OFF-ROAD",
+        "description": "Adapta a atuação do ABS para trechos de terra e outras vias não pavimentadas."
+      }
+    ],
+    "dominar-250": [
+      {
+        "id": "rain",
+        "label": "RAIN",
+        "description": "Calibração do ABS para pisos molhados ou de baixa aderência, com atuação mais suave do sistema durante as frenagens."
+      },
+      {
+        "id": "road",
+        "label": "ROAD",
+        "description": "Modo recomendado para o dia a dia em vias urbanas e rodovias, com frenagem equilibrada em piso seco e estável."
+      },
+      {
+        "id": "off-road",
+        "label": "OFF-ROAD",
+        "description": "Configuração do ABS para estradas de terra e trechos irregulares, adaptando a frenagem às superfícies não pavimentadas."
+      }
+    ],
+    "dominar-ns400z": [
+      {
+        "id": "rain",
+        "label": "RAIN",
+        "description": "Suaviza a resposta do acelerador e limita a entrega de potência para pisos molhados ou escorregadios. O ABS também recebe uma calibração específica para essas condições."
+      },
+      {
+        "id": "road",
+        "label": "ROAD",
+        "description": "Entrega potência de forma equilibrada, com resposta progressiva do acelerador e atuação do ABS para o uso cotidiano em vias pavimentadas."
+      },
+      {
+        "id": "off-road",
+        "label": "OFF-ROAD",
+        "description": "Ajusta a entrega de potência e a atuação do ABS para terrenos irregulares e superfícies não pavimentadas."
+      },
+      {
+        "id": "sport",
+        "label": "SPORT",
+        "description": "Oferece respostas mais rápidas do acelerador para uma pilotagem mais dinâmica, com calibração própria do motor e do ABS."
+      }
+    ],
+    "dominar-400": [
+      {
+        "id": "rain",
+        "label": "RAIN",
+        "description": "Suaviza a resposta do acelerador e limita a entrega de potência para pisos molhados ou escorregadios. O ABS também recebe uma calibração específica para essas condições."
+      },
+      {
+        "id": "road",
+        "label": "ROAD",
+        "description": "Entrega potência de forma equilibrada, com resposta progressiva do acelerador e atuação do ABS para o uso cotidiano em vias pavimentadas."
+      },
+      {
+        "id": "off-road",
+        "label": "OFF-ROAD",
+        "description": "Ajusta a entrega de potência e a atuação do ABS para terrenos irregulares e superfícies não pavimentadas."
+      },
+      {
+        "id": "sport",
+        "label": "SPORT",
+        "description": "Oferece respostas mais rápidas do acelerador para uma pilotagem mais dinâmica, com calibração própria do motor e do ABS."
+      }
+    ]
+  },
+  "sources": {
+    "dominar-ns160": {
+      "url": "https://bajaj.com.br/wp-content/uploads/2026/03/manual_ns160_2026_v3.pdf",
+      "pdf_pages": [
+        17
+      ],
+      "notes": "Manual confirma modos ABS e EMS e calibração ABS específica. Texto por modo limita-se a aplicação de uso/calibração, sem atribuir acelerador eletrônico.",
+      "sha256": "2e4d7824bb0270d4d73645e4dfc3efeeca61176d4714be0b3c51a1e105d6c027"
+    },
+    "dominar-ns200": {
+      "url": "https://bajaj.com.br/wp-content/uploads/2026/03/manual_ns200_2026_v3.pdf",
+      "pdf_pages": [
+        17
+      ],
+      "notes": "Manual confirma modos ABS e EMS e calibração ABS específica. Nomes/cenários confirmados pela página oficial de modos.",
+      "sha256": "40631d2091f9491e8b530d4573117a838eea8a47673158ac9c2b4f17d9230754"
+    },
+    "dominar-250": {
+      "url": "https://bajaj.com.br/wp-content/uploads/2026/10/manual_nova_dominar_250.pdf",
+      "pdf_pages": [
+        18,
+        19,
+        20
+      ],
+      "notes": "Manual da Nova D250 descreve modos como calibração de ABS. Não atribuir ride-by-wire nem potência reduzida em Rain com base em textos de NS400Z.",
+      "sha256": "352d9cef70ca88bc8bf111b7eb1197da423cf68c05aa6bf0cad5ea8d2c98f037"
+    },
+    "dominar-ns400z": {
+      "url": "https://bajaj.com.br/wp-content/uploads/2026/03/MANUAL-DO-PROPRIETARIO-DOMINAR-NS400Z-2.pdf",
+      "pdf_pages": [
+        17,
+        18,
+        19
+      ],
+      "notes": "Manual confirma motor/ABS, limitação de potência em Rain, resposta mais rápida em Sport. MTC pode ser desativado pelo condutor em Sport/Off-Road; modo não implica desativação automática.",
+      "sha256": "c43bce4859cbf911ad74eda9f05de0bbd4198358e0bb6ed449657030fa64bf23"
+    },
+    "dominar-400": {
+      "url": "https://bajaj.com.br/wp-content/uploads/2026/10/manual_nova_dominar_400.pdf",
+      "pdf_pages": [
+        23,
+        24,
+        25
+      ],
+      "notes": "Manual da NOVA D400 ligado à versão 2026/2027 na página pos-vendas atual. Não usar manual_400_2026_v2.pdf para explicar modos da nova versão.",
+      "sha256": "46d7f38aa507905133df376aaf55b807e2e713e5b63d07df3cffa1a2b424a34a"
+    }
+  },
+  "limitations": [
+    "Descrições curtas resumem funcionalidades e não substituem os procedimentos de seleção do manual.",
+    "Não afirmar que Off-Road desativa o ABS.",
+    "NS160/NS200 e D250 não receberam atribuição de acelerador eletrônico.",
+    "D400 2026/27 deve apontar para manual_nova_dominar_400.pdf."
+  ]
+}

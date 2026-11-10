@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {initJourney, workshopLabel} from '../dist/journey.mjs';
+import {initJourney, workshopLabel} from '../public/journey.mjs';
 
 // Minimal DOM/clock doubles test behavior only; they do not certify browser rendering.
 function fixture(reducedMotion = false) {
@@ -113,7 +113,7 @@ test('foco pausa e movimento reduzido começa sem percurso automático',()=>{
   const f=fixture(true);f.visible(true);f.tick(20000);assert.equal(f.root.dataset.paused,'true');assert.equal(f.root.dataset.motionActive,'false');
   const g=fixture();g.visible(true);g.cities[0].dispatch('focusin');g.tick(10000);assert.equal(g.root.dataset.paused,'true');
 });
-test('a home mantém os quatro placeholders e usa três imagens ilustrativas locais',()=>{
+test('o componente legado preserva seus quatro placeholders e três imagens locais, sem estar ativo na Home',()=>{
   const html=readFileSync(new URL('../sections/journey.html',import.meta.url),'utf8');
   assert.deepEqual([...html.matchAll(/data-journey-placeholder href="([^"]+)"/g)].map(x=>x[1]),['#contato','#test-ride','#oficina','#garantia']);
   assert.equal(/<video|https?:|@import/.test(html),false);

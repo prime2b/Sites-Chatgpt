@@ -7,22 +7,22 @@
     {
       "id": "rain",
       "label": "RAIN",
-      "description": "Pensado para piso molhado e baixa aderência."
+      "description": "Suaviza a resposta do acelerador e limita a entrega de potência para pisos molhados ou escorregadios. O ABS também recebe uma calibração específica para essas condições."
     },
     {
       "id": "road",
       "label": "ROAD",
-      "description": "Para o dia a dia e as viagens no asfalto."
+      "description": "Entrega potência de forma equilibrada, com resposta progressiva do acelerador e atuação do ABS para o uso cotidiano em vias pavimentadas."
     },
     {
       "id": "off-road",
       "label": "OFF-ROAD",
-      "description": "Para terra, cascalho e estradas sem asfalto."
+      "description": "Ajusta a entrega de potência e a atuação do ABS para terrenos irregulares e superfícies não pavimentadas."
     },
     {
       "id": "sport",
       "label": "SPORT",
-      "description": "Para uma pilotagem com resposta mais esportiva."
+      "description": "Oferece respostas mais rápidas do acelerador para uma pilotagem mais dinâmica, com calibração própria do motor e do ABS."
     }
   ],
   "gallery": [
@@ -74,7 +74,7 @@
       "asset": "panel",
       "alt": "Painel digital com Bluetooth da Dominar 400",
       "title": "Painel digital",
-      "text": "Painel digital com Bluetooth, entrada USB e quatro modos de pilotagem. Escolha um modo:",
+      "text": "Escolha um modo para conhecer sua aplicação. A seleção e os procedimentos de uso devem seguir o manual da sua versão.",
       "modes": true
     },
     {
@@ -104,5 +104,15 @@
     ],
     "asset": "left",
     "alt": "Dominar 400 Savanna Green, vista completa do lado esquerdo em três quartos"
-  }
+  },
+  "heroAsset": "dominar-400-hero-front",
+  "heroAlt": "Dominar 400 Charcoal Black — vista oficial em três quartos, com a frente para a direita",
+  "heroBounds": {
+    "x": 43,
+    "y": 32,
+    "width": 846,
+    "height": 649
+  },
+  "caption": "Imagem oficial ilustrativa. Consulte cores, configuração e estoque.",
+  "modesSource": "https://bajaj.com.br/wp-content/uploads/2026/10/manual_nova_dominar_400.pdf"
 }

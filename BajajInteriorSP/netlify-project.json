@@ -5,6 +5,8 @@
   "team_slug": "marketing-wkwnzoq",
   "dashboard_url": "https://app.netlify.com/projects/bajaj-interiorsp",
   "source_project_id": "appgprj_6ad67040eb088191b88af56fde941118",
-  "publish_directory": "dist",
-  "deployment_method": "Netlify CLI, publicação manual do código existente"
+  "publish_directory": "public",
+  "deployment_method": "Netlify CLI, arquivos estáticos e Edge Function",
+  "backend_origin": "https://bajaj-interiorsp.fredborrasca.chatgpt.site",
+  "backend_mode": "Gateway assinado; D1, R2 e autenticação existentes compartilhados"
 }

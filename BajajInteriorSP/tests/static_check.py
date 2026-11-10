@@ -2,12 +2,13 @@ from pathlib import Path
 from urllib.parse import urlparse
 from html.parser import HTMLParser
 import json,re
-ROOT=Path(__file__).resolve().parents[1]/'dist'
+ROOT=Path(__file__).resolve().parents[1]/'public'
 class Doc(HTMLParser):
  def __init__(self,s):super().__init__();self.tags=[];self.ids=[];self.feed(s)
  def handle_starttag(self,t,a):
   a=dict(a);self.tags.append((t,a))
   if 'id'in a:self.ids.append(a['id'])
+DYNAMIC_ROUTES={'/blog/','/ofertas/','/seminovas/'}
 files=list(ROOT.rglob('*.html'));docs={str(p.relative_to(ROOT).parent).replace('.',''):Doc(p.read_text()) for p in files};issues=[]
 for p in files:
  s=p.read_text();d=Doc(s);assert len(d.ids)==len(set(d.ids)),str(p)+' duplicate IDs'
@@ -21,10 +22,9 @@ for p in files:
    u=urlparse(v)
    if u.scheme or u.netloc:continue
    if not u.path and u.fragment:
-    # Four explicitly requested, temporary journey destinations; nowhere else.
-    placeholder=('data-journey-placeholder' in a and p==ROOT/'index.html' and v in {'#contato','#test-ride','#oficina','#garantia'})
-    assert u.fragment in d.ids or placeholder,(p,v)
+    assert u.fragment in d.ids,(p,v)
     continue
+   if u.path in DYNAMIC_ROUTES:continue
    target=ROOT/u.path.lstrip('/')
    if target.is_dir():target=target/'index.html'
    assert target.is_file(),(p,v)
@@ -38,7 +38,7 @@ for p in files:
   if tag=='a' and a.get('target')=='_blank':assert 'noopener'in a.get('rel',''),a
  # Structured data is parseable and prices centralized.
  for j in re.findall(r'<script type="application/ld\+json">(.*?)</script>',s):json.loads(j)
-print(f'OK: {len(files)} páginas, arquivos, âncoras, dimensões/alt, rótulos, SEO e destinos internos (exceto os 4 placeholders solicitados da jornada).')
+print(f'OK: {len(files)} páginas, arquivos, âncoras, dimensões/alt, rótulos, SEO e destinos internos, sem placeholders.')
 # Verify brand and complete product image boxes, not a crop of the motorcycles.
 from PIL import Image
 for f in ROOT.joinpath('assets').glob('*.webp'):

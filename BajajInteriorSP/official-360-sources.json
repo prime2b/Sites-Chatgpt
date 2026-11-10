@@ -1,0 +1,2719 @@
+{
+  "reviewedAt": "2026-10-30",
+  "notes": [
+    "Manual import requested by Fred. No automatic synchronization or third-party scripts.",
+    "International 360 source variants NS160 DC USD and NS200 DC USD selected instead of the SC variant.",
+    "N125 is a reference only, not a motorcycle added to the Brazilian catalogue.",
+    "N150 Racing Red and D250 Racing Red are omitted because no reviewed matching sequence is present.",
+    "Aurora Green (India) is not renamed to Savanna Green (Brazil); D400 uses Charcoal Black.",
+    "Specifications and prices remain in data.json; these assets do not replace the Brazilian technical data."
+  ],
+  "models": {
+    "pulsar-n150": {
+      "name": "Pulsar N150",
+      "page": "https://www.bajajauto.com/discontinued-bikes/pulsar/pulsar-n150",
+      "brazilReference": "https://bajaj.com.br/pulsar-n150/",
+      "colors": [
+        {
+          "id": "white",
+          "label": "Pearl Metallic White",
+          "swatch": "#eeeeec",
+          "source": "https://cdn.bajajauto.com/-/media/assets/bajajauto/360degreeimages/bikes/pulsar/pulsar-n150/360images/n150-webp/white",
+          "count": 16
+        },
+        {
+          "id": "black",
+          "label": "Ebony Black",
+          "swatch": "#191a1c",
+          "source": "https://cdn.bajajauto.com/-/media/assets/bajajauto/360degreeimages/bikes/pulsar/pulsar-n150/360images/n150-webp/black",
+          "count": 16
+        }
+      ]
+    },
+    "dominar-ns160": {
+      "name": "Dominar NS160",
+      "page": "https://www.bajajauto.com/bikes/pulsar/pulsar-ns160",
+      "brazilReference": "https://bajaj.com.br/dominar-ns-160/",
+      "colors": [
+        {
+          "id": "black",
+          "label": "Ebony Black",
+          "swatch": "#191a1c",
+          "source": "https://cdn.bajajauto.com/-/media/assets/bajajauto/360degreeimages/bikes/pulsar/pulsar-ns-160/new-black/ns-160-black-webp",
+          "count": 16
+        },
+        {
+          "id": "white",
+          "label": "Pearl Metallic White",
+          "swatch": "#eeeeec",
+          "source": "https://cdn.bajajauto.com/-/media/assets/bajajauto/360degreeimages/bikes/pulsar/pulsar-ns-160/new-white-red-webp/ns160-webp/ns160-webp/ns160-w",
+          "count": 16
+        },
+        {
+          "id": "red",
+          "label": "Cocktail Wine Red",
+          "swatch": "#a8222b",
+          "source": "https://cdn.bajajauto.com/-/media/assets/bajajauto/360degreeimages/bikes/pulsar/pulsar-ns-160/new-white-red-webp/ns160-webp/ns160-webp/ns160-r",
+          "count": 16
+        },
+        {
+          "id": "grey",
+          "label": "Pewter Grey",
+          "swatch": "#7f8386",
+          "source": "https://cdn.bajajauto.com/-/media/assets/bajajauto/360degreeimages/bikes/pulsar/pulsar-ns-160/new-black/ns-160-grey-webp",
+          "count": 16
+        }
+      ]
+    },
+    "dominar-ns200": {
+      "name": "Dominar NS200",
+      "page": "https://www.bajajauto.com/bikes/pulsar/pulsar-ns200",
+      "brazilReference": "https://bajaj.com.br/dominar-ns-200/",
+      "colors": [
+        {
+          "id": "black",
+          "label": "Ebony Black",
+          "swatch": "#191a1c",
+          "source": "https://cdn.bajajauto.com/-/media/assets/bajajauto/bikes/pulsarns200/newns200-360-degree/black",
+          "count": 16
+        },
+        {
+          "id": "white",
+          "label": "Pearl Metallic White",
+          "swatch": "#eeeeec",
+          "source": "https://cdn.bajajauto.com/-/media/assets/bajajauto/bikes/pulsarns200/newns200-360-degree/white",
+          "count": 16
+        },
+        {
+          "id": "red",
+          "label": "Cocktail Wine Red",
+          "swatch": "#a8222b",
+          "source": "https://cdn.bajajauto.com/-/media/assets/bajajauto/bikes/pulsarns200/newns200-360-degree/red/ns200-360-webp",
+          "count": 16
+        },
+        {
+          "id": "grey",
+          "label": "Pewter Grey",
+          "swatch": "#7f8386",
+          "source": "https://cdn.bajajauto.com/-/media/assets/bajajauto/bikes/pulsarns200/newns200-360-degree/grey/grey-360",
+          "count": 16
+        }
+      ]
+    },
+    "dominar-250": {
+      "name": "Dominar 250",
+      "page": "https://www.bajajauto.com/bikes/dominar/dominar-250",
+      "brazilReference": "https://bajaj.com.br/dominar-250/",
+      "colors": [
+        {
+          "id": "black",
+          "label": "Sparkling Black",
+          "swatch": "#1e2022",
+          "source": "https://cdn.bajajauto.com/-/media/assets/bajajauto/bikes/dominar-250/16-axis/250-black",
+          "count": 16
+        }
+      ]
+    },
+    "dominar-400": {
+      "name": "Dominar 400",
+      "page": "https://www.bajajauto.com/bikes/dominar/dominar-400",
+      "brazilReference": "https://bajaj.com.br/dominar-400/",
+      "colors": [
+        {
+          "id": "black",
+          "label": "Charcoal Black",
+          "swatch": "#34373a",
+          "source": "https://cdn.bajajauto.com/-/media/assets/bajajauto/bikes/dominar-400/16-axis/400-matte",
+          "count": 16
+        }
+      ]
+    },
+    "dominar-ns400z": {
+      "name": "Dominar NS400Z",
+      "page": "https://www.bajajauto.com/bikes/pulsar/pulsar-ns400z",
+      "brazilReference": "https://bajaj.com.br/dominar-ns400z/",
+      "colors": [
+        {
+          "id": "black",
+          "label": "Brooklyn Black",
+          "swatch": "#181a1e",
+          "source": "https://cdn.bajajauto.com/-/media/assets/bajajauto/bikes/pulsar-2025-ns400z/360-degree---new/black",
+          "count": 15
+        },
+        {
+          "id": "white",
+          "label": "Pearl Metallic White",
+          "swatch": "#eeeeec",
+          "source": "https://cdn.bajajauto.com/-/media/assets/bajajauto/bikes/pulsar-2025-ns400z/360-degree---new/white",
+          "count": 16
+        },
+        {
+          "id": "red",
+          "label": "Glossy Racing Red",
+          "swatch": "#b32128",
+          "source": "https://cdn.bajajauto.com/-/media/assets/bajajauto/bikes/pulsar-2025-ns400z/360-degree---new/red",
+          "count": 16
+        },
+        {
+          "id": "grey",
+          "label": "Pewter Grey",
+          "swatch": "#7f8386",
+          "source": "https://cdn.bajajauto.com/-/media/assets/bajajauto/bikes/pulsar-2025-ns400z/360-degree---new/grey",
+          "count": 16
+        }
+      ]
+    }
+  },
+  "frames": [
+    {
+      "model": "pulsar-n150",
+      "color": "white",
+      "index": 0,
+      "src": "/assets/spin/pulsar-n150/white/00.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "7e11dcc80ea5f209cd26fea330cf33f30345e66546e58a273d93d7a01602b946",
+      "bytes": 83514
+    },
+    {
+      "model": "pulsar-n150",
+      "color": "white",
+      "index": 1,
+      "src": "/assets/spin/pulsar-n150/white/01.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "524a0017cdee7b5d789bdb5a138aac1baa490cf66481530e50ff74399f37460b",
+      "bytes": 83140
+    },
+    {
+      "model": "pulsar-n150",
+      "color": "white",
+      "index": 2,
+      "src": "/assets/spin/pulsar-n150/white/02.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "d26ff39c8edf448f37bd1ac3981f6bd03143639f1de11b12808308c0aaaaa706",
+      "bytes": 78674
+    },
+    {
+      "model": "pulsar-n150",
+      "color": "white",
+      "index": 3,
+      "src": "/assets/spin/pulsar-n150/white/03.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "c4fb0baf2cd6b9abb68da27a35242d1ab053694e47c046e5142e0c51acabfe89",
+      "bytes": 57536
+    },
+    {
+      "model": "pulsar-n150",
+      "color": "white",
+      "index": 4,
+      "src": "/assets/spin/pulsar-n150/white/04.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "ecb08fb1f990678e34eb45665161afc1381bc1cc70758493ce8bc8fb46d84730",
+      "bytes": 38942
+    },
+    {
+      "model": "pulsar-n150",
+      "color": "white",
+      "index": 5,
+      "src": "/assets/spin/pulsar-n150/white/05.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "3e24f47d34621bc760ed2782f70055ad4f6f1287e83a7907d0526f9df45aae4f",
+      "bytes": 54614
+    },
+    {
+      "model": "pulsar-n150",
+      "color": "white",
+      "index": 6,
+      "src": "/assets/spin/pulsar-n150/white/06.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "78b57f570b4b9724950a31c1ac81d602ecae463bd07a63de1b9cdf3fae2354d3",
+      "bytes": 73228
+    },
+    {
+      "model": "pulsar-n150",
+      "color": "white",
+      "index": 7,
+      "src": "/assets/spin/pulsar-n150/white/07.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "3d09a63ed97fe5171ce3adf630679e2eed5f1fdbb368191c8d044b63c92939e3",
+      "bytes": 84718
+    },
+    {
+      "model": "pulsar-n150",
+      "color": "white",
+      "index": 8,
+      "src": "/assets/spin/pulsar-n150/white/08.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "1146c4f9fbd7f77f75c3a7a8ab0c412f78ba8cd6c21663f458ead20cabde295b",
+      "bytes": 81308
+    },
+    {
+      "model": "pulsar-n150",
+      "color": "white",
+      "index": 9,
+      "src": "/assets/spin/pulsar-n150/white/09.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "42397372550ca7fe0a5fc497c0b0903bd0e740e224af725da0a1157fe5f7d406",
+      "bytes": 80366
+    },
+    {
+      "model": "pulsar-n150",
+      "color": "white",
+      "index": 10,
+      "src": "/assets/spin/pulsar-n150/white/10.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "9c3c4a0078f8fc487486cad8fc3bdd3c34537970e61f42aef3074a0dbd09ea94",
+      "bytes": 70880
+    },
+    {
+      "model": "pulsar-n150",
+      "color": "white",
+      "index": 11,
+      "src": "/assets/spin/pulsar-n150/white/11.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "66b1aac6382adadaccb544ebefc17b207f842d4fbf8947987d369cf849830385",
+      "bytes": 50876
+    },
+    {
+      "model": "pulsar-n150",
+      "color": "white",
+      "index": 12,
+      "src": "/assets/spin/pulsar-n150/white/12.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "ede4ee9b5cde95cdf06ba1f075e537db69050e08d73d9aa42377feb498d52b00",
+      "bytes": 32814
+    },
+    {
+      "model": "pulsar-n150",
+      "color": "white",
+      "index": 13,
+      "src": "/assets/spin/pulsar-n150/white/13.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "6711f92def5305ea9ffdcdf985d9816a5202d94887d0cf6dd93a18512614b671",
+      "bytes": 49712
+    },
+    {
+      "model": "pulsar-n150",
+      "color": "white",
+      "index": 14,
+      "src": "/assets/spin/pulsar-n150/white/14.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "13b5bbe7233e9f026901c6758d15a4304ccb1cad1860f23f33cd3cb539d2ada2",
+      "bytes": 72122
+    },
+    {
+      "model": "pulsar-n150",
+      "color": "white",
+      "index": 15,
+      "src": "/assets/spin/pulsar-n150/white/15.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "8296bc147c8700e3ec4a727bde2336ac675f793b8f2a24469b79ab86163e2a13",
+      "bytes": 79176
+    },
+    {
+      "model": "pulsar-n150",
+      "color": "black",
+      "index": 0,
+      "src": "/assets/spin/pulsar-n150/black/00.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "3421e753a8042b45c97979c0aabaa8d358a44ca53a5347f2f17c6eb4db5cf3d9",
+      "bytes": 82808
+    },
+    {
+      "model": "pulsar-n150",
+      "color": "black",
+      "index": 1,
+      "src": "/assets/spin/pulsar-n150/black/01.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "137c9e87d3e9dfe1cc6ec6a21d1356b2e10583281bc286dd5280f8f234289ecc",
+      "bytes": 81518
+    },
+    {
+      "model": "pulsar-n150",
+      "color": "black",
+      "index": 2,
+      "src": "/assets/spin/pulsar-n150/black/02.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "b8665156d3cc615dc1bdc0f4b99518ff046ab2faf1e39f7732aa653b16f4b49c",
+      "bytes": 79900
+    },
+    {
+      "model": "pulsar-n150",
+      "color": "black",
+      "index": 3,
+      "src": "/assets/spin/pulsar-n150/black/03.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "75a7417033034c1b5ebe9613649027fd04ab990a1cb43c361a23f17802e6d1da",
+      "bytes": 54018
+    },
+    {
+      "model": "pulsar-n150",
+      "color": "black",
+      "index": 4,
+      "src": "/assets/spin/pulsar-n150/black/04.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "9aea64d6ad09af81fb2fb8d40c30b50b3826a15de35f9ce03b862faaa7c7b372",
+      "bytes": 39632
+    },
+    {
+      "model": "pulsar-n150",
+      "color": "black",
+      "index": 5,
+      "src": "/assets/spin/pulsar-n150/black/05.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "7215a8b54b23160d13f6a5d4ec72b3b1913eae24fb7020d63af3eaa5558e3642",
+      "bytes": 54794
+    },
+    {
+      "model": "pulsar-n150",
+      "color": "black",
+      "index": 6,
+      "src": "/assets/spin/pulsar-n150/black/06.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "a0ce478589b09ad168efcaaf2104b3988feae18cfaa77ccfd26bb6ddf9ab941d",
+      "bytes": 75898
+    },
+    {
+      "model": "pulsar-n150",
+      "color": "black",
+      "index": 7,
+      "src": "/assets/spin/pulsar-n150/black/07.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "9fd3e40a9435559b34874387fd8417b09e675a8e3e75aab67cd61de1fea2b36a",
+      "bytes": 86350
+    },
+    {
+      "model": "pulsar-n150",
+      "color": "black",
+      "index": 8,
+      "src": "/assets/spin/pulsar-n150/black/08.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "c8aee7c2931615303a0e715522ad791a6195c3b9ee425ba695f0c50269676f0c",
+      "bytes": 87064
+    },
+    {
+      "model": "pulsar-n150",
+      "color": "black",
+      "index": 9,
+      "src": "/assets/spin/pulsar-n150/black/09.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "fa738ee2205ccda3013d9eb733e12e2694aef2ccef1bf1658494f28121eb7ab1",
+      "bytes": 80214
+    },
+    {
+      "model": "pulsar-n150",
+      "color": "black",
+      "index": 10,
+      "src": "/assets/spin/pulsar-n150/black/10.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "fb1a595f1b3621e232b54ae3ea81c4bc1b3b8fccef5bc1fa6536febd702e6c3e",
+      "bytes": 70794
+    },
+    {
+      "model": "pulsar-n150",
+      "color": "black",
+      "index": 11,
+      "src": "/assets/spin/pulsar-n150/black/11.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "e80e7d49216c71ad0330913addd81f36c82f727bc0d95da2471ef1260274bc0a",
+      "bytes": 48172
+    },
+    {
+      "model": "pulsar-n150",
+      "color": "black",
+      "index": 12,
+      "src": "/assets/spin/pulsar-n150/black/12.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "0a216a24994eddff9b409bff8b4376853617faa3fdf7657d6fd30437b6d12c85",
+      "bytes": 31638
+    },
+    {
+      "model": "pulsar-n150",
+      "color": "black",
+      "index": 13,
+      "src": "/assets/spin/pulsar-n150/black/13.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "7eea02c6d2d8ee9613d16dc1080010c4f9d59f554920f6fe085a8030e2c949a7",
+      "bytes": 49058
+    },
+    {
+      "model": "pulsar-n150",
+      "color": "black",
+      "index": 14,
+      "src": "/assets/spin/pulsar-n150/black/14.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "4cae54862cc450a194c537cd2d7acebd6fa5d18b7e83c1527aad56f4665ab650",
+      "bytes": 68160
+    },
+    {
+      "model": "pulsar-n150",
+      "color": "black",
+      "index": 15,
+      "src": "/assets/spin/pulsar-n150/black/15.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "d8e051025d080dea0c0ce57bf1dbffd096c8852284d8c8d776546726d3e45d0f",
+      "bytes": 81848
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "black",
+      "index": 0,
+      "src": "/assets/spin/dominar-ns160/black/00.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "b1a93dab706983eeddbf6e462a58ca52439d5513a0d0069ad181d1025a7c7fc7",
+      "bytes": 71310
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "black",
+      "index": 1,
+      "src": "/assets/spin/dominar-ns160/black/01.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "3ddf80371934f506280c626ac28c96212b7ece674b7377ef1a92d0f61e243337",
+      "bytes": 63024
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "black",
+      "index": 2,
+      "src": "/assets/spin/dominar-ns160/black/02.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "745fa30712f081c60a2e723f048e164e110d8c94ba96e17167bb8926352fed4b",
+      "bytes": 43034
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "black",
+      "index": 3,
+      "src": "/assets/spin/dominar-ns160/black/03.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "98f52f59151eaeb0327a769cffe8edfaf2dd14ea5a88c8ba3623cf5e2e09560e",
+      "bytes": 26064
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "black",
+      "index": 4,
+      "src": "/assets/spin/dominar-ns160/black/04.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "998422ff7ad42c0d53c0dd6d5f7673768ce1b0dddb9a71096a25730ed5a02505",
+      "bytes": 38080
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "black",
+      "index": 5,
+      "src": "/assets/spin/dominar-ns160/black/05.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "6ec2b807d394d33c4520e7b1d5b04e38aef6f3c560d7c70b6b6497390038f866",
+      "bytes": 48448
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "black",
+      "index": 6,
+      "src": "/assets/spin/dominar-ns160/black/06.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "7020772678be302138fa95ac1d8ca8419d27fa143b33314e23968f3255836876",
+      "bytes": 63428
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "black",
+      "index": 7,
+      "src": "/assets/spin/dominar-ns160/black/07.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "6dfee4279a7e1fee291c4ac4c2456f6f997b23237653b5e53976d301c843a39a",
+      "bytes": 70250
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "black",
+      "index": 8,
+      "src": "/assets/spin/dominar-ns160/black/08.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "f71d191d6c97fd7950e6bae8f7b740c643754be49d4739d1cb23fb24c292487a",
+      "bytes": 69692
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "black",
+      "index": 9,
+      "src": "/assets/spin/dominar-ns160/black/09.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "3c66e0aea73d01a9069ff18abc0b5cf60c67d8c915c1986fb38b7e30ef172740",
+      "bytes": 64660
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "black",
+      "index": 10,
+      "src": "/assets/spin/dominar-ns160/black/10.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "85f5395107ced5090f0bc8fa295d6af5b7e831e7b27d1acde994b5c7ff7ec70e",
+      "bytes": 47214
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "black",
+      "index": 11,
+      "src": "/assets/spin/dominar-ns160/black/11.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "f430b8ee1ddd2c2dee7037a0703a0eb38e86595d828c0eed8d557babd80a17b9",
+      "bytes": 33012
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "black",
+      "index": 12,
+      "src": "/assets/spin/dominar-ns160/black/12.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "e60f28e5d5c3e96604939336ae4122813f94fc6773355cc3225223808011ff83",
+      "bytes": 46182
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "black",
+      "index": 13,
+      "src": "/assets/spin/dominar-ns160/black/13.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "dfd5f205a978c3908c3a15d5fac400598d48932973d47c301f52e9b9e98b646c",
+      "bytes": 64590
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "black",
+      "index": 14,
+      "src": "/assets/spin/dominar-ns160/black/14.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "9023650e8564b4312b79aaa9e3d32e1a4456569e87232f632f342aed3ae335ff",
+      "bytes": 69498
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "black",
+      "index": 15,
+      "src": "/assets/spin/dominar-ns160/black/15.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "a6a5d516f764e6bd4f8f423886aeaa8db80b648539f67e6b8adde81a3adc504b",
+      "bytes": 70926
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "white",
+      "index": 0,
+      "src": "/assets/spin/dominar-ns160/white/00.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "f3433656f4615a6af423cbf5aec638a2984f11d752c103d1998be0604b3e94af",
+      "bytes": 108804
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "white",
+      "index": 1,
+      "src": "/assets/spin/dominar-ns160/white/01.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "60a1f4a2f369e4d761c5ae707fc50a384c84748ee61ad5e0f52a0ee01ef31bce",
+      "bytes": 97590
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "white",
+      "index": 2,
+      "src": "/assets/spin/dominar-ns160/white/02.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "54bbc29d3e354c3630e0df7eaa43acc3339298207ead9ee7143daffab6a7adac",
+      "bytes": 64952
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "white",
+      "index": 3,
+      "src": "/assets/spin/dominar-ns160/white/03.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "3b707c7dfcfd86352aead6abcbeed0716a78cf9af780d970b7bcf0805eb809a1",
+      "bytes": 41326
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "white",
+      "index": 4,
+      "src": "/assets/spin/dominar-ns160/white/04.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "1c81093d28f81191f266c3bb8cd5f2f2ca5ab2bcfe5cd34ddf7218870dbeb14b",
+      "bytes": 66328
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "white",
+      "index": 5,
+      "src": "/assets/spin/dominar-ns160/white/05.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "8aff4de31db83825378919d0846e46a36a6b5f55e8cea0746baf4370e5f3b19b",
+      "bytes": 103834
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "white",
+      "index": 6,
+      "src": "/assets/spin/dominar-ns160/white/06.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "fa3f3dddcb1e01a450e222c21bfdc33e84a726937dd431f1f747b42018e592bd",
+      "bytes": 118486
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "white",
+      "index": 7,
+      "src": "/assets/spin/dominar-ns160/white/07.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "85deb04301a58d8cf3e1a645e710d77237ffb2991bd5ce6c0ec7c00bb3cd7e2c",
+      "bytes": 107822
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "white",
+      "index": 8,
+      "src": "/assets/spin/dominar-ns160/white/08.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "1130301a5c858f7229cab4d34b10fec81270967956a8279cdd064a85664ed7ca",
+      "bytes": 104262
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "white",
+      "index": 9,
+      "src": "/assets/spin/dominar-ns160/white/09.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "71f35bf28112ed2418ae4543414c4a2abc7c70e2783a0fb97679b48f21cee30c",
+      "bytes": 97890
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "white",
+      "index": 10,
+      "src": "/assets/spin/dominar-ns160/white/10.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "94063aabe3c90396787174a8c6de9576fd5b4f94e947191517b853ba7fa4b9fa",
+      "bytes": 59224
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "white",
+      "index": 11,
+      "src": "/assets/spin/dominar-ns160/white/11.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "073042666f172b04bd4d98e25b57ded6d3a5a555d4cc2011128580d8052ab673",
+      "bytes": 40408
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "white",
+      "index": 12,
+      "src": "/assets/spin/dominar-ns160/white/12.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "5151af9704f6877670959c52ae41d620e54a992df8d65f1c8b48071e6f223628",
+      "bytes": 66684
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "white",
+      "index": 13,
+      "src": "/assets/spin/dominar-ns160/white/13.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "4267ae0da6bc4ef442336dd9c89c2201f28bdfd539a9582b3ccd19431a5bae10",
+      "bytes": 102888
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "white",
+      "index": 14,
+      "src": "/assets/spin/dominar-ns160/white/14.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "efbafaffd23c0d4f888118630b20b97977bd8e362c44ff1c93ce29938332a85b",
+      "bytes": 114988
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "white",
+      "index": 15,
+      "src": "/assets/spin/dominar-ns160/white/15.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "a70760ee6c583bf5bf24f4aaf23d20a5a1960a1b7172cb6a57b3a038667cbae5",
+      "bytes": 105468
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "red",
+      "index": 0,
+      "src": "/assets/spin/dominar-ns160/red/00.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "e5ac9e8dc7193191048fd3596d4a556b03b897eb205b7da9b2bfa75d3c90cce8",
+      "bytes": 115264
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "red",
+      "index": 1,
+      "src": "/assets/spin/dominar-ns160/red/01.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "f07c047cc5b013ef7bfafe1683114c3212fe633e83f160bc97268d0d304a98f6",
+      "bytes": 102556
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "red",
+      "index": 2,
+      "src": "/assets/spin/dominar-ns160/red/02.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "b7ef1f5c3c0a87fcdd41c936d8d29fc021ad73dabd081902de203e147f60e5ce",
+      "bytes": 70298
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "red",
+      "index": 3,
+      "src": "/assets/spin/dominar-ns160/red/03.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "d571308a33daedcaeeb9e2f6e72aaf5c895089be8412403fcaf1143cd083613d",
+      "bytes": 44844
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "red",
+      "index": 4,
+      "src": "/assets/spin/dominar-ns160/red/04.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "131b5589d2b9a4a51e25fe8419fef3e68b624b5ab12e7dd3cd2201e433375d84",
+      "bytes": 70456
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "red",
+      "index": 5,
+      "src": "/assets/spin/dominar-ns160/red/05.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "bce19926c33c99c86cbd6211971f1687def42b737241ab96d654695f4256638b",
+      "bytes": 94130
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "red",
+      "index": 6,
+      "src": "/assets/spin/dominar-ns160/red/06.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "50c8c3e38a42e49efdcd9a844a7dac9e0c004aa6c03b72801ef152797a2a6dd7",
+      "bytes": 111640
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "red",
+      "index": 7,
+      "src": "/assets/spin/dominar-ns160/red/07.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "9b965f8c319a29bb482034d2849ff7d7499521291d4f07e96e56ec4ba01638b3",
+      "bytes": 114522
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "red",
+      "index": 8,
+      "src": "/assets/spin/dominar-ns160/red/08.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "f2930d6fd51975f4dd00ae6263361815f768e389b9614b45efcbe9d9d19412ee",
+      "bytes": 110816
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "red",
+      "index": 9,
+      "src": "/assets/spin/dominar-ns160/red/09.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "3f7df11ff3cbb295b7455388d0ee423df3d65de4c2bba05e35f680266f748c2a",
+      "bytes": 100466
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "red",
+      "index": 10,
+      "src": "/assets/spin/dominar-ns160/red/10.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "362b4b81189c0eb87175f57a82aaafdc539e70409757d16ccf6be41f1a081d34",
+      "bytes": 66594
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "red",
+      "index": 11,
+      "src": "/assets/spin/dominar-ns160/red/11.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "80eb83223701afb584071852b6da3fb327e9fda30f20e48974e14ee3cd49b44a",
+      "bytes": 43012
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "red",
+      "index": 12,
+      "src": "/assets/spin/dominar-ns160/red/12.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "94c088aa7f81afe8d8be1ebb265561c49da29ac32ee0128fd13f13811a9c66ab",
+      "bytes": 67432
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "red",
+      "index": 13,
+      "src": "/assets/spin/dominar-ns160/red/13.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "0712c256ee105984137382a712a802ae8b17031a2f39e037287aca009fe2d744",
+      "bytes": 90704
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "red",
+      "index": 14,
+      "src": "/assets/spin/dominar-ns160/red/14.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "52662aff6d10aca713dbf819c141a3b39e1abd963de4104cc2b111d3a683d874",
+      "bytes": 111198
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "red",
+      "index": 15,
+      "src": "/assets/spin/dominar-ns160/red/15.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "ea76018157d9b24eadf80aa2a8f88d75193dfccb5e5fa1ebe597c682e855e0c4",
+      "bytes": 115082
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "grey",
+      "index": 0,
+      "src": "/assets/spin/dominar-ns160/grey/00.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "ef25c18556c0f35e1050b69815caa336cfc7fc81bbbae2595f62cf66d07f973c",
+      "bytes": 70280
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "grey",
+      "index": 1,
+      "src": "/assets/spin/dominar-ns160/grey/01.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "23d256c5e24c39ec1dc5b2a9ec3e62aa6f66c38af2e75120544a20b82db151ff",
+      "bytes": 57524
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "grey",
+      "index": 2,
+      "src": "/assets/spin/dominar-ns160/grey/02.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "41c34b11586c15a1b44aa31deaae061e36fc391a2eb9df376f68267ec0e64000",
+      "bytes": 44766
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "grey",
+      "index": 3,
+      "src": "/assets/spin/dominar-ns160/grey/03.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "433cd56171f8fb6763d8a39eb073b3dd43f69812fa817e5be2d2be84cc7ae589",
+      "bytes": 30836
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "grey",
+      "index": 4,
+      "src": "/assets/spin/dominar-ns160/grey/04.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "44733569293ae69d983584d711cf8c7db6074eca65f3d72c6eb0376b3737c863",
+      "bytes": 37764
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "grey",
+      "index": 5,
+      "src": "/assets/spin/dominar-ns160/grey/05.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "10c08928af644c3a4dd3f9be2acaf125e05097fc7e68e52b8094964c44aaef65",
+      "bytes": 52304
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "grey",
+      "index": 6,
+      "src": "/assets/spin/dominar-ns160/grey/06.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "dff1aa1d038eb850d4e3e0581beaa1665a05f6b41308f9aa772a9e8c5eb83853",
+      "bytes": 64328
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "grey",
+      "index": 7,
+      "src": "/assets/spin/dominar-ns160/grey/07.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "214acd7a7bc859641384eae8b78f9882dc08bb7ecff8677c6b2c998f519a5d92",
+      "bytes": 67278
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "grey",
+      "index": 8,
+      "src": "/assets/spin/dominar-ns160/grey/08.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "9600dc7e8b952b412465ee936bee75f9eaa7a2b93aa1bbf32bf302badf589df0",
+      "bytes": 69062
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "grey",
+      "index": 9,
+      "src": "/assets/spin/dominar-ns160/grey/09.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "69f546f4fa3a89def57c5853382dd2f778340070d70f547526c9ef471052dfe1",
+      "bytes": 68132
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "grey",
+      "index": 10,
+      "src": "/assets/spin/dominar-ns160/grey/10.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "42c86c02910797ff5514d695cb6f426d190b66384612a086050280d02718a81e",
+      "bytes": 45022
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "grey",
+      "index": 11,
+      "src": "/assets/spin/dominar-ns160/grey/11.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "de5651cbbbc81180bb88d28eea925b9c4941af05a586f2ee4f8e015a8a5b646b",
+      "bytes": 28442
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "grey",
+      "index": 12,
+      "src": "/assets/spin/dominar-ns160/grey/12.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "128d3a6b69df344d64c39028a62e052d3b22573f47d2cc2dd5554d6d7ce7877e",
+      "bytes": 47152
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "grey",
+      "index": 13,
+      "src": "/assets/spin/dominar-ns160/grey/13.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "11daf3736c23c4bc0c304f8dfe604a2f69be87ac348e5bb687571bebfe974a66",
+      "bytes": 62016
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "grey",
+      "index": 14,
+      "src": "/assets/spin/dominar-ns160/grey/14.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "528d8fff5676559e830680d584f74a43468680505814f3bad39ee01d143282ff",
+      "bytes": 67312
+    },
+    {
+      "model": "dominar-ns160",
+      "color": "grey",
+      "index": 15,
+      "src": "/assets/spin/dominar-ns160/grey/15.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "084a2dcebf392100a48681ee8246873d86f8b4e4e6eff0cf7b7d4e180533c71b",
+      "bytes": 71824
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "black",
+      "index": 0,
+      "src": "/assets/spin/dominar-ns200/black/00.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "0743818e702a8cbc708ee78d4f19370b5f1227ff0655a8e27f5f06f6402d375d",
+      "bytes": 80684
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "black",
+      "index": 1,
+      "src": "/assets/spin/dominar-ns200/black/01.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "84d6083affc7d97eba0ef0bb1360c80b4c7b3268eb935ef3f67690654b396988",
+      "bytes": 67118
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "black",
+      "index": 2,
+      "src": "/assets/spin/dominar-ns200/black/02.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "569da0975bb838996fe33685a46b05093d6347b3eac7873e27f11d2f0b7d2c28",
+      "bytes": 45858
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "black",
+      "index": 3,
+      "src": "/assets/spin/dominar-ns200/black/03.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "efe55e55aff674f07f41c715c7e1270bbe4e073dbad7ad7e5cb41854aa2c37c0",
+      "bytes": 33344
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "black",
+      "index": 4,
+      "src": "/assets/spin/dominar-ns200/black/04.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "6f002d140e17ebc96f13bc9e19745b6e38f6aad872b80b90348f0d1e5ed74285",
+      "bytes": 43556
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "black",
+      "index": 5,
+      "src": "/assets/spin/dominar-ns200/black/05.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "1420e6de489b2dbd9ec1f09a760baefd3b87c15d7331593ed783e104421c54c8",
+      "bytes": 61728
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "black",
+      "index": 6,
+      "src": "/assets/spin/dominar-ns200/black/06.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "16d4a06e9bbc5a573eeebb44f9657bf2c88788bf3d03c52602d95f8dd6ebad9c",
+      "bytes": 60348
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "black",
+      "index": 7,
+      "src": "/assets/spin/dominar-ns200/black/07.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "c46fe62aeac74163491db81ae24aeca20c422713f8e6024db6eb3a2f3c6a2225",
+      "bytes": 83366
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "black",
+      "index": 8,
+      "src": "/assets/spin/dominar-ns200/black/08.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "2987192487934eba594d3402e8c3bb355c72113429c9591eab9a0bfaed148851",
+      "bytes": 78360
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "black",
+      "index": 9,
+      "src": "/assets/spin/dominar-ns200/black/09.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "85fa0792bb319e6170463cef12a304e75b2414ff6852b76466cf2e9d069a1c76",
+      "bytes": 70204
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "black",
+      "index": 10,
+      "src": "/assets/spin/dominar-ns200/black/10.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "9b75fc7f7dd2ef56083d1842ac45dd9015e1312ead843dee3d855865884f8de2",
+      "bytes": 44616
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "black",
+      "index": 11,
+      "src": "/assets/spin/dominar-ns200/black/11.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "6bda4f0eb2bef9f05330ee25c4df2559958c03ac48299a2afcb7c4ae95c54089",
+      "bytes": 31400
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "black",
+      "index": 12,
+      "src": "/assets/spin/dominar-ns200/black/12.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "1fe6ac54a2e4f7939e48016654598e80932b7718cb7da20ada3087c75458350f",
+      "bytes": 42678
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "black",
+      "index": 13,
+      "src": "/assets/spin/dominar-ns200/black/13.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "240ed0e0fabc16352dd4f8d3a21040c81f504f11539e621c9f3ea6909ebad405",
+      "bytes": 61650
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "black",
+      "index": 14,
+      "src": "/assets/spin/dominar-ns200/black/14.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "e8177640ed32a6c4aa7944434017d4f0c377220d921de567893a1ac5b5987e66",
+      "bytes": 79802
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "black",
+      "index": 15,
+      "src": "/assets/spin/dominar-ns200/black/15.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "7a8ac92f0617f10ed0295eb2e7d14c5952d59e667982c4601858552bbe616ae0",
+      "bytes": 82964
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "white",
+      "index": 0,
+      "src": "/assets/spin/dominar-ns200/white/00.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "9bfa7f4469e6f7eca68e2b0a4b6f8f388cf6a5d277e0662acf927c00d43edf39",
+      "bytes": 107858
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "white",
+      "index": 1,
+      "src": "/assets/spin/dominar-ns200/white/01.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "4560e80eef8f1440b30d93b10204168f24218f9bb41455aa12491112e7bb2769",
+      "bytes": 112568
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "white",
+      "index": 2,
+      "src": "/assets/spin/dominar-ns200/white/02.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "3908fa591bc9b12835d67f27383ba236232d1a43d7152762a9dd5111869804d9",
+      "bytes": 95338
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "white",
+      "index": 3,
+      "src": "/assets/spin/dominar-ns200/white/03.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "705589d50ce7ac1bf19393acf073dc98d0b82ba41f713a508bc4a34d36bad981",
+      "bytes": 66106
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "white",
+      "index": 4,
+      "src": "/assets/spin/dominar-ns200/white/04.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "d47cf084c35583bdf7d5b77e8bc65c1e356165f2b02d3e3193240ce11f64f959",
+      "bytes": 41946
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "white",
+      "index": 5,
+      "src": "/assets/spin/dominar-ns200/white/05.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "86336ec069a32ed1930a5f93c5e4c59d9601cde2bf29dc119f41fa4eac79c5c6",
+      "bytes": 67966
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "white",
+      "index": 6,
+      "src": "/assets/spin/dominar-ns200/white/06.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "b9f9b2048e05ade3a38ed63d3d8c61c2018ff67ae8170c7d9a96829c5aff8d6b",
+      "bytes": 101266
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "white",
+      "index": 7,
+      "src": "/assets/spin/dominar-ns200/white/07.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "ee58b87289db6ac6fab2d0c4e49cde94ff6b0fed95d7bce64bd55f6957ae3f9f",
+      "bytes": 122288
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "white",
+      "index": 8,
+      "src": "/assets/spin/dominar-ns200/white/08.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "f791f84936c0e655645387ecc1367a67ede18d6c5825afc3813ab595755c6366",
+      "bytes": 104332
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "white",
+      "index": 9,
+      "src": "/assets/spin/dominar-ns200/white/09.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "823e23ecf01f4e91c288ffcb3a8d3ab707fe485fad1fed56d1faacdc56fcca06",
+      "bytes": 110016
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "white",
+      "index": 10,
+      "src": "/assets/spin/dominar-ns200/white/10.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "5b8185a251b60702813ef56400f6fe6f9e9919e9b4ec0c6d630eceb03071f965",
+      "bytes": 102362
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "white",
+      "index": 11,
+      "src": "/assets/spin/dominar-ns200/white/11.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "54055702ddbbcee5faddd8126d83ad52a1bec2c2d1add15eb96074474ddc76a0",
+      "bytes": 58384
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "white",
+      "index": 12,
+      "src": "/assets/spin/dominar-ns200/white/12.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "5863605f6d3857ba7125aa255c5bc4ad1f541a4b42560f5e0a20d693b7729753",
+      "bytes": 43374
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "white",
+      "index": 13,
+      "src": "/assets/spin/dominar-ns200/white/13.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "2691ddca72c6bf27da1749f08a4b7f68d268bf462256cccb294ed41c6c67f5b2",
+      "bytes": 70558
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "white",
+      "index": 14,
+      "src": "/assets/spin/dominar-ns200/white/14.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "8b605b2fff3a47662c4b081adb5af4dcc1c98233373efdd3aba34063591a854e",
+      "bytes": 86808
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "white",
+      "index": 15,
+      "src": "/assets/spin/dominar-ns200/white/15.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "0754d9fa29c5033c8f890197d038dd48e3e6c186d7b55769c976227fd593968b",
+      "bytes": 106672
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "red",
+      "index": 0,
+      "src": "/assets/spin/dominar-ns200/red/00.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "6d5b7c41bb97d9698488612e2a16d18eb54f773da37cee228759978e9c9e2d48",
+      "bytes": 101498
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "red",
+      "index": 1,
+      "src": "/assets/spin/dominar-ns200/red/01.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "0fb9ffecf2c6a30cfd65e1b8f52316a31f0f76182fd266074e8cfbb1002bb593",
+      "bytes": 113640
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "red",
+      "index": 2,
+      "src": "/assets/spin/dominar-ns200/red/02.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "6135c1e30e6acc84f9b6bd55bfbaf494f8272a5176025374f71f6b0514b215a0",
+      "bytes": 92160
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "red",
+      "index": 3,
+      "src": "/assets/spin/dominar-ns200/red/03.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "c1bf3cf0d3fe7c815a911dff5b9cb4127559c7009725d9e80582e5811abff866",
+      "bytes": 65360
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "red",
+      "index": 4,
+      "src": "/assets/spin/dominar-ns200/red/04.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "c07bed84e843ac46df61e3ee37fa0251053dae3ec0ad2f6f6ae0959689f0f199",
+      "bytes": 44802
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "red",
+      "index": 5,
+      "src": "/assets/spin/dominar-ns200/red/05.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "3a0b573fda63c8bf6e326bccbe05592df19eb9eeaccb5b5683a1a6e787a8dd88",
+      "bytes": 70238
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "red",
+      "index": 6,
+      "src": "/assets/spin/dominar-ns200/red/06.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "f9e648aee82cd34242377fccee19173d805bb57f33ca906b9d022d9f8f3a515b",
+      "bytes": 97810
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "red",
+      "index": 7,
+      "src": "/assets/spin/dominar-ns200/red/07.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "d3a3d2497c8f5bbbe0096bda0545feb5c263edb46298902b50eef0653b8c76af",
+      "bytes": 109770
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "red",
+      "index": 8,
+      "src": "/assets/spin/dominar-ns200/red/08.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "baeb5ac2ee3e15cd7d07062ac8710515ac1406d9b45e017e4e0e87747a1bc440",
+      "bytes": 112196
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "red",
+      "index": 9,
+      "src": "/assets/spin/dominar-ns200/red/09.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "9cb7145b89661819b1c909c69fc82721c257b791140ffc651db22c5b9b4337f1",
+      "bytes": 107132
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "red",
+      "index": 10,
+      "src": "/assets/spin/dominar-ns200/red/10.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "b893c75dfd9be1a8bab5579d8dbf645c32542ec53831e6d7bd9b03d43d85f6a9",
+      "bytes": 94452
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "red",
+      "index": 11,
+      "src": "/assets/spin/dominar-ns200/red/11.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "31121f8ce4e8d3350259ab2da5d7d25b3145225480d0e00edee3ac06bee6f0f3",
+      "bytes": 62320
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "red",
+      "index": 12,
+      "src": "/assets/spin/dominar-ns200/red/12.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "42f48c7623db1ab1ed3ee0214646be0a2319cc79722227eb696c447da6c76555",
+      "bytes": 40172
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "red",
+      "index": 13,
+      "src": "/assets/spin/dominar-ns200/red/13.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "d4339ff2f73f6a72d45f12184f473cd3552b1cd7427f3eee372c5b09f1207fce",
+      "bytes": 64794
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "red",
+      "index": 14,
+      "src": "/assets/spin/dominar-ns200/red/14.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "d7b6db265cbfc29fb4cfe21394e204489e0e249b5047f7e098fbb7e1a1be26b7",
+      "bytes": 91294
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "red",
+      "index": 15,
+      "src": "/assets/spin/dominar-ns200/red/15.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "bc23e0027bf6a02dad61a6e67d41b243fbe8b15b748d37428c06ead0ecd4b8b7",
+      "bytes": 105240
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "grey",
+      "index": 0,
+      "src": "/assets/spin/dominar-ns200/grey/00.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "351768d2f49c33c6524dfc76704427d80a242f27708fe2943f6bda7719de5404",
+      "bytes": 80016
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "grey",
+      "index": 1,
+      "src": "/assets/spin/dominar-ns200/grey/01.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "1e37259692dfd2c7f547c2082153ea652565297d02703a170e8b61a0d9fbbee7",
+      "bytes": 67820
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "grey",
+      "index": 2,
+      "src": "/assets/spin/dominar-ns200/grey/02.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "10cf75644d0cc48a2b5b849470fe15535fabc7f197924ee528b0f983e7753666",
+      "bytes": 48284
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "grey",
+      "index": 3,
+      "src": "/assets/spin/dominar-ns200/grey/03.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "259112ae7fd131c1c6089486497846969d71ba7f04c69d32aa968eabaf3e8f51",
+      "bytes": 34210
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "grey",
+      "index": 4,
+      "src": "/assets/spin/dominar-ns200/grey/04.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "b0dc97f22f509ed1561341a1fcdd9aa740769e8a5898d244a4e85fa93269b4bd",
+      "bytes": 42840
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "grey",
+      "index": 5,
+      "src": "/assets/spin/dominar-ns200/grey/05.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "2a33d8f96026641876dad5deaf3b9de3af60d81cd5257fab0f95fb7577c47eae",
+      "bytes": 62936
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "grey",
+      "index": 6,
+      "src": "/assets/spin/dominar-ns200/grey/06.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "4a4eb5a2022eecb095297a120de1ccb18f82915925497084697039e604ddf0c9",
+      "bytes": 72948
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "grey",
+      "index": 7,
+      "src": "/assets/spin/dominar-ns200/grey/07.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "1395d8c7e4e9654d39c447593a8ea1e4ed2ffe8977b80477331401b77cbbdbae",
+      "bytes": 75358
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "grey",
+      "index": 8,
+      "src": "/assets/spin/dominar-ns200/grey/08.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "5eaa6a55ba97c8c346f1f999bf1aacd1b5b5db424def4133ff5da3a30ee8ca51",
+      "bytes": 81958
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "grey",
+      "index": 9,
+      "src": "/assets/spin/dominar-ns200/grey/09.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "b9fd6d15e83d54dc376dbe3c85b4afa2cad58be1826a5a54f88b324db666a076",
+      "bytes": 81766
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "grey",
+      "index": 10,
+      "src": "/assets/spin/dominar-ns200/grey/10.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "798ab6dfc2b036e21576339d79795b1bbe2aa865a75ab2e4d10d3c0ff78e159f",
+      "bytes": 54586
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "grey",
+      "index": 11,
+      "src": "/assets/spin/dominar-ns200/grey/11.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "dbd35bff0d604d7a801ffa0087f0666f4520a70496e4fbefc395aad5473d8c17",
+      "bytes": 32864
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "grey",
+      "index": 12,
+      "src": "/assets/spin/dominar-ns200/grey/12.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "09c1ab41c643bd40c464d1c4e41bc1de80987ab76561372018668fa8a01941d3",
+      "bytes": 48536
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "grey",
+      "index": 13,
+      "src": "/assets/spin/dominar-ns200/grey/13.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "63188827b981f65f977c5673294dc9ab1ded919b8be4a642b105ef5ef19e7cc3",
+      "bytes": 64942
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "grey",
+      "index": 14,
+      "src": "/assets/spin/dominar-ns200/grey/14.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "2ed9a8009a43c8a217846f58bc66dbb56de87ba3948661e5edeb8253ca1862a9",
+      "bytes": 79144
+    },
+    {
+      "model": "dominar-ns200",
+      "color": "grey",
+      "index": 15,
+      "src": "/assets/spin/dominar-ns200/grey/15.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "f2c77e5b0124fda24b5a692882c3e4cf5d14b646cbb3a6e30d3577b8bd475e8b",
+      "bytes": 87982
+    },
+    {
+      "model": "dominar-250",
+      "color": "black",
+      "index": 0,
+      "src": "/assets/spin/dominar-250/black/00.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "2a5e54bd7999deb219da76ec8f85ab005345068785efdb8de0cbb1181074958a",
+      "bytes": 74458
+    },
+    {
+      "model": "dominar-250",
+      "color": "black",
+      "index": 1,
+      "src": "/assets/spin/dominar-250/black/01.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "e209a96d6372797d5b22de225eb8202679bd1f28fac2569d96b4e1113a523368",
+      "bytes": 77400
+    },
+    {
+      "model": "dominar-250",
+      "color": "black",
+      "index": 2,
+      "src": "/assets/spin/dominar-250/black/02.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "73acb136ab02aa3e90284f1ccca3770d39f7050a7c93a416049b5fb636d619c6",
+      "bytes": 83242
+    },
+    {
+      "model": "dominar-250",
+      "color": "black",
+      "index": 3,
+      "src": "/assets/spin/dominar-250/black/03.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "c78150fb0622755f69b45e928fc91026bc5d71d52e01fb58901b91e8835b8e0c",
+      "bytes": 56666
+    },
+    {
+      "model": "dominar-250",
+      "color": "black",
+      "index": 4,
+      "src": "/assets/spin/dominar-250/black/04.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "6f5c5f40338ba665ebf7b9420ba50b30ff7fef9e66bd4394d4c060a991e34f4f",
+      "bytes": 38488
+    },
+    {
+      "model": "dominar-250",
+      "color": "black",
+      "index": 5,
+      "src": "/assets/spin/dominar-250/black/05.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "f9dfe92f65b14fe4ea94fa1a10705987d3aab6799a6ddd96ce429b30b6771693",
+      "bytes": 53232
+    },
+    {
+      "model": "dominar-250",
+      "color": "black",
+      "index": 6,
+      "src": "/assets/spin/dominar-250/black/06.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "2cd5c240d0a43a3eeb88e9f9c84754a187acd0a7e15c6678641add1eca8b4b8e",
+      "bytes": 81060
+    },
+    {
+      "model": "dominar-250",
+      "color": "black",
+      "index": 7,
+      "src": "/assets/spin/dominar-250/black/07.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "934f980a5ef2c0249f74534c56a4edddb316a84c00fe8e59fec00f571cc7ebbe",
+      "bytes": 85964
+    },
+    {
+      "model": "dominar-250",
+      "color": "black",
+      "index": 8,
+      "src": "/assets/spin/dominar-250/black/08.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "37bc3e601d6f4345702733a836deac593c630b3dd312f36b8d153efcfa332245",
+      "bytes": 79818
+    },
+    {
+      "model": "dominar-250",
+      "color": "black",
+      "index": 9,
+      "src": "/assets/spin/dominar-250/black/09.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "3df8e02c454223ac3027c0fec98f3a9eef6862995de2b5baf99a8b54f3b49488",
+      "bytes": 89858
+    },
+    {
+      "model": "dominar-250",
+      "color": "black",
+      "index": 10,
+      "src": "/assets/spin/dominar-250/black/10.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "4d5f9a9e51133c3d5bef0224e7f0de49b89e8984d8aa1aa33837097bd3d0ff9c",
+      "bytes": 76688
+    },
+    {
+      "model": "dominar-250",
+      "color": "black",
+      "index": 11,
+      "src": "/assets/spin/dominar-250/black/11.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "cbe2bab79d11431019b8bea9a35a7709b964c15d1118b3a2ba86f3976fc1767b",
+      "bytes": 61202
+    },
+    {
+      "model": "dominar-250",
+      "color": "black",
+      "index": 12,
+      "src": "/assets/spin/dominar-250/black/12.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "fc6fd8b67ea9271f452a76aa59f952c1949d30c1bbc7ddc5990e921162a16840",
+      "bytes": 40244
+    },
+    {
+      "model": "dominar-250",
+      "color": "black",
+      "index": 13,
+      "src": "/assets/spin/dominar-250/black/13.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "aeb0b47257c96be42c73432809dc93220f7a8906f7038dea7de4fe46c923624c",
+      "bytes": 59176
+    },
+    {
+      "model": "dominar-250",
+      "color": "black",
+      "index": 14,
+      "src": "/assets/spin/dominar-250/black/14.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "9f27a8a7998c2a3869552dccdcd7dd52ffce93de183a8de7df30ff0789d828ce",
+      "bytes": 80236
+    },
+    {
+      "model": "dominar-250",
+      "color": "black",
+      "index": 15,
+      "src": "/assets/spin/dominar-250/black/15.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "a543a4df06d8b194c94779790b2db215863483837b2c3dcf9abc2a11a3efb5ac",
+      "bytes": 71350
+    },
+    {
+      "model": "dominar-400",
+      "color": "black",
+      "index": 0,
+      "src": "/assets/spin/dominar-400/black/00.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "cd28fe5946ddfe19faaf5f7ba5ce76e74c2d6b16700db0c54ad853390fad7317",
+      "bytes": 82002
+    },
+    {
+      "model": "dominar-400",
+      "color": "black",
+      "index": 1,
+      "src": "/assets/spin/dominar-400/black/01.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "5049dfe6804ae7f36aaf7a4df7a393838e3ee081e6921649b98f63bc65d2bbc2",
+      "bytes": 81590
+    },
+    {
+      "model": "dominar-400",
+      "color": "black",
+      "index": 2,
+      "src": "/assets/spin/dominar-400/black/02.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "4569990fcb1ce4065ac06882a830ec0037345113b9aac2d1eae70d9d4cc89d5e",
+      "bytes": 80486
+    },
+    {
+      "model": "dominar-400",
+      "color": "black",
+      "index": 3,
+      "src": "/assets/spin/dominar-400/black/03.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "1c916c62419ad2db4ef82e58dd9846ceeb04d2b1dd8d57d4874b2dad7439405b",
+      "bytes": 61474
+    },
+    {
+      "model": "dominar-400",
+      "color": "black",
+      "index": 4,
+      "src": "/assets/spin/dominar-400/black/04.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "6856deb6be2723e82cde6d3aeab98fd69abe62fad6763589f50ec24947045251",
+      "bytes": 36400
+    },
+    {
+      "model": "dominar-400",
+      "color": "black",
+      "index": 5,
+      "src": "/assets/spin/dominar-400/black/05.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "eadd29204e40c4efab614a8d311d20a4cfa37ee4b0bda0fb5cce2a6485d8053d",
+      "bytes": 53218
+    },
+    {
+      "model": "dominar-400",
+      "color": "black",
+      "index": 6,
+      "src": "/assets/spin/dominar-400/black/06.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "a8b8b1977309ff479a2cc02c2a431c81b2f9baec3ae2235321eeae5bb02e116f",
+      "bytes": 86198
+    },
+    {
+      "model": "dominar-400",
+      "color": "black",
+      "index": 7,
+      "src": "/assets/spin/dominar-400/black/07.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "427cc30b81b216a69202174efab8bdefebe890579d70c312d836ad1acbe8e14b",
+      "bytes": 89660
+    },
+    {
+      "model": "dominar-400",
+      "color": "black",
+      "index": 8,
+      "src": "/assets/spin/dominar-400/black/08.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "ab6a93775a2497bb6bb0861cec3e614fb918971dbd128e6235255d9d839ed4b7",
+      "bytes": 82034
+    },
+    {
+      "model": "dominar-400",
+      "color": "black",
+      "index": 9,
+      "src": "/assets/spin/dominar-400/black/09.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "f289084e0a090cece2ec2331696fcf87d927c3b07996b1b79968aac068b6fb45",
+      "bytes": 85674
+    },
+    {
+      "model": "dominar-400",
+      "color": "black",
+      "index": 10,
+      "src": "/assets/spin/dominar-400/black/10.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "730965fdba12dc4f6b21c78581cf7facebdd9f88226a32b1cb52eac1ac69acd3",
+      "bytes": 77758
+    },
+    {
+      "model": "dominar-400",
+      "color": "black",
+      "index": 11,
+      "src": "/assets/spin/dominar-400/black/11.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "fd35306c73e001d14fe16d6f4da7973280e8cd882608a3fd4609e5b7eecf926d",
+      "bytes": 64470
+    },
+    {
+      "model": "dominar-400",
+      "color": "black",
+      "index": 12,
+      "src": "/assets/spin/dominar-400/black/12.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "e6a8f48a4b3ecb8b5d0962deaeb06ca65a37b9a7fc8b623cf14a199e97aa3466",
+      "bytes": 42778
+    },
+    {
+      "model": "dominar-400",
+      "color": "black",
+      "index": 13,
+      "src": "/assets/spin/dominar-400/black/13.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "9c330a88d4d99896ae05f7fb7de5516393e9e014aa77b3547afd23a2f04ed5da",
+      "bytes": 61504
+    },
+    {
+      "model": "dominar-400",
+      "color": "black",
+      "index": 14,
+      "src": "/assets/spin/dominar-400/black/14.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "2e75f228564b6999a684e28051b52ba845a3485b7bef88124493fbb91ae5a67b",
+      "bytes": 87282
+    },
+    {
+      "model": "dominar-400",
+      "color": "black",
+      "index": 15,
+      "src": "/assets/spin/dominar-400/black/15.webp",
+      "width": 1000,
+      "height": 700,
+      "sourceSha256": "712417b3dda5d2cdd8ca31b5f0469f91eea1105645fc6fda9d8ef367788389f3",
+      "bytes": 75062
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "black",
+      "index": 0,
+      "src": "/assets/spin/dominar-ns400z/black/00.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "fbfdccf87a0c1b8007f5b5f1bfabb4d668bc993f1f3f841b78c97808aafb14ba",
+      "bytes": 31686
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "black",
+      "index": 1,
+      "src": "/assets/spin/dominar-ns400z/black/01.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "a4bc74b81a41e5664bee35c345fa16f399cdb09238e3a2c314ad705ed63091a5",
+      "bytes": 38428
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "black",
+      "index": 2,
+      "src": "/assets/spin/dominar-ns400z/black/02.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "cf051e92d4ed17d5f599c457301c1afb95cc17f6e50bb0c37b32c26453d451e4",
+      "bytes": 52684
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "black",
+      "index": 3,
+      "src": "/assets/spin/dominar-ns400z/black/03.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "8f0812a97c1adae723fdf67834816534773202ba36e80ed1f9eb8ab6f171ae6a",
+      "bytes": 69280
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "black",
+      "index": 4,
+      "src": "/assets/spin/dominar-ns400z/black/04.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "4ebb4cc6030b087ae488c300f294bf5da3d6c0b4ae24c394d4e3e0e4bd5b4424",
+      "bytes": 74114
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "black",
+      "index": 5,
+      "src": "/assets/spin/dominar-ns400z/black/05.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "8a868b0b48a9efc8f8ad2c61a1ea27581fd9e802b4bdef258fe8705fb37e3688",
+      "bytes": 68192
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "black",
+      "index": 6,
+      "src": "/assets/spin/dominar-ns400z/black/06.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "8d3a546f928741f7f07675694bd741650870463efed9303ff9ec51434ea42a56",
+      "bytes": 62754
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "black",
+      "index": 7,
+      "src": "/assets/spin/dominar-ns400z/black/07.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "d13757f42e94d35d8528a766efe093ffdf425be3cc0c5a3a50a6e3a793fe066c",
+      "bytes": 45218
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "black",
+      "index": 8,
+      "src": "/assets/spin/dominar-ns400z/black/08.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "de9ac3359ae2e102919ff1812efa798791143e344c1843151a8071709fb65866",
+      "bytes": 32430
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "black",
+      "index": 9,
+      "src": "/assets/spin/dominar-ns400z/black/09.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "d00c6bb2d0a03f7b9dd22ab4839ade6fce6906c7adaacb668c18ad5f5205bd28",
+      "bytes": 42536
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "black",
+      "index": 10,
+      "src": "/assets/spin/dominar-ns400z/black/10.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "013cc8ad1053e77ccc280b2c59d303c08c5bbee1a2cc0f4f086bb5d703ac3bbb",
+      "bytes": 60624
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "black",
+      "index": 11,
+      "src": "/assets/spin/dominar-ns400z/black/11.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "64ee4a977edcb6ad6606a53871b2453c327c259ae61fc1299d3c2cb39232ca14",
+      "bytes": 67056
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "black",
+      "index": 12,
+      "src": "/assets/spin/dominar-ns400z/black/12.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "07180d5694886e8268e3c4709fbdfe8cea65a83669aed802e236298cacc65457",
+      "bytes": 80098
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "black",
+      "index": 13,
+      "src": "/assets/spin/dominar-ns400z/black/13.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "7967671d57ca96de11bc1ed641824e7b285aff76a6ef44a8cbceef226d7cf62c",
+      "bytes": 78120
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "black",
+      "index": 14,
+      "src": "/assets/spin/dominar-ns400z/black/14.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "f2b6197881f02aa97c43850c2c53d778fb902ec155686d148e55617555bdb08c",
+      "bytes": 62488
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "white",
+      "index": 0,
+      "src": "/assets/spin/dominar-ns400z/white/00.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "27eea13b7b4a331db78fdc3785119ac7834b289a9c9062576cf577d9a209c58a",
+      "bytes": 32534
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "white",
+      "index": 1,
+      "src": "/assets/spin/dominar-ns400z/white/01.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "a51017d36b4f39052b34c0df226b2602ed46dd3c5c5c5d75f94d864805ed553a",
+      "bytes": 38830
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "white",
+      "index": 2,
+      "src": "/assets/spin/dominar-ns400z/white/02.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "2c7884c0944e563cf12c7b60bd608504d09a556730b51e31727e59790bf7f946",
+      "bytes": 53306
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "white",
+      "index": 3,
+      "src": "/assets/spin/dominar-ns400z/white/03.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "1e050b5ee0cfeda8d878f15d71a3df24b65c7636f8fb956978e36308cc7e34ff",
+      "bytes": 70242
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "white",
+      "index": 4,
+      "src": "/assets/spin/dominar-ns400z/white/04.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "d1408d2aa40b94fb48a8aad38a04119cfcd9bd326a3c0eb609b30648edb4dfa6",
+      "bytes": 74626
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "white",
+      "index": 5,
+      "src": "/assets/spin/dominar-ns400z/white/05.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "d7add3a5757b5b8de725baeb50fc70b42459dec1f0fbf6cd884c92fa1834caa4",
+      "bytes": 69198
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "white",
+      "index": 6,
+      "src": "/assets/spin/dominar-ns400z/white/06.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "d3cfbf012df487c3c8db6d85727797c4b3eafb8a7f45a1e047507723e0c0d0cd",
+      "bytes": 63598
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "white",
+      "index": 7,
+      "src": "/assets/spin/dominar-ns400z/white/07.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "91b12dcd0fdea6837379e538efbf9f1963b078aaf14128582936de75dcf5f34a",
+      "bytes": 45496
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "white",
+      "index": 8,
+      "src": "/assets/spin/dominar-ns400z/white/08.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "278bb681828c5c1a07d09be3c4cb7115244ac79ba18bf37f997b0d729d2f267c",
+      "bytes": 33136
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "white",
+      "index": 9,
+      "src": "/assets/spin/dominar-ns400z/white/09.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "3248f964f1bbd13fd63f65d712531ebda0a8b8eb409251d2ea267459096ff607",
+      "bytes": 43214
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "white",
+      "index": 10,
+      "src": "/assets/spin/dominar-ns400z/white/10.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "84792068954fd8028d898c5e12a875ee53470c4e322b1b49bd7b9ef1728bd864",
+      "bytes": 61862
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "white",
+      "index": 11,
+      "src": "/assets/spin/dominar-ns400z/white/11.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "b3cf8b57d9367c68d9297a31687b2d2021be6deb64b44860d4d7709ab720a5b0",
+      "bytes": 67902
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "white",
+      "index": 12,
+      "src": "/assets/spin/dominar-ns400z/white/12.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "78d196cd153e200bfe20acb5a70c02a214fe9123348fd29b454ba6694b4a861e",
+      "bytes": 81432
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "white",
+      "index": 13,
+      "src": "/assets/spin/dominar-ns400z/white/13.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "b70e0a4f2af5162a71b1bffbbe915a6f5c123fef4ad00b68557d3cf4392c69e0",
+      "bytes": 78920
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "white",
+      "index": 14,
+      "src": "/assets/spin/dominar-ns400z/white/14.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "96d8ad5ab29fea9410e6e4c09f8fd4031bda818307e9e648cafaf9f02e0d0be2",
+      "bytes": 63490
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "white",
+      "index": 15,
+      "src": "/assets/spin/dominar-ns400z/white/15.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "426c49a36ef0e24597f8f10bd383552ba274fdbd87b212de64b5dbec9bcbcfa0",
+      "bytes": 40954
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "red",
+      "index": 0,
+      "src": "/assets/spin/dominar-ns400z/red/00.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "237c69d9b8861f80b6ae117aa06cb59356a72cbeb59bf175b70e0aff90db78cb",
+      "bytes": 33182
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "red",
+      "index": 1,
+      "src": "/assets/spin/dominar-ns400z/red/01.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "26f6b4c5f71a2c2572f76f14f0918df462f9e316cc2c7c46347d037ead523aa6",
+      "bytes": 39490
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "red",
+      "index": 2,
+      "src": "/assets/spin/dominar-ns400z/red/02.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "93f886f4a85446348f816ed2d6faca0a2b2e2d1bd93197907e1713626913116d",
+      "bytes": 53548
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "red",
+      "index": 3,
+      "src": "/assets/spin/dominar-ns400z/red/03.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "3530fad292de1a4251ad619339887ca4c0a57007f996564e73c2dad1ead5b0c9",
+      "bytes": 70634
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "red",
+      "index": 4,
+      "src": "/assets/spin/dominar-ns400z/red/04.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "5a9b22d6a767f548d9e9b978e8cafda67cb2877addd9cab84e454c025c993912",
+      "bytes": 75276
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "red",
+      "index": 5,
+      "src": "/assets/spin/dominar-ns400z/red/05.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "94bce6054685a8473b23d2e5896f75cee6e36207357934213b5051428627f6e7",
+      "bytes": 69346
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "red",
+      "index": 6,
+      "src": "/assets/spin/dominar-ns400z/red/06.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "7fb990694958081ea9aac479d27e5db1b6ab092ebba38921425c9ecbbbe4bc2f",
+      "bytes": 63884
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "red",
+      "index": 7,
+      "src": "/assets/spin/dominar-ns400z/red/07.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "9d5deb2145a7bb31f1124e9816d3964443ec92dee0b5440794fc5e1b4055f49a",
+      "bytes": 46510
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "red",
+      "index": 8,
+      "src": "/assets/spin/dominar-ns400z/red/08.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "b2a402f47ebd7ab6653308a1bd890bf21a65d695ce23a8516b79741c5bce8952",
+      "bytes": 33656
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "red",
+      "index": 9,
+      "src": "/assets/spin/dominar-ns400z/red/09.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "d27ed7fd7d50c1ead602025a50ab98c10a99ab2c3de326799d493225cceb295d",
+      "bytes": 44600
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "red",
+      "index": 10,
+      "src": "/assets/spin/dominar-ns400z/red/10.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "5e2e38f877a012693f7465b92f1f36772a56e6cda900490ae31a1b5609bf4be0",
+      "bytes": 62826
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "red",
+      "index": 11,
+      "src": "/assets/spin/dominar-ns400z/red/11.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "fca423a9bccea21a4cb76f3d1e84fa8c51d874bdca4cd782cd9350db23115bdd",
+      "bytes": 68742
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "red",
+      "index": 12,
+      "src": "/assets/spin/dominar-ns400z/red/12.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "516de7a387bdccfb7ecbb5990172965d41b657bf3f9f3fdfffdd6201bed5104d",
+      "bytes": 82544
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "red",
+      "index": 13,
+      "src": "/assets/spin/dominar-ns400z/red/13.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "fc367c04571bed265ece9467c0f4ca3fbdaf9fd579383e95d4b3d8af84027ae4",
+      "bytes": 80642
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "red",
+      "index": 14,
+      "src": "/assets/spin/dominar-ns400z/red/14.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "db9e7e85c4acaaf35789f06e10842622c0b8ad1f3675d807e78601ffe53dbcfa",
+      "bytes": 63770
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "red",
+      "index": 15,
+      "src": "/assets/spin/dominar-ns400z/red/15.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "f4ee36196f03ffbac492c0acafa163793c5d88a2afd1f959d40359b93e727513",
+      "bytes": 41644
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "grey",
+      "index": 0,
+      "src": "/assets/spin/dominar-ns400z/grey/00.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "58265141f9628eae6f49f8a1038a4e2df121fcb0d01cfbddf61bed1aaaa5f688",
+      "bytes": 32596
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "grey",
+      "index": 1,
+      "src": "/assets/spin/dominar-ns400z/grey/01.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "fb3285d9b834da54c94e999c9bcdde3120337b60717e8b46250763ff4ae144bf",
+      "bytes": 38802
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "grey",
+      "index": 2,
+      "src": "/assets/spin/dominar-ns400z/grey/02.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "e9b92f383640545a0d35aae30e2a76567be0d4287bfebcbe6990231bc9cb8688",
+      "bytes": 52828
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "grey",
+      "index": 3,
+      "src": "/assets/spin/dominar-ns400z/grey/03.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "3fc50582029df814e266263104d6e7a1518a4d55904dd5554db4bfbaae164e00",
+      "bytes": 69652
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "grey",
+      "index": 4,
+      "src": "/assets/spin/dominar-ns400z/grey/04.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "21fca9487d7c3ac0f9bb1004780a08ee110b7fe5781e02936e5e2ece8901b9bf",
+      "bytes": 74030
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "grey",
+      "index": 5,
+      "src": "/assets/spin/dominar-ns400z/grey/05.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "556b96fbdadf0b639356eb761dfe7e4acd055c96b66b5a767afed8ac4d2ab30a",
+      "bytes": 68806
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "grey",
+      "index": 6,
+      "src": "/assets/spin/dominar-ns400z/grey/06.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "6f5ff1a100b4404d4c15126f851f97fbaba37323860058f7b231ee301d7ea0a0",
+      "bytes": 63066
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "grey",
+      "index": 7,
+      "src": "/assets/spin/dominar-ns400z/grey/07.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "11bb569c964d7fa5f8d4613e9b41fa21485dd2b351f98a2cbc2018cea54dd1e3",
+      "bytes": 45284
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "grey",
+      "index": 8,
+      "src": "/assets/spin/dominar-ns400z/grey/08.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "2ae8c4b4f1d63fc344f50acd342ccc67c0fe93245d14bdc117efec33461d3ab4",
+      "bytes": 32546
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "grey",
+      "index": 9,
+      "src": "/assets/spin/dominar-ns400z/grey/09.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "cee08d6998460a9666d7bf2d63e153169ff3e49b9caa5edd575a2e88e09a03ea",
+      "bytes": 42918
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "grey",
+      "index": 10,
+      "src": "/assets/spin/dominar-ns400z/grey/10.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "026957130f53e02734f0eaa8a0c99aea3fced33f98a2d72518984d05bfa14c70",
+      "bytes": 61160
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "grey",
+      "index": 11,
+      "src": "/assets/spin/dominar-ns400z/grey/11.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "eaa186d2d118b6b066f6aad2ad63a81147b12de95ae7b300d7f156ae248afd16",
+      "bytes": 67116
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "grey",
+      "index": 12,
+      "src": "/assets/spin/dominar-ns400z/grey/12.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "2e8aa0d274b63d8e2d55e89eba41ebafea6b666d78f4cf813761b73c4a449cf3",
+      "bytes": 80804
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "grey",
+      "index": 13,
+      "src": "/assets/spin/dominar-ns400z/grey/13.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "5229646915b80b0607a28859f87ba800fb41b8512ed7948c5d1d8f268ebe3e73",
+      "bytes": 78536
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "grey",
+      "index": 14,
+      "src": "/assets/spin/dominar-ns400z/grey/14.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "2365a8f7d89b0c08829a9195384aac7c2a4e24a12c6880f16451153677e63647",
+      "bytes": 62772
+    },
+    {
+      "model": "dominar-ns400z",
+      "color": "grey",
+      "index": 15,
+      "src": "/assets/spin/dominar-ns400z/grey/15.webp",
+      "width": 845,
+      "height": 580,
+      "sourceSha256": "c685fd6ac98a43521786cd523f8cda194d1c5b7842ad29ed2efaa561d40ef29d",
+      "bytes": 40964
+    }
+  ]
+}

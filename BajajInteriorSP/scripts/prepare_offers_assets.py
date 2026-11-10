@@ -7,13 +7,13 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 ORIGINALS = Path(sys.argv[1])
-ASSETS = ROOT / 'dist' / 'assets'
+ASSETS = ROOT / 'public' / 'assets'
 Image.MAX_IMAGE_PIXELS = None
 manifest_path = ROOT / 'offers-assets.json'
 manifest = json.loads(manifest_path.read_text()) if manifest_path.exists() else {}
 selected = sys.argv[2:] or ['pulsar-n150', 'dominar-ns160', 'dominar-ns200', 'dominar-250', 'dominar-ns400z', 'dominar-400']
 for model in selected:
-    source = ROOT / 'dist/assets/d4-right.png' if model == 'dominar-400' else ORIGINALS / f'{model}.png'
+    source = ROOT / 'public/assets/d4-right.png' if model == 'dominar-400' else ORIGINALS / f'{model}.png'
     with Image.open(source) as original:
         native_size = list(original.size)
         image = original.convert('RGBA')

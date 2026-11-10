@@ -907,7 +907,11 @@
       "cep": "15015-700",
       "cnpj": "62.241.965/0001-23",
       "maps": "https://maps.app.goo.gl/PFbuj334xEzcQZFR9",
-      "mapsDirections": "https://www.google.com/maps/dir/?api=1&destination=-20.808297%2C-49.3809974"
+      "mapsDirections": "https://www.google.com/maps/dir/?api=1&destination=-20.808297%2C-49.3809974",
+      "storePhone": "551730420042",
+      "storeDisplay": "(17) 3042-0042",
+      "afterSalesPhone": "551730420708",
+      "afterSalesDisplay": "(17) 3042-0708"
     },
     {
       "id": "bauru",
@@ -919,7 +923,9 @@
       "cep": "17010-160",
       "cnpj": "62.241.965/0002-04",
       "maps": "https://maps.app.goo.gl/u6LU3nGM7GnxZQr97",
-      "mapsDirections": "https://www.google.com/maps/dir/?api=1&destination=-22.321852%2C-49.068954"
+      "mapsDirections": "https://www.google.com/maps/dir/?api=1&destination=-22.321852%2C-49.068954",
+      "storePhone": "551430420007",
+      "storeDisplay": "(14) 3042-0007"
     }
   ],
   "socials": {

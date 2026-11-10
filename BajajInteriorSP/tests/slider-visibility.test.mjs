@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import vm from 'node:vm';
-const source=readFileSync(new URL('../dist/app.mjs',import.meta.url),'utf8');
+const source=readFileSync(new URL('../public/app.mjs',import.meta.url),'utf8');
 const helper=source.slice(source.indexOf(' function keepModelDetailsVisible(){'),source.indexOf(' function showModel(index,animate=true){'));
 function check({rect,viewport=900,header=144,reduced=false,title={top:0,bottom:30}}){
  const calls=[];const context={q:selector=>selector==='.slider-details'?{getBoundingClientRect:()=>rect}:{getBoundingClientRect:()=>title,scrollIntoView:options=>calls.push({kind:'title',...options})},$:()=>({getBoundingClientRect:()=>({bottom:header})}),window:{innerHeight:viewport,scrollBy:options=>calls.push({kind:'scroll',...options})},matchMedia:()=>({matches:reduced})};

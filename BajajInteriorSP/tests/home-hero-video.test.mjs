@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {heroYouTube} from '../dist/home-hero-video.mjs';
+import {heroYouTube} from '../public/home-hero-video.mjs';
 const tick=()=>new Promise(resolve=>setImmediate(resolve));
 function setup(){
  const players=[],calls=[];

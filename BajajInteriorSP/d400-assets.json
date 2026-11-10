@@ -287,5 +287,22 @@
       "width": 2400,
       "height": 1600
     }
+  },
+  "dominar-400-hero-front": {
+    "full": {
+      "file": "spin/dominar-400/black/02.webp",
+      "width": 1000,
+      "height": 700
+    },
+    "large": {
+      "file": "spin/dominar-400/black/02.webp",
+      "width": 1000,
+      "height": 700
+    },
+    "small": {
+      "file": "spin/dominar-400/black/02.webp",
+      "width": 1000,
+      "height": 700
+    }
   }
 }

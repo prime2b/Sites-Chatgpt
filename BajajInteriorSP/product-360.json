@@ -1,0 +1,503 @@
+{
+  "pulsar-n150": {
+    "name": "Pulsar N150",
+    "colors": [
+      {
+        "id": "white",
+        "label": "Pearl Metallic White",
+        "swatch": "#eeeeec",
+        "width": 1000,
+        "height": 700,
+        "frames": [
+          "/assets/spin/pulsar-n150/white/00.webp",
+          "/assets/spin/pulsar-n150/white/01.webp",
+          "/assets/spin/pulsar-n150/white/02.webp",
+          "/assets/spin/pulsar-n150/white/03.webp",
+          "/assets/spin/pulsar-n150/white/04.webp",
+          "/assets/spin/pulsar-n150/white/05.webp",
+          "/assets/spin/pulsar-n150/white/06.webp",
+          "/assets/spin/pulsar-n150/white/07.webp",
+          "/assets/spin/pulsar-n150/white/08.webp",
+          "/assets/spin/pulsar-n150/white/09.webp",
+          "/assets/spin/pulsar-n150/white/10.webp",
+          "/assets/spin/pulsar-n150/white/11.webp",
+          "/assets/spin/pulsar-n150/white/12.webp",
+          "/assets/spin/pulsar-n150/white/13.webp",
+          "/assets/spin/pulsar-n150/white/14.webp",
+          "/assets/spin/pulsar-n150/white/15.webp"
+        ]
+      },
+      {
+        "id": "black",
+        "label": "Ebony Black",
+        "swatch": "#191a1c",
+        "width": 1000,
+        "height": 700,
+        "frames": [
+          "/assets/spin/pulsar-n150/black/00.webp",
+          "/assets/spin/pulsar-n150/black/01.webp",
+          "/assets/spin/pulsar-n150/black/02.webp",
+          "/assets/spin/pulsar-n150/black/03.webp",
+          "/assets/spin/pulsar-n150/black/04.webp",
+          "/assets/spin/pulsar-n150/black/05.webp",
+          "/assets/spin/pulsar-n150/black/06.webp",
+          "/assets/spin/pulsar-n150/black/07.webp",
+          "/assets/spin/pulsar-n150/black/08.webp",
+          "/assets/spin/pulsar-n150/black/09.webp",
+          "/assets/spin/pulsar-n150/black/10.webp",
+          "/assets/spin/pulsar-n150/black/11.webp",
+          "/assets/spin/pulsar-n150/black/12.webp",
+          "/assets/spin/pulsar-n150/black/13.webp",
+          "/assets/spin/pulsar-n150/black/14.webp",
+          "/assets/spin/pulsar-n150/black/15.webp"
+        ]
+      },
+      {
+        "id": "red",
+        "label": "Cocktail Wine Red",
+        "swatch": "#a81e29",
+        "width": 1059,
+        "height": 706,
+        "frames": [
+          "/assets/pulsar-n150-red.webp"
+        ],
+        "source": "https://bajaj.com.br/wp-content/themes/twentytwentyone/img/moto/pulsar-ns150/moto/vermelha.webp",
+        "static": true
+      }
+    ]
+  },
+  "dominar-ns160": {
+    "name": "Dominar NS160",
+    "colors": [
+      {
+        "id": "black",
+        "label": "Ebony Black",
+        "swatch": "#191a1c",
+        "width": 1000,
+        "height": 700,
+        "frames": [
+          "/assets/spin/dominar-ns160/black/00.webp",
+          "/assets/spin/dominar-ns160/black/01.webp",
+          "/assets/spin/dominar-ns160/black/02.webp",
+          "/assets/spin/dominar-ns160/black/03.webp",
+          "/assets/spin/dominar-ns160/black/04.webp",
+          "/assets/spin/dominar-ns160/black/05.webp",
+          "/assets/spin/dominar-ns160/black/06.webp",
+          "/assets/spin/dominar-ns160/black/07.webp",
+          "/assets/spin/dominar-ns160/black/08.webp",
+          "/assets/spin/dominar-ns160/black/09.webp",
+          "/assets/spin/dominar-ns160/black/10.webp",
+          "/assets/spin/dominar-ns160/black/11.webp",
+          "/assets/spin/dominar-ns160/black/12.webp",
+          "/assets/spin/dominar-ns160/black/13.webp",
+          "/assets/spin/dominar-ns160/black/14.webp",
+          "/assets/spin/dominar-ns160/black/15.webp"
+        ]
+      },
+      {
+        "id": "white",
+        "label": "Pearl Metallic White",
+        "swatch": "#eeeeec",
+        "width": 1000,
+        "height": 700,
+        "frames": [
+          "/assets/spin/dominar-ns160/white/00.webp",
+          "/assets/spin/dominar-ns160/white/01.webp",
+          "/assets/spin/dominar-ns160/white/02.webp",
+          "/assets/spin/dominar-ns160/white/03.webp",
+          "/assets/spin/dominar-ns160/white/04.webp",
+          "/assets/spin/dominar-ns160/white/05.webp",
+          "/assets/spin/dominar-ns160/white/06.webp",
+          "/assets/spin/dominar-ns160/white/07.webp",
+          "/assets/spin/dominar-ns160/white/08.webp",
+          "/assets/spin/dominar-ns160/white/09.webp",
+          "/assets/spin/dominar-ns160/white/10.webp",
+          "/assets/spin/dominar-ns160/white/11.webp",
+          "/assets/spin/dominar-ns160/white/12.webp",
+          "/assets/spin/dominar-ns160/white/13.webp",
+          "/assets/spin/dominar-ns160/white/14.webp",
+          "/assets/spin/dominar-ns160/white/15.webp"
+        ]
+      },
+      {
+        "id": "red",
+        "label": "Cocktail Wine Red",
+        "swatch": "#a8222b",
+        "width": 1000,
+        "height": 700,
+        "frames": [
+          "/assets/spin/dominar-ns160/red/00.webp",
+          "/assets/spin/dominar-ns160/red/01.webp",
+          "/assets/spin/dominar-ns160/red/02.webp",
+          "/assets/spin/dominar-ns160/red/03.webp",
+          "/assets/spin/dominar-ns160/red/04.webp",
+          "/assets/spin/dominar-ns160/red/05.webp",
+          "/assets/spin/dominar-ns160/red/06.webp",
+          "/assets/spin/dominar-ns160/red/07.webp",
+          "/assets/spin/dominar-ns160/red/08.webp",
+          "/assets/spin/dominar-ns160/red/09.webp",
+          "/assets/spin/dominar-ns160/red/10.webp",
+          "/assets/spin/dominar-ns160/red/11.webp",
+          "/assets/spin/dominar-ns160/red/12.webp",
+          "/assets/spin/dominar-ns160/red/13.webp",
+          "/assets/spin/dominar-ns160/red/14.webp",
+          "/assets/spin/dominar-ns160/red/15.webp"
+        ]
+      },
+      {
+        "id": "grey",
+        "label": "Pewter Grey",
+        "swatch": "#7f8386",
+        "width": 1000,
+        "height": 700,
+        "frames": [
+          "/assets/spin/dominar-ns160/grey/00.webp",
+          "/assets/spin/dominar-ns160/grey/01.webp",
+          "/assets/spin/dominar-ns160/grey/02.webp",
+          "/assets/spin/dominar-ns160/grey/03.webp",
+          "/assets/spin/dominar-ns160/grey/04.webp",
+          "/assets/spin/dominar-ns160/grey/05.webp",
+          "/assets/spin/dominar-ns160/grey/06.webp",
+          "/assets/spin/dominar-ns160/grey/07.webp",
+          "/assets/spin/dominar-ns160/grey/08.webp",
+          "/assets/spin/dominar-ns160/grey/09.webp",
+          "/assets/spin/dominar-ns160/grey/10.webp",
+          "/assets/spin/dominar-ns160/grey/11.webp",
+          "/assets/spin/dominar-ns160/grey/12.webp",
+          "/assets/spin/dominar-ns160/grey/13.webp",
+          "/assets/spin/dominar-ns160/grey/14.webp",
+          "/assets/spin/dominar-ns160/grey/15.webp"
+        ]
+      }
+    ]
+  },
+  "dominar-ns200": {
+    "name": "Dominar NS200",
+    "colors": [
+      {
+        "id": "black",
+        "label": "Ebony Black",
+        "swatch": "#191a1c",
+        "width": 1000,
+        "height": 700,
+        "frames": [
+          "/assets/spin/dominar-ns200/black/00.webp",
+          "/assets/spin/dominar-ns200/black/01.webp",
+          "/assets/spin/dominar-ns200/black/02.webp",
+          "/assets/spin/dominar-ns200/black/03.webp",
+          "/assets/spin/dominar-ns200/black/04.webp",
+          "/assets/spin/dominar-ns200/black/05.webp",
+          "/assets/spin/dominar-ns200/black/06.webp",
+          "/assets/spin/dominar-ns200/black/07.webp",
+          "/assets/spin/dominar-ns200/black/08.webp",
+          "/assets/spin/dominar-ns200/black/09.webp",
+          "/assets/spin/dominar-ns200/black/10.webp",
+          "/assets/spin/dominar-ns200/black/11.webp",
+          "/assets/spin/dominar-ns200/black/12.webp",
+          "/assets/spin/dominar-ns200/black/13.webp",
+          "/assets/spin/dominar-ns200/black/14.webp",
+          "/assets/spin/dominar-ns200/black/15.webp"
+        ]
+      },
+      {
+        "id": "white",
+        "label": "Pearl Metallic White",
+        "swatch": "#eeeeec",
+        "width": 1000,
+        "height": 700,
+        "frames": [
+          "/assets/spin/dominar-ns200/white/00.webp",
+          "/assets/spin/dominar-ns200/white/01.webp",
+          "/assets/spin/dominar-ns200/white/02.webp",
+          "/assets/spin/dominar-ns200/white/03.webp",
+          "/assets/spin/dominar-ns200/white/04.webp",
+          "/assets/spin/dominar-ns200/white/05.webp",
+          "/assets/spin/dominar-ns200/white/06.webp",
+          "/assets/spin/dominar-ns200/white/07.webp",
+          "/assets/spin/dominar-ns200/white/08.webp",
+          "/assets/spin/dominar-ns200/white/09.webp",
+          "/assets/spin/dominar-ns200/white/10.webp",
+          "/assets/spin/dominar-ns200/white/11.webp",
+          "/assets/spin/dominar-ns200/white/12.webp",
+          "/assets/spin/dominar-ns200/white/13.webp",
+          "/assets/spin/dominar-ns200/white/14.webp",
+          "/assets/spin/dominar-ns200/white/15.webp"
+        ]
+      },
+      {
+        "id": "red",
+        "label": "Cocktail Wine Red",
+        "swatch": "#a8222b",
+        "width": 1000,
+        "height": 700,
+        "frames": [
+          "/assets/spin/dominar-ns200/red/00.webp",
+          "/assets/spin/dominar-ns200/red/01.webp",
+          "/assets/spin/dominar-ns200/red/02.webp",
+          "/assets/spin/dominar-ns200/red/03.webp",
+          "/assets/spin/dominar-ns200/red/04.webp",
+          "/assets/spin/dominar-ns200/red/05.webp",
+          "/assets/spin/dominar-ns200/red/06.webp",
+          "/assets/spin/dominar-ns200/red/07.webp",
+          "/assets/spin/dominar-ns200/red/08.webp",
+          "/assets/spin/dominar-ns200/red/09.webp",
+          "/assets/spin/dominar-ns200/red/10.webp",
+          "/assets/spin/dominar-ns200/red/11.webp",
+          "/assets/spin/dominar-ns200/red/12.webp",
+          "/assets/spin/dominar-ns200/red/13.webp",
+          "/assets/spin/dominar-ns200/red/14.webp",
+          "/assets/spin/dominar-ns200/red/15.webp"
+        ]
+      },
+      {
+        "id": "grey",
+        "label": "Pewter Grey",
+        "swatch": "#7f8386",
+        "width": 1000,
+        "height": 700,
+        "frames": [
+          "/assets/spin/dominar-ns200/grey/00.webp",
+          "/assets/spin/dominar-ns200/grey/01.webp",
+          "/assets/spin/dominar-ns200/grey/02.webp",
+          "/assets/spin/dominar-ns200/grey/03.webp",
+          "/assets/spin/dominar-ns200/grey/04.webp",
+          "/assets/spin/dominar-ns200/grey/05.webp",
+          "/assets/spin/dominar-ns200/grey/06.webp",
+          "/assets/spin/dominar-ns200/grey/07.webp",
+          "/assets/spin/dominar-ns200/grey/08.webp",
+          "/assets/spin/dominar-ns200/grey/09.webp",
+          "/assets/spin/dominar-ns200/grey/10.webp",
+          "/assets/spin/dominar-ns200/grey/11.webp",
+          "/assets/spin/dominar-ns200/grey/12.webp",
+          "/assets/spin/dominar-ns200/grey/13.webp",
+          "/assets/spin/dominar-ns200/grey/14.webp",
+          "/assets/spin/dominar-ns200/grey/15.webp"
+        ]
+      }
+    ]
+  },
+  "dominar-250": {
+    "name": "Dominar 250",
+    "colors": [
+      {
+        "id": "black",
+        "label": "Sparkling Black",
+        "swatch": "#1e2022",
+        "width": 1000,
+        "height": 700,
+        "frames": [
+          "/assets/spin/dominar-250/black/00.webp",
+          "/assets/spin/dominar-250/black/01.webp",
+          "/assets/spin/dominar-250/black/02.webp",
+          "/assets/spin/dominar-250/black/03.webp",
+          "/assets/spin/dominar-250/black/04.webp",
+          "/assets/spin/dominar-250/black/05.webp",
+          "/assets/spin/dominar-250/black/06.webp",
+          "/assets/spin/dominar-250/black/07.webp",
+          "/assets/spin/dominar-250/black/08.webp",
+          "/assets/spin/dominar-250/black/09.webp",
+          "/assets/spin/dominar-250/black/10.webp",
+          "/assets/spin/dominar-250/black/11.webp",
+          "/assets/spin/dominar-250/black/12.webp",
+          "/assets/spin/dominar-250/black/13.webp",
+          "/assets/spin/dominar-250/black/14.webp",
+          "/assets/spin/dominar-250/black/15.webp"
+        ]
+      },
+      {
+        "id": "red",
+        "label": "Racing Red",
+        "swatch": "#a81e29",
+        "width": 1059,
+        "height": 706,
+        "frames": [
+          "/assets/dominar-250-red.webp"
+        ],
+        "source": "https://bajaj.com.br/wp-content/themes/twentytwentyone/img/moto/dominar-250-novo/vermelha.webp",
+        "static": true
+      }
+    ]
+  },
+  "dominar-400": {
+    "name": "Dominar 400",
+    "colors": [
+      {
+        "id": "black",
+        "label": "Charcoal Black",
+        "swatch": "#34373a",
+        "width": 1000,
+        "height": 700,
+        "frames": [
+          "/assets/spin/dominar-400/black/00.webp",
+          "/assets/spin/dominar-400/black/01.webp",
+          "/assets/spin/dominar-400/black/02.webp",
+          "/assets/spin/dominar-400/black/03.webp",
+          "/assets/spin/dominar-400/black/04.webp",
+          "/assets/spin/dominar-400/black/05.webp",
+          "/assets/spin/dominar-400/black/06.webp",
+          "/assets/spin/dominar-400/black/07.webp",
+          "/assets/spin/dominar-400/black/08.webp",
+          "/assets/spin/dominar-400/black/09.webp",
+          "/assets/spin/dominar-400/black/10.webp",
+          "/assets/spin/dominar-400/black/11.webp",
+          "/assets/spin/dominar-400/black/12.webp",
+          "/assets/spin/dominar-400/black/13.webp",
+          "/assets/spin/dominar-400/black/14.webp",
+          "/assets/spin/dominar-400/black/15.webp"
+        ]
+      },
+      {
+        "id": "red",
+        "label": "Canyon Red",
+        "swatch": "#a81e29",
+        "width": 1059,
+        "height": 706,
+        "frames": [
+          "/assets/dominar-400-red.webp"
+        ],
+        "source": "https://bajaj.com.br/wp-content/themes/twentytwentyone/img/moto/dominar-400-novo/vermelha.webp",
+        "static": true
+      },
+      {
+        "id": "green",
+        "label": "Savanna Green",
+        "swatch": "#53735c",
+        "width": 1059,
+        "height": 706,
+        "frames": [
+          "/assets/dominar-400-green.webp"
+        ],
+        "source": "https://bajaj.com.br/wp-content/themes/twentytwentyone/img/moto/dominar-400-novo/verde.webp",
+        "static": true
+      },
+      {
+        "id": "blue",
+        "label": "Indigo Blue",
+        "swatch": "#253c75",
+        "width": 1059,
+        "height": 706,
+        "frames": [
+          "/assets/dominar-400-blue.webp"
+        ],
+        "source": "https://bajaj.com.br/wp-content/themes/twentytwentyone/img/moto/dominar-400-novo/azul.webp",
+        "static": true
+      },
+      {
+        "id": "white",
+        "label": "Pearl Metallic White",
+        "swatch": "#eee",
+        "width": 1059,
+        "height": 706,
+        "frames": [
+          "/assets/dominar-400-white.webp"
+        ],
+        "source": "https://bajaj.com.br/wp-content/themes/twentytwentyone/img/moto/dominar-400-novo/branco.webp",
+        "static": true
+      }
+    ]
+  },
+  "dominar-ns400z": {
+    "name": "Dominar NS400Z",
+    "colors": [
+      {
+        "id": "black",
+        "label": "Brooklyn Black",
+        "swatch": "#181a1e",
+        "width": 845,
+        "height": 580,
+        "frames": [
+          "/assets/spin/dominar-ns400z/black/00.webp",
+          "/assets/spin/dominar-ns400z/black/01.webp",
+          "/assets/spin/dominar-ns400z/black/02.webp",
+          "/assets/spin/dominar-ns400z/black/03.webp",
+          "/assets/spin/dominar-ns400z/black/04.webp",
+          "/assets/spin/dominar-ns400z/black/05.webp",
+          "/assets/spin/dominar-ns400z/black/06.webp",
+          "/assets/spin/dominar-ns400z/black/07.webp",
+          "/assets/spin/dominar-ns400z/black/08.webp",
+          "/assets/spin/dominar-ns400z/black/09.webp",
+          "/assets/spin/dominar-ns400z/black/10.webp",
+          "/assets/spin/dominar-ns400z/black/11.webp",
+          "/assets/spin/dominar-ns400z/black/12.webp",
+          "/assets/spin/dominar-ns400z/black/13.webp",
+          "/assets/spin/dominar-ns400z/black/14.webp"
+        ]
+      },
+      {
+        "id": "white",
+        "label": "Pearl Metallic White",
+        "swatch": "#eeeeec",
+        "width": 845,
+        "height": 580,
+        "frames": [
+          "/assets/spin/dominar-ns400z/white/00.webp",
+          "/assets/spin/dominar-ns400z/white/01.webp",
+          "/assets/spin/dominar-ns400z/white/02.webp",
+          "/assets/spin/dominar-ns400z/white/03.webp",
+          "/assets/spin/dominar-ns400z/white/04.webp",
+          "/assets/spin/dominar-ns400z/white/05.webp",
+          "/assets/spin/dominar-ns400z/white/06.webp",
+          "/assets/spin/dominar-ns400z/white/07.webp",
+          "/assets/spin/dominar-ns400z/white/08.webp",
+          "/assets/spin/dominar-ns400z/white/09.webp",
+          "/assets/spin/dominar-ns400z/white/10.webp",
+          "/assets/spin/dominar-ns400z/white/11.webp",
+          "/assets/spin/dominar-ns400z/white/12.webp",
+          "/assets/spin/dominar-ns400z/white/13.webp",
+          "/assets/spin/dominar-ns400z/white/14.webp",
+          "/assets/spin/dominar-ns400z/white/15.webp"
+        ]
+      },
+      {
+        "id": "red",
+        "label": "Glossy Racing Red",
+        "swatch": "#b32128",
+        "width": 845,
+        "height": 580,
+        "frames": [
+          "/assets/spin/dominar-ns400z/red/00.webp",
+          "/assets/spin/dominar-ns400z/red/01.webp",
+          "/assets/spin/dominar-ns400z/red/02.webp",
+          "/assets/spin/dominar-ns400z/red/03.webp",
+          "/assets/spin/dominar-ns400z/red/04.webp",
+          "/assets/spin/dominar-ns400z/red/05.webp",
+          "/assets/spin/dominar-ns400z/red/06.webp",
+          "/assets/spin/dominar-ns400z/red/07.webp",
+          "/assets/spin/dominar-ns400z/red/08.webp",
+          "/assets/spin/dominar-ns400z/red/09.webp",
+          "/assets/spin/dominar-ns400z/red/10.webp",
+          "/assets/spin/dominar-ns400z/red/11.webp",
+          "/assets/spin/dominar-ns400z/red/12.webp",
+          "/assets/spin/dominar-ns400z/red/13.webp",
+          "/assets/spin/dominar-ns400z/red/14.webp",
+          "/assets/spin/dominar-ns400z/red/15.webp"
+        ]
+      },
+      {
+        "id": "grey",
+        "label": "Pewter Grey",
+        "swatch": "#7f8386",
+        "width": 845,
+        "height": 580,
+        "frames": [
+          "/assets/spin/dominar-ns400z/grey/00.webp",
+          "/assets/spin/dominar-ns400z/grey/01.webp",
+          "/assets/spin/dominar-ns400z/grey/02.webp",
+          "/assets/spin/dominar-ns400z/grey/03.webp",
+          "/assets/spin/dominar-ns400z/grey/04.webp",
+          "/assets/spin/dominar-ns400z/grey/05.webp",
+          "/assets/spin/dominar-ns400z/grey/06.webp",
+          "/assets/spin/dominar-ns400z/grey/07.webp",
+          "/assets/spin/dominar-ns400z/grey/08.webp",
+          "/assets/spin/dominar-ns400z/grey/09.webp",
+          "/assets/spin/dominar-ns400z/grey/10.webp",
+          "/assets/spin/dominar-ns400z/grey/11.webp",
+          "/assets/spin/dominar-ns400z/grey/12.webp",
+          "/assets/spin/dominar-ns400z/grey/13.webp",
+          "/assets/spin/dominar-ns400z/grey/14.webp",
+          "/assets/spin/dominar-ns400z/grey/15.webp"
+        ]
+      }
+    ]
+  }
+}

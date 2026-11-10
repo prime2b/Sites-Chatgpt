@@ -1,0 +1,312 @@
+{
+  "version": 1,
+  "description": "Seis cadastros fictícios autorizados pelo usuário em 30/10/2026. Não são ofertas reais.",
+  "items": [
+    {
+      "id": "stock-demo-v1-pulsar-n150",
+      "slug": "demonstracao-pulsar-n150",
+      "photos": [
+        {
+          "file": "official-pulsar-n150.webp",
+          "alt": "Pulsar N150 em imagem oficial ilustrativa. Cadastro fictício de demonstração.",
+          "id": "demo-photo-v1-pulsar-n150-1"
+        },
+        {
+          "file": "refresh-pulsar-n150-gallery0-large.webp",
+          "alt": "Imagem oficial ilustrativa: Piloto equipado conduz a Pulsar N150 branca em uma avenida arborizada. Não representa um exemplar à venda.",
+          "id": "demo-photo-v1-pulsar-n150-2"
+        },
+        {
+          "file": "product-n150-2-large.webp",
+          "alt": "Imagem oficial ilustrativa: Lanterna traseira da Pulsar N150 Não representa um exemplar à venda.",
+          "id": "demo-photo-v1-pulsar-n150-3"
+        },
+        {
+          "file": "product-n150-3-large.webp",
+          "alt": "Imagem oficial ilustrativa: Banco e conjunto traseiro da Pulsar N150 branca Não representa um exemplar à venda.",
+          "id": "demo-photo-v1-pulsar-n150-4"
+        }
+      ],
+      "draft": {
+        "is_demo": true,
+        "title": "Pulsar N150 · Exemplar fictício",
+        "summary": "Cadastro de demonstração com dados fictícios e fotos ilustrativas. Não corresponde a estoque ou oferta real.",
+        "body": "CADASTRO FICTÍCIO PARA DEMONSTRAÇÃO\n\nEste anúncio da Pulsar N150 é um exemplo completo para apresentar a área de seminovas da Bajaj InteriorSP. Não representa uma moto disponível para compra.\n\nDados ilustrativos do cadastro: fabricação 2026, modelo 2026, 3.200 km, cor branca e unidade de referência São José do Rio Preto. O preço informado também é fictício.\n\nA galeria usa imagens oficiais do modelo apenas para demonstrar a navegação, a ampliação e os diferentes enquadramentos. As cores e os detalhes das fotos podem diferir dos dados de exemplo.\n\nPara conhecer uma seminova real, consulte a equipe e confirme estoque, fotos do exemplar, conservação, histórico, preço e condições na unidade.",
+        "offer_model": "pulsar-n150",
+        "stock_code": "DEMO-N150-01",
+        "unit_id": "rio-preto",
+        "year_manufacture": 2026,
+        "year_model": 2026,
+        "mileage": 3200,
+        "color": "Branca",
+        "price": 14900,
+        "cover_id": "demo-photo-v1-pulsar-n150-1",
+        "cover_alt": "Pulsar N150 em imagem oficial ilustrativa. Cadastro fictício de demonstração.",
+        "gallery_ids": [
+          "demo-photo-v1-pulsar-n150-1",
+          "demo-photo-v1-pulsar-n150-2",
+          "demo-photo-v1-pulsar-n150-3",
+          "demo-photo-v1-pulsar-n150-4"
+        ],
+        "photos_reviewed": true,
+        "availability": "available",
+        "attachments": []
+      }
+    },
+    {
+      "id": "stock-demo-v1-dominar-ns160",
+      "slug": "demonstracao-dominar-ns160",
+      "photos": [
+        {
+          "file": "official-dominar-ns160.webp",
+          "alt": "Dominar NS160 em imagem oficial ilustrativa. Cadastro fictício de demonstração.",
+          "id": "demo-photo-v1-dominar-ns160-1"
+        },
+        {
+          "file": "product-ns160-1-large.webp",
+          "alt": "Imagem oficial ilustrativa: Dominar NS160 vermelha em rodagem, ensaio oficial Bajaj Não representa um exemplar à venda.",
+          "id": "demo-photo-v1-dominar-ns160-2"
+        },
+        {
+          "file": "product-ns160-2-large.webp",
+          "alt": "Imagem oficial ilustrativa: Tanque da Dominar NS160 vermelha Não representa um exemplar à venda.",
+          "id": "demo-photo-v1-dominar-ns160-3"
+        },
+        {
+          "file": "product-ns160-3-large.webp",
+          "alt": "Imagem oficial ilustrativa: Lanterna e conjunto traseiro da Dominar NS160 Não representa um exemplar à venda.",
+          "id": "demo-photo-v1-dominar-ns160-4"
+        }
+      ],
+      "draft": {
+        "is_demo": true,
+        "title": "Dominar NS160 · Exemplar fictício",
+        "summary": "Cadastro de demonstração com dados fictícios e fotos ilustrativas. Não corresponde a estoque ou oferta real.",
+        "body": "CADASTRO FICTÍCIO PARA DEMONSTRAÇÃO\n\nEste anúncio da Dominar NS160 é um exemplo completo para apresentar a área de seminovas da Bajaj InteriorSP. Não representa uma moto disponível para compra.\n\nDados ilustrativos do cadastro: fabricação 2026, modelo 2026, 6.800 km, cor vermelha e unidade de referência Bauru. O preço informado também é fictício.\n\nA galeria usa imagens oficiais do modelo apenas para demonstrar a navegação, a ampliação e os diferentes enquadramentos. As cores e os detalhes das fotos podem diferir dos dados de exemplo.\n\nPara conhecer uma seminova real, consulte a equipe e confirme estoque, fotos do exemplar, conservação, histórico, preço e condições na unidade.",
+        "offer_model": "dominar-ns160",
+        "stock_code": "DEMO-NS160-01",
+        "unit_id": "bauru",
+        "year_manufacture": 2026,
+        "year_model": 2026,
+        "mileage": 6800,
+        "color": "Vermelha",
+        "price": 17900,
+        "cover_id": "demo-photo-v1-dominar-ns160-1",
+        "cover_alt": "Dominar NS160 em imagem oficial ilustrativa. Cadastro fictício de demonstração.",
+        "gallery_ids": [
+          "demo-photo-v1-dominar-ns160-1",
+          "demo-photo-v1-dominar-ns160-2",
+          "demo-photo-v1-dominar-ns160-3",
+          "demo-photo-v1-dominar-ns160-4"
+        ],
+        "photos_reviewed": true,
+        "availability": "available",
+        "attachments": []
+      }
+    },
+    {
+      "id": "stock-demo-v1-dominar-ns200",
+      "slug": "demonstracao-dominar-ns200",
+      "photos": [
+        {
+          "file": "official-dominar-ns200.webp",
+          "alt": "Dominar NS200 em imagem oficial ilustrativa. Cadastro fictício de demonstração.",
+          "id": "demo-photo-v1-dominar-ns200-1"
+        },
+        {
+          "file": "refresh-dominar-ns200-gallery0-large.webp",
+          "alt": "Imagem oficial ilustrativa: Monochoque traseiro com Nitrox da Dominar NS200, em fotografia oficial de detalhe. Não representa um exemplar à venda.",
+          "id": "demo-photo-v1-dominar-ns200-2"
+        },
+        {
+          "file": "product-ns200-2-large.webp",
+          "alt": "Imagem oficial ilustrativa: Dominar NS200 em rodagem, vista lateral Não representa um exemplar à venda.",
+          "id": "demo-photo-v1-dominar-ns200-3"
+        },
+        {
+          "file": "product-ns200-3-large.webp",
+          "alt": "Imagem oficial ilustrativa: Dominar NS200 em curva em ensaio oficial Não representa um exemplar à venda.",
+          "id": "demo-photo-v1-dominar-ns200-4"
+        }
+      ],
+      "draft": {
+        "is_demo": true,
+        "title": "Dominar NS200 · Exemplar fictício",
+        "summary": "Cadastro de demonstração com dados fictícios e fotos ilustrativas. Não corresponde a estoque ou oferta real.",
+        "body": "CADASTRO FICTÍCIO PARA DEMONSTRAÇÃO\n\nEste anúncio da Dominar NS200 é um exemplo completo para apresentar a área de seminovas da Bajaj InteriorSP. Não representa uma moto disponível para compra.\n\nDados ilustrativos do cadastro: fabricação 2026, modelo 2026, 9.400 km, cor preta e unidade de referência São José do Rio Preto. O preço informado também é fictício.\n\nA galeria usa imagens oficiais do modelo apenas para demonstrar a navegação, a ampliação e os diferentes enquadramentos. As cores e os detalhes das fotos podem diferir dos dados de exemplo.\n\nPara conhecer uma seminova real, consulte a equipe e confirme estoque, fotos do exemplar, conservação, histórico, preço e condições na unidade.",
+        "offer_model": "dominar-ns200",
+        "stock_code": "DEMO-NS200-01",
+        "unit_id": "rio-preto",
+        "year_manufacture": 2026,
+        "year_model": 2026,
+        "mileage": 9400,
+        "color": "Preta",
+        "price": 20500,
+        "cover_id": "demo-photo-v1-dominar-ns200-1",
+        "cover_alt": "Dominar NS200 em imagem oficial ilustrativa. Cadastro fictício de demonstração.",
+        "gallery_ids": [
+          "demo-photo-v1-dominar-ns200-1",
+          "demo-photo-v1-dominar-ns200-2",
+          "demo-photo-v1-dominar-ns200-3",
+          "demo-photo-v1-dominar-ns200-4"
+        ],
+        "photos_reviewed": true,
+        "availability": "available",
+        "attachments": []
+      }
+    },
+    {
+      "id": "stock-demo-v1-dominar-250",
+      "slug": "demonstracao-dominar-250",
+      "photos": [
+        {
+          "file": "official-dominar-250.webp",
+          "alt": "Dominar 250 em imagem oficial ilustrativa. Cadastro fictício de demonstração.",
+          "id": "demo-photo-v1-dominar-250-1"
+        },
+        {
+          "file": "product-d250-1-large.webp",
+          "alt": "Imagem oficial ilustrativa: Dominar 250 preta em rodagem, ensaio oficial Bajaj Não representa um exemplar à venda.",
+          "id": "demo-photo-v1-dominar-250-2"
+        },
+        {
+          "file": "product-d250-2-large.webp",
+          "alt": "Imagem oficial ilustrativa: Detalhe do tanque da Dominar 250 preta Não representa um exemplar à venda.",
+          "id": "demo-photo-v1-dominar-250-3"
+        },
+        {
+          "file": "product-d250-3-large.webp",
+          "alt": "Imagem oficial ilustrativa: Dominar 250 em rodagem, vista dianteira Não representa um exemplar à venda.",
+          "id": "demo-photo-v1-dominar-250-4"
+        }
+      ],
+      "draft": {
+        "is_demo": true,
+        "title": "Dominar 250 · Exemplar fictício",
+        "summary": "Cadastro de demonstração com dados fictícios e fotos ilustrativas. Não corresponde a estoque ou oferta real.",
+        "body": "CADASTRO FICTÍCIO PARA DEMONSTRAÇÃO\n\nEste anúncio da Dominar 250 é um exemplo completo para apresentar a área de seminovas da Bajaj InteriorSP. Não representa uma moto disponível para compra.\n\nDados ilustrativos do cadastro: fabricação 2026, modelo 2027, 5.800 km, cor preta e unidade de referência Bauru. O preço informado também é fictício.\n\nA galeria usa imagens oficiais do modelo apenas para demonstrar a navegação, a ampliação e os diferentes enquadramentos. As cores e os detalhes das fotos podem diferir dos dados de exemplo.\n\nPara conhecer uma seminova real, consulte a equipe e confirme estoque, fotos do exemplar, conservação, histórico, preço e condições na unidade.",
+        "offer_model": "dominar-250",
+        "stock_code": "DEMO-D250-01",
+        "unit_id": "bauru",
+        "year_manufacture": 2026,
+        "year_model": 2027,
+        "mileage": 5800,
+        "color": "Preta",
+        "price": 21900,
+        "cover_id": "demo-photo-v1-dominar-250-1",
+        "cover_alt": "Dominar 250 em imagem oficial ilustrativa. Cadastro fictício de demonstração.",
+        "gallery_ids": [
+          "demo-photo-v1-dominar-250-1",
+          "demo-photo-v1-dominar-250-2",
+          "demo-photo-v1-dominar-250-3",
+          "demo-photo-v1-dominar-250-4"
+        ],
+        "photos_reviewed": true,
+        "availability": "available",
+        "attachments": []
+      }
+    },
+    {
+      "id": "stock-demo-v1-dominar-400",
+      "slug": "demonstracao-dominar-400",
+      "photos": [
+        {
+          "file": "official-dominar-400.webp",
+          "alt": "Dominar 400 em imagem oficial ilustrativa. Cadastro fictício de demonstração.",
+          "id": "demo-photo-v1-dominar-400-1"
+        },
+        {
+          "file": "refresh-dominar-400-gallery0-large.webp",
+          "alt": "Imagem oficial ilustrativa: Lanterna, bagageiro e conjunto traseiro da Dominar 400 Savanna Green. Não representa um exemplar à venda.",
+          "id": "demo-photo-v1-dominar-400-2"
+        },
+        {
+          "file": "refresh-dominar-400-gallery1-large.webp",
+          "alt": "Imagem oficial ilustrativa: Espelho, proteção de mãos e para-brisa da Dominar 400 Savanna Green. Não representa um exemplar à venda.",
+          "id": "demo-photo-v1-dominar-400-3"
+        },
+        {
+          "file": "refresh-dominar-400-gallery2-large.webp",
+          "alt": "Imagem oficial ilustrativa: Escapamento, roda traseira e pedaleiras da Dominar 400 Savanna Green, em fotografia oficial de detalhe. Não representa um exemplar à venda.",
+          "id": "demo-photo-v1-dominar-400-4"
+        }
+      ],
+      "draft": {
+        "is_demo": true,
+        "title": "Dominar 400 · Exemplar fictício",
+        "summary": "Cadastro de demonstração com dados fictícios e fotos ilustrativas. Não corresponde a estoque ou oferta real.",
+        "body": "CADASTRO FICTÍCIO PARA DEMONSTRAÇÃO\n\nEste anúncio da Dominar 400 é um exemplo completo para apresentar a área de seminovas da Bajaj InteriorSP. Não representa uma moto disponível para compra.\n\nDados ilustrativos do cadastro: fabricação 2026, modelo 2027, 12.600 km, cor verde e unidade de referência São José do Rio Preto. O preço informado também é fictício.\n\nA galeria usa imagens oficiais do modelo apenas para demonstrar a navegação, a ampliação e os diferentes enquadramentos. As cores e os detalhes das fotos podem diferir dos dados de exemplo.\n\nPara conhecer uma seminova real, consulte a equipe e confirme estoque, fotos do exemplar, conservação, histórico, preço e condições na unidade.",
+        "offer_model": "dominar-400",
+        "stock_code": "DEMO-D400-01",
+        "unit_id": "rio-preto",
+        "year_manufacture": 2026,
+        "year_model": 2027,
+        "mileage": 12600,
+        "color": "Verde",
+        "price": 24900,
+        "cover_id": "demo-photo-v1-dominar-400-1",
+        "cover_alt": "Dominar 400 em imagem oficial ilustrativa. Cadastro fictício de demonstração.",
+        "gallery_ids": [
+          "demo-photo-v1-dominar-400-1",
+          "demo-photo-v1-dominar-400-2",
+          "demo-photo-v1-dominar-400-3",
+          "demo-photo-v1-dominar-400-4"
+        ],
+        "photos_reviewed": true,
+        "availability": "available",
+        "attachments": []
+      }
+    },
+    {
+      "id": "stock-demo-v1-dominar-ns400z",
+      "slug": "demonstracao-dominar-ns400z",
+      "photos": [
+        {
+          "file": "official-dominar-ns400z.webp",
+          "alt": "Dominar NS400Z em imagem oficial ilustrativa. Cadastro fictício de demonstração.",
+          "id": "demo-photo-v1-dominar-ns400z-1"
+        },
+        {
+          "file": "product-ns400z-1-large.webp",
+          "alt": "Imagem oficial ilustrativa: Guidão, tanque e conjunto dianteiro da Dominar NS400Z preta Não representa um exemplar à venda.",
+          "id": "demo-photo-v1-dominar-ns400z-2"
+        },
+        {
+          "file": "product-ns400z-3-large.webp",
+          "alt": "Imagem oficial ilustrativa: Dominar NS400Z preta, vista em três quartos Não representa um exemplar à venda.",
+          "id": "demo-photo-v1-dominar-ns400z-3"
+        },
+        {
+          "file": "product-ns400z-4-large.webp",
+          "alt": "Imagem oficial ilustrativa: Dominar NS400Z preta, vista traseira completa Não representa um exemplar à venda.",
+          "id": "demo-photo-v1-dominar-ns400z-4"
+        }
+      ],
+      "draft": {
+        "is_demo": true,
+        "title": "Dominar NS400Z · Exemplar fictício",
+        "summary": "Cadastro de demonstração com dados fictícios e fotos ilustrativas. Não corresponde a estoque ou oferta real.",
+        "body": "CADASTRO FICTÍCIO PARA DEMONSTRAÇÃO\n\nEste anúncio da Dominar NS400Z é um exemplo completo para apresentar a área de seminovas da Bajaj InteriorSP. Não representa uma moto disponível para compra.\n\nDados ilustrativos do cadastro: fabricação 2026, modelo 2026, 4.100 km, cor vermelha e unidade de referência Bauru. O preço informado também é fictício.\n\nA galeria usa imagens oficiais do modelo apenas para demonstrar a navegação, a ampliação e os diferentes enquadramentos. As cores e os detalhes das fotos podem diferir dos dados de exemplo.\n\nPara conhecer uma seminova real, consulte a equipe e confirme estoque, fotos do exemplar, conservação, histórico, preço e condições na unidade.",
+        "offer_model": "dominar-ns400z",
+        "stock_code": "DEMO-NS400Z-01",
+        "unit_id": "bauru",
+        "year_manufacture": 2026,
+        "year_model": 2026,
+        "mileage": 4100,
+        "color": "Vermelha",
+        "price": 24500,
+        "cover_id": "demo-photo-v1-dominar-ns400z-1",
+        "cover_alt": "Dominar NS400Z em imagem oficial ilustrativa. Cadastro fictício de demonstração.",
+        "gallery_ids": [
+          "demo-photo-v1-dominar-ns400z-1",
+          "demo-photo-v1-dominar-ns400z-2",
+          "demo-photo-v1-dominar-ns400z-3",
+          "demo-photo-v1-dominar-ns400z-4"
+        ],
+        "photos_reviewed": true,
+        "availability": "available",
+        "attachments": []
+      }
+    }
+  ]
+}

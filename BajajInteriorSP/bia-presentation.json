@@ -1,0 +1,20 @@
+{
+  "kicker": "Conheça a BIA",
+  "title": "Prazer, eu sou a BIA.",
+  "lead": "Estou aqui para ajudar você a conhecer sua próxima Bajaj.",
+  "description": "Sou a assistente virtual da Bajaj InteriorSP. Conte o que você procura: eu ajudo você a conhecer os modelos e as condições, e nossa equipe continua o atendimento na unidade escolhida.",
+  "button": "Conversar com a BIA",
+  "unitHint": "Escolha Rio Preto ou Bauru para iniciar seu atendimento.",
+  "signature": "BIA · Assistente virtual da Bajaj InteriorSP",
+  "media": {
+    "mode": "video",
+    "src": "/assets/bia-apresentacao.mp4",
+    "alt": "BIA, assistente virtual da Bajaj InteriorSP, no showroom de motos",
+    "poster": "/assets/bia-apresentacao-poster.jpg",
+    "width": 1920,
+    "height": 1080,
+    "autoplay": true,
+    "captions": null,
+    "title": "Apresentação da BIA"
+  }
+}

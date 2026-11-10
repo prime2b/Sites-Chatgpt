@@ -1,14 +1,14 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
-import {simulationURL,entryValues} from '../dist/dominar-400.mjs';
-import {requestURL} from '../dist/service-request.mjs';
+import {simulationURL,entryValues} from '../public/dominar-400.mjs';
+import {requestURL} from '../public/service-request.mjs';
 const read=path=>readFileSync(new URL('../'+path,import.meta.url),'utf8');
 const data=JSON.parse(read('data.json')),settings=JSON.parse(read('model-settings.json'));
-const configFor=model=>JSON.parse(read(`dist/motos/${model.id}/index.html`).match(/id="d4-data">(.*?)<\/script>/s)[1]);
+const configFor=model=>JSON.parse(read(`public/motos/${model.id}/index.html`).match(/id="d4-data">(.*?)<\/script>/s)[1]);
 test('os seis produtos têm conteúdo, schema, preço, modelo e unidades próprios',()=>{
  for(const m of data.models){
-  const html=read(`dist/motos/${m.id}/index.html`),cfg=configFor(m);
+  const html=read(`public/motos/${m.id}/index.html`),cfg=configFor(m);
   assert.match(html,new RegExp(`<h1><span>${m.name}</span></h1>`));assert.equal(cfg.model,m.id);assert.equal(cfg.name,m.name);assert.equal(cfg.price,m.price);assert.deepEqual(cfg.units,data.units);
   const graph=JSON.parse(html.match(/type="application\/ld\+json">(.*?)<\/script>/s)[1])['@graph'];const product=graph.find(x=>x['@type']==='Product');
   assert.equal(product.name,'Bajaj '+m.name);assert.equal(product.model,m.year);assert.equal(Number(product.offers.price),m.price);assert.equal(new URL(product.offers.url).pathname,`/motos/${m.id}/`);
@@ -28,19 +28,19 @@ test('versões e características não são herdadas da D400 nem misturadas às 
  const by=id=>data.models.find(x=>x.id===id),motor=id=>Object.fromEntries(by(id).specs.Motor);
  assert.equal(by('pulsar-n150').year,'2026/2026');assert.equal(by('dominar-250').year,'2026/2027');assert.equal(by('dominar-ns200').year,'2026/2026');
  assert.equal(motor('dominar-ns200')['Torque máximo'],'1,896 kgf.m @ 8.000 rpm');assert.match(motor('dominar-ns200').Tipo,/refrigerado a líquido/);
- assert.equal(settings['pulsar-n150'].modes.length,0);assert.equal(settings['dominar-ns160'].modes.length,0);assert.equal(settings['dominar-ns200'].modes.length,0);assert.equal(settings['dominar-250'].modes.length,3);assert.equal(settings['dominar-ns400z'].modes.length,4);
- const n=read('dist/motos/pulsar-n150/index.html');assert.ok(n.includes('Na roda dianteira'));assert.ok(n.includes('A tambor / Ø130 mm'));
+ assert.equal(settings['pulsar-n150'].modes.length,0);assert.equal(settings['dominar-ns160'].modes.length,3);assert.equal(settings['dominar-ns200'].modes.length,3);assert.equal(settings['dominar-250'].modes.length,3);assert.equal(settings['dominar-ns400z'].modes.length,4);
+ const n=read('public/motos/pulsar-n150/index.html');assert.ok(n.includes('Na roda dianteira'));assert.ok(n.includes('A tambor / Ø130 mm'));
  for(const m of data.models.filter(x=>x.id!=='dominar-400')){
-  const html=read(`dist/motos/${m.id}/index.html`);const body=html.match(/<main id="conteudo">(.*?)<\/main>/s)[1];assert.equal(/d4-(?:right|left|front|panel|headlight)-/.test(body),false);
+  const html=read(`public/motos/${m.id}/index.html`);const body=html.match(/<main id="conteudo">(.*?)<\/main>/s)[1];assert.equal(/d4-(?:right|left|front|panel|headlight)-/.test(body),false);
   const d400=JSON.parse(read('d400-settings.json'));for(const id of [d400.heroYoutube,new URL(d400.youtubeUrl).searchParams.get('v')])assert.equal(body.includes(id),false);
-  for(const g of settings[m.id].gallery){const manifest=JSON.parse(read('model-assets.json'))[g.asset];for(const v of Object.values(manifest))assert.ok(existsSync(new URL('../dist/assets/'+v.file,import.meta.url)));}
+  for(const g of settings[m.id].gallery){const manifest=JSON.parse(read('model-assets.json'))[g.asset];for(const v of Object.values(manifest))assert.ok(existsSync(new URL('../public/assets/'+v.file,import.meta.url)));}
  }
 });
 test('navegação e mapa de URLs incluem modelos e páginas funcionais',()=>{
- const home=read('dist/index.html');const sitemap=read('dist/sitemap.xml');
+ const home=read('public/index.html');const sitemap=read('public/sitemap.xml');assert.ok(sitemap.includes('/ofertas/'));
  for(const m of data.models){assert.ok(home.includes(`href="/motos/${m.id}/"`));assert.ok(sitemap.includes(`/motos/${m.id}/`));}
- for(const path of ['ofertas','financiamento','test-ride','pos-venda','unidades','a-interiorsp']){const html=read(`dist/${path}/index.html`);assert.ok(html.includes('noindex,nofollow'));assert.ok(sitemap.includes(`/${path}/`));}
- assert.equal(/if\(m.id!=='dominar-400'\)/.test(read('dist/app.mjs')),false);
+ for(const path of ['financiamento','test-ride','pos-venda','unidades','a-interiorsp']){const html=read(`public/${path}/index.html`);assert.ok(html.includes('noindex,nofollow'));assert.ok(sitemap.includes(`/${path}/`));}
+ assert.equal(/if\(m.id!=='dominar-400'\)/.test(read('public/app.mjs')),false);
 });
 test('test ride e pós-venda preparam intenção explícita, sem confirmar envio ou agendamento',()=>{
  for(const kind of ['test-ride','pos-venda'])for(const u of data.units)for(const m of data.models){

@@ -2,8 +2,8 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
 import vm from 'node:vm';
-import {entryValues,entryState,simulationURL,initDominar} from '../dist/dominar-400.mjs';
-const html=readFileSync(new URL('../dist/motos/dominar-400/index.html',import.meta.url),'utf8');
+import {entryValues,entryState,simulationURL,initDominar} from '../public/dominar-400.mjs';
+const html=readFileSync(new URL('../public/motos/dominar-400/index.html',import.meta.url),'utf8');
 const config=JSON.parse(html.match(/<script type="application\/json" id="d4-data">(.*?)<\/script>/s)[1]);
 const sourceData=JSON.parse(readFileSync(new URL('../data.json',import.meta.url)));
 const normalize=s=>s.replace(/\s/g,' ');
@@ -18,7 +18,7 @@ function fixture(pageConfig=config) {
  const root=new El(),doc=new El(),dialog=new El();doc.hidden=false;root.ownerDocument=doc;doc.getElementById=id=>{assert.equal(id,'gallery-dialog');return dialog;};
  const keys=['[data-d4-hero]','[data-d4-video]','[data-d4-motion]','#d4-entry','[data-d4-summary]',
   '.d4-modes','[data-d4-mode-copy]','.d4-terms','.d4-cities','[data-d4-error]','[data-d4-fallback]',
-  '[data-d4-entry-value]','[data-d4-entry-label]','[data-d4-balance]','.d4-finance-bar','#d4-finance','[data-d4-fallback-link]','.d4-spec-tabs'];
+  '[data-d4-entry-value]','[data-d4-entry-label]','[data-d4-balance]','.d4-finance-bar','#d4-finance','#d4-finance [type=submit]','[data-d4-fallback-link]','.d4-spec-tabs'];
  const map=Object.fromEntries(keys.map(k=>[k,new El()]));
  const modes=pageConfig.modes.map(m=>new El({d4Mode:m.id}));
  const terms=[12,24,36,48].map(x=>new El({d4Term:String(x)}));
@@ -34,7 +34,7 @@ function fixture(pageConfig=config) {
  class CustomEvent {constructor(type,{detail}){this.type=type;this.detail=detail;}}
  doc.dispatchEvent=e=>{dispatched.push(e);for(const fn of doc.events[e.type]??[])fn(e);};
  const media=new El();media.matches=false;
- const env={matchMedia:()=>media,navigator:{},CustomEvent,localStorage:{getItem:k=>storage.get(k),setItem:(k,v)=>storage.set(k,v)},open:(...args)=>opened.push(args),dataLayer:[]};
+ const env={document:doc,matchMedia:()=>media,navigator:{},CustomEvent,localStorage:{getItem:k=>storage.get(k),setItem:(k,v)=>storage.set(k,v)},open:(...args)=>opened.push(args),dataLayer:[]};
  initDominar(root,{...pageConfig,heroYoutube:null},env);
  return {root,doc,dialog,map,modes,terms,cities,specs,panels,links,storage,opened,dispatched,env,CustomEvent};
 }
@@ -53,13 +53,13 @@ test('simulação usa somente os dois WhatsApps e preserva entrada, prazo e unid
  }
  assert.throws(()=>simulationURL(config,'',8000,36),/Escolha/);assert.throws(()=>simulationURL(config,'bauru',9001,36),/Confira/);
 });
-test('formulário exige unidade e só prepara a abertura do WhatsApp após escolha',()=>{
+test('formulário exige unidade e repassa o pedido à captação sem abrir o WhatsApp',()=>{
  const f=fixture();f.map['#d4-finance'].dispatch('submit');assert.equal(f.opened.length,0);assert.equal(f.map['[data-d4-error]'].hidden,false);assert.equal(f.cities[0].focused,true);
  f.cities[1].dispatch('click');f.terms[1].dispatch('click');f.map['#d4-entry'].value='55';f.map['#d4-entry'].dispatch('input');
  assert.equal(normalize(f.map['[data-d4-balance]'].textContent),'R$ 0,00');
- f.map['#d4-finance'].dispatch('submit');assert.equal(f.opened.length,1);assert.equal(f.opened[0][1],'_blank');assert.equal(f.opened[0][2],'noopener');
- const url=new URL(f.opened[0][0]);assert.equal(url.pathname,'/5514996448094');assert.match(url.searchParams.get('text'),/Prazo: 24 meses/);
- assert.equal(f.map['[data-d4-fallback-link]'].href,f.opened[0][0]);assert.equal(f.map['[data-d4-fallback]'].hidden,false);
+ f.map['#d4-finance'].dispatch('submit');assert.equal(f.opened.length,0);
+ const request=f.dispatched.findLast(event=>event.type==='interiorsp:contact-request').detail;
+ assert.equal(request.unit,'bauru');assert.equal(request.entry,27490);assert.equal(request.term,24);assert.equal(request.model,'dominar-400');assert.equal(request.intent,'simulacao');
  assert.ok(f.env.dataLayer.every(event=>!('entry'in event)&&!('term'in event)));
 });
 test('seleção de unidade persiste, emite evento global e acompanha mudanças vindas do header',()=>{
@@ -67,7 +67,7 @@ test('seleção de unidade persiste, emite evento global e acompanha mudanças v
  assert.equal(f.dispatched.at(-1).type,'interiorsp:unit-change');assert.equal(f.dispatched.at(-1).detail.unit,'bauru');
  f.doc.dispatchEvent(new f.CustomEvent('interiorsp:unit-selected',{detail:{unit:'rio-preto'}}));
  assert.equal(f.cities[0].attrs['aria-checked'],'true');assert.equal(f.cities[1].attrs['aria-checked'],'false');
- f.map['#d4-finance'].dispatch('submit');assert.equal(new URL(f.opened[0][0]).pathname,'/5517992606039');
+ f.map['#d4-finance'].dispatch('submit');assert.equal(f.dispatched.findLast(event=>event.type==='interiorsp:contact-request').detail.unit,'rio-preto');assert.equal(f.opened.length,0);
 });
 test('modos e ficha técnica respondem a clique e teclado, mantendo uma única seleção',()=>{
  const f=fixture();f.modes[3].dispatch('click');assert.equal(f.map['[data-d4-mode-copy]'].textContent,config.modes[3].description);
@@ -81,12 +81,12 @@ test('pausa de efeitos e estado do lightbox têm semântica acessível',()=>{
  assert.equal(f.dialog.attrs['aria-modal'],'true');assert.equal(f.dialog.attrs.role,'dialog');
 });
 test('galeria compartilhada abre o arquivo de maior resolução, mantém alt e faz loop',()=>{
- const app=readFileSync(new URL('../dist/app.mjs',import.meta.url),'utf8');const code=app.slice(app.indexOf('function showPhoto('),app.indexOf('photos.forEach('));
+ const app=readFileSync(new URL('../public/app.mjs',import.meta.url),'utf8');const code=app.slice(app.indexOf('function showPhoto('),app.indexOf('photos.forEach('));
  const photos=[...html.matchAll(/data-gallery="(\d+)" data-full="([^"]+)"/g)].map((m,i)=>({dataset:{full:m[2]},image:{src:'small-'+i,alt:'Foto '+i}}));
  assert.equal(photos.length,6);const image={},position={};const context={photos,galleryIndex:0,$:(s,p)=>p?p.image:s==='#gallery-full'?image:position};
  vm.runInNewContext(code+';showPhoto(-1)',context);assert.equal(image.src,photos[5].dataset.full);assert.equal(image.alt,'Foto 5');assert.equal(position.textContent,'6 / 6');
  vm.runInNewContext('showPhoto(6)',context);assert.equal(image.src,photos[0].dataset.full);
- for(const photo of photos)assert.ok(existsSync(new URL('../dist'+photo.dataset.full,import.meta.url)));
+ for(const photo of photos)assert.ok(existsSync(new URL('../public'+photo.dataset.full,import.meta.url)));
 });
 test('página mantém preço, ficha oficial, duas lojas, Maps e não introduz vídeo de outro modelo',()=>{
  assert.equal(config.price,sourceData.models.find(m=>m.id==='dominar-400').price);assert.equal(config.heroVideo,null);
@@ -97,14 +97,14 @@ test('página mantém preço, ficha oficial, duas lojas, Maps e não introduz v�
  assert.equal(html.includes('brand-film.mp4'),false);assert.equal(html.includes('dominar-250-poster'),false);
  assert.equal((html.match(/class="d4-feature d4-section/g)||[]).length,6);
  assert.equal((html.match(/data-d4-spec="/g)||[]).length,5);
- const ride=[...html.matchAll(/href="(https:\/\/wa.me\/[^\"]+)"[^>]+data-d4-unit-link="([^\"]+)"/g)];assert.equal(ride.length,2);
- for(const [,link,id] of ride){const u=config.units.find(x=>x.id===id),url=new URL(link);assert.equal(url.pathname,'/'+u.phone);assert.ok(url.searchParams.get('text').includes(u.short));}
+ const ride=[...html.matchAll(/href="([^\"]+)"[^>]+data-d4-unit-link="([^\"]+)"/g)];assert.equal(ride.length,2);
+ for(const [,link,id] of ride){const url=new URL(link.replace(/&amp;/g,'&'),'https://bajaj.test');assert.equal(url.pathname,'/test-ride/');assert.equal(url.searchParams.get('unidade'),id);assert.equal(url.searchParams.get('modelo'),'dominar-400');}
 });
 
 test('formulário inicializa os seis modelos, com ou sem modos, e mantém unidade e valores corretos',()=>{
  for(const m of sourceData.models){
-  const page=readFileSync(new URL(`../dist/motos/${m.id}/index.html`,import.meta.url),'utf8');const cfg=JSON.parse(page.match(/id="d4-data">(.*?)<\/script>/s)[1]);const f=fixture(cfg);
+  const page=readFileSync(new URL(`../public/motos/${m.id}/index.html`,import.meta.url),'utf8');const cfg=JSON.parse(page.match(/id="d4-data">(.*?)<\/script>/s)[1]);const f=fixture(cfg);
   assert.equal(f.modes.length,cfg.modes.length);assert.equal(f.map['#d4-entry'].max,String(entryValues(cfg.price).length-1));
-  f.cities[0].dispatch('click');f.map['#d4-finance'].dispatch('submit');const url=new URL(f.opened[0][0]);assert.ok(url.searchParams.get('text').includes(cfg.name));assert.equal(url.pathname,'/5517992606039');
+  f.cities[0].dispatch('click');f.map['#d4-finance'].dispatch('submit');const request=f.dispatched.findLast(event=>event.type==='interiorsp:contact-request').detail;assert.equal(request.model,cfg.model);assert.equal(request.unit,'rio-preto');assert.equal(request.entry,cfg.initialEntry);assert.equal(f.opened.length,0);
  }
 });

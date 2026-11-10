@@ -22,7 +22,7 @@ def freeze_native_assets(root=ROOT):
     entries = {}
     for model, entry in manifest.items():
         filename = entry['full']['file']
-        source = root / 'dist' / 'assets' / filename
+        source = root / 'public' / 'assets' / filename
         if not source.exists():
             if filename in previous:
                 entries[filename] = previous[filename]
@@ -56,7 +56,7 @@ def assemble_native_assets(root=ROOT):
     if not index_path.exists():
         return
     for filename, entry in json.loads(index_path.read_text()).items():
-        target = root / 'dist' / 'assets' / filename
+        target = root / 'public' / 'assets' / filename
         published = entry.get('published')
         native = root / 'native-build-assets' / filename if published else target
         if not (native.exists() and native.stat().st_size == entry['bytes'] and digest(native) == entry['sha256']):

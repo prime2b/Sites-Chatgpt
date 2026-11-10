@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {backgroundYouTube,initDetailVideo} from '../dist/dominar-youtube.mjs';
+import {backgroundYouTube,initDetailVideo} from '../public/dominar-youtube.mjs';
 const tick=()=>new Promise(resolve=>setImmediate(resolve));
 function fixture(){
  const events={},calls=[],frame={style:{},setAttribute:(...args)=>calls.push(args)};
@@ -40,7 +40,7 @@ test('os vídeos da Dominar 400 pertencem ao modelo correto e preservam moviment
  for(const id of [cfg.heroYoutube,new URL(cfg.youtubeUrl).searchParams.get('v'),new URL(cfg.additionalVideoUrl).searchParams.get('v')]){
   const source=sources.find(s=>s.youtube===id);assert.ok(source);assert.equal(source.author,'Bajaj do Brasil');assert.match(source.title,/Dominar 400/i);assert.doesNotMatch(source.title,/NS400Z/i);
  }
- const html=readFileSync(new URL('../dist/motos/dominar-400/index.html',import.meta.url),'utf8');assert.equal(html.includes('link pendente'),false);
+ const html=readFileSync(new URL('../public/motos/dominar-400/index.html',import.meta.url),'utf8');assert.equal(html.includes('link pendente'),false);
  for(const url of [cfg.heroYoutube,cfg.youtubeUrl,cfg.additionalVideoUrl])assert.ok(html.includes(url));
- const src=readFileSync(new URL('../dist/dominar-400.mjs',import.meta.url),'utf8');assert.match(src,/play&&!mobile.matches&&!env.navigator.connection\?\.saveData/);assert.match(src,/motion&&heroVisible&&!doc.hidden&&!reduce.matches/);
+ const src=readFileSync(new URL('../public/dominar-400.mjs',import.meta.url),'utf8');assert.match(src,/play&&!env.navigator.connection\?\.saveData/);assert.match(src,/motion&&heroVisible&&!doc.hidden&&!reduce.matches/);
 });

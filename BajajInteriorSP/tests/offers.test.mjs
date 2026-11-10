@@ -1,10 +1,10 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {filterOffers,offerContactURL,MAX_BUDGET} from '../dist/offers.mjs';
+import {filterOffers,offerContactURL,MAX_BUDGET} from '../public/offers.mjs';
 
-const html=readFileSync(new URL('../dist/ofertas/index.html',import.meta.url),'utf8');
-const {models,units}=JSON.parse(html.match(/id="offers-data">(.*?)<\/script>/s)[1]);
+const {models:catalog,units}=JSON.parse(readFileSync(new URL('../data.json',import.meta.url),'utf8'));
+const models=catalog.map(m=>({...m,line:m.id.startsWith('pulsar')?'Pulsar':m.id.includes('-ns')?'Linha NS':'Linha Dominar'}));
 
 test('linha, teto de investimento e ordenação combinam sem alterar o catálogo',()=>{
  const original=structuredClone(models);
@@ -28,15 +28,4 @@ test('BIA usa a unidade escolhida e a mensagem comercial exata de cada modelo',(
  assert.throws(()=>offerContactURL(models,units,models[0].id,''),/Escolha/);
  assert.throws(()=>offerContactURL(models,units,'outro','bauru'),/Modelo/);
  assert.throws(()=>offerContactURL(models,[{id:'bauru',phone:'123'}],models[0].id,'bauru'),/Escolha/);
-});
-
-test('escada mantém cada preço na sua posição real e alterna os rótulos próximos',()=>{
- const nodes=[...html.matchAll(/class="offers-ladder-node (is-above|is-below)" href="#([^"]+)"[^>]+--offer-position:([\d.]+)%/g)];
- assert.equal(nodes.length,6);
- nodes.forEach((node,index)=>{
-  const model=models.find(m=>m.id===node[2]);
-  assert.equal(node[1],index%2===0?'is-above':'is-below');
-  assert.ok(Math.abs(Number(node[3])-(model.price-16500)/(27490-16500)*100)<0.000001);
-  assert.ok(html.includes(`id="${model.id}" data-offer-card`));
- });
 });

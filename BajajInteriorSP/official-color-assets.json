@@ -1,0 +1,62 @@
+[
+  {
+    "model": "pulsar-n150",
+    "color": "red",
+    "label": "Cocktail Wine Red",
+    "source": "https://bajaj.com.br/wp-content/themes/twentytwentyone/img/moto/pulsar-ns150/moto/vermelha.webp",
+    "width": 1059,
+    "height": 706,
+    "mode": "RGBA",
+    "sha256": "262abe676b86022c53334ea94894f9bee7b5555461847bd3f7157c2d28b1c1e7"
+  },
+  {
+    "model": "dominar-250",
+    "color": "red",
+    "label": "Racing Red",
+    "source": "https://bajaj.com.br/wp-content/themes/twentytwentyone/img/moto/dominar-250-novo/vermelha.webp",
+    "width": 1059,
+    "height": 706,
+    "mode": "RGBA",
+    "sha256": "c15fdc01177f7003a8d7a64e36f966951508ac028d7c8c7d10411544fb563507"
+  },
+  {
+    "model": "dominar-400",
+    "color": "red",
+    "label": "Canyon Red",
+    "source": "https://bajaj.com.br/wp-content/themes/twentytwentyone/img/moto/dominar-400-novo/vermelha.webp",
+    "width": 1059,
+    "height": 706,
+    "mode": "RGBA",
+    "sha256": "e2d90785ee7b80725b86622bbb251fd5ece0557900713349498cceb1c0504743"
+  },
+  {
+    "model": "dominar-400",
+    "color": "green",
+    "label": "Savanna Green",
+    "source": "https://bajaj.com.br/wp-content/themes/twentytwentyone/img/moto/dominar-400-novo/verde.webp",
+    "width": 1059,
+    "height": 706,
+    "mode": "RGBA",
+    "sha256": "4a35ca95537ec8e48fc7a21747d057958fd64d0afdc7bd8f6b15fcf7ec2bc075"
+  },
+  {
+    "model": "dominar-400",
+    "color": "blue",
+    "label": "Indigo Blue",
+    "source": "https://bajaj.com.br/wp-content/themes/twentytwentyone/img/moto/dominar-400-novo/azul.webp",
+    "width": 1059,
+    "height": 706,
+    "mode": "RGBA",
+    "sha256": "66be0984e423189958af4990955d5f9329d261b6d540ae24d66d427d0713ae23"
+  },
+  {
+    "model": "dominar-400",
+    "color": "white",
+    "label": "Pearl Metallic White",
+    "source": "https://bajaj.com.br/wp-content/themes/twentytwentyone/img/moto/dominar-400-novo/branco.webp",
+    "width": 1059,
+    "height": 706,
+    "mode": "RGBA",
+    "sha256": "fafcb02b4277159c4d056a642cc6732bf766636eda35597b67fc4c02594a9db0"
+  }
+]

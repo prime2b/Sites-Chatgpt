@@ -1,3 +1,85 @@
+# Arquivos estáticos no Netlify; rotas dinâmicas usam o backend existente.
 [build]
-  command = "python3 build.py"
-  publish = "dist"
+command = "python3 build.py"
+publish = "public"
+edge_functions = "netlify/edge-functions"
+
+[[edge_functions]]
+  function = "bajaj-backend"
+  path = "/admin"
+
+[[edge_functions]]
+  function = "bajaj-backend"
+  path = "/admin/*"
+
+[[edge_functions]]
+  function = "bajaj-backend"
+  path = "/api/admin"
+
+[[edge_functions]]
+  function = "bajaj-backend"
+  path = "/api/admin/*"
+
+[[edge_functions]]
+  function = "bajaj-backend"
+  path = "/api/auth/*"
+
+[[edge_functions]]
+  function = "bajaj-backend"
+  path = "/api/contact"
+
+[[edge_functions]]
+  function = "bajaj-backend"
+  path = "/api/contact/*"
+
+[[edge_functions]]
+  function = "bajaj-backend"
+  path = "/api/blog/*"
+
+[[edge_functions]]
+  function = "bajaj-backend"
+  path = "/api/commerce/*"
+
+[[edge_functions]]
+  function = "bajaj-backend"
+  path = "/blog"
+
+[[edge_functions]]
+  function = "bajaj-backend"
+  path = "/blog/*"
+
+[[edge_functions]]
+  function = "bajaj-backend"
+  path = "/ofertas"
+
+[[edge_functions]]
+  function = "bajaj-backend"
+  path = "/ofertas/*"
+
+[[edge_functions]]
+  function = "bajaj-backend"
+  path = "/seminovas"
+
+[[edge_functions]]
+  function = "bajaj-backend"
+  path = "/seminovas/*"
+
+[[edge_functions]]
+  function = "bajaj-backend"
+  path = "/conteudos/*"
+
+[[edge_functions]]
+  function = "bajaj-backend"
+  path = "/midia/*"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+[[edge_functions]]
+  function = "bajaj-backend"
+  path = "/pos-venda/revisoes"
+
+[[edge_functions]]
+  function = "bajaj-backend"
+  path = "/pos-venda/revisoes/"

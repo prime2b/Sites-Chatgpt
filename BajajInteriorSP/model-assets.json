@@ -1171,5 +1171,73 @@
       "width": 2400,
       "height": 1601
     }
+  },
+  "pulsar-n150-hero-front": {
+    "full": {
+      "file": "spin/pulsar-n150/white/02.webp",
+      "width": 1000,
+      "height": 700
+    },
+    "large": {
+      "file": "spin/pulsar-n150/white/02.webp",
+      "width": 1000,
+      "height": 700
+    },
+    "small": {
+      "file": "spin/pulsar-n150/white/02.webp",
+      "width": 1000,
+      "height": 700
+    }
+  },
+  "dominar-ns160-hero-front": {
+    "full": {
+      "file": "spin/dominar-ns160/red/01.webp",
+      "width": 1000,
+      "height": 700
+    },
+    "large": {
+      "file": "spin/dominar-ns160/red/01.webp",
+      "width": 1000,
+      "height": 700
+    },
+    "small": {
+      "file": "spin/dominar-ns160/red/01.webp",
+      "width": 1000,
+      "height": 700
+    }
+  },
+  "dominar-ns200-hero-front": {
+    "full": {
+      "file": "spin/dominar-ns200/white/02.webp",
+      "width": 1000,
+      "height": 700
+    },
+    "large": {
+      "file": "spin/dominar-ns200/white/02.webp",
+      "width": 1000,
+      "height": 700
+    },
+    "small": {
+      "file": "spin/dominar-ns200/white/02.webp",
+      "width": 1000,
+      "height": 700
+    }
+  },
+  "dominar-ns400z-hero-front": {
+    "full": {
+      "file": "spin/dominar-ns400z/black/02.webp",
+      "width": 845,
+      "height": 580
+    },
+    "large": {
+      "file": "spin/dominar-ns400z/black/02.webp",
+      "width": 845,
+      "height": 580
+    },
+    "small": {
+      "file": "spin/dominar-ns400z/black/02.webp",
+      "width": 845,
+      "height": 580
+    }
   }
 }

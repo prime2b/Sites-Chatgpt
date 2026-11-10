@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {initFamilyFilm} from '../dist/family-film.mjs';
+import {initFamilyFilm} from '../public/family-film.mjs';
 const tick=()=>new Promise(resolve=>setImmediate(resolve));
 function fixture(load){
  const elements=Object.fromEntries(['toggle','play','pause','label','status'].map(key=>[key,{hidden:key==='pause',attrs:{},setAttribute(k,v){this.attrs[k]=v;},toggleAttribute(k,v){this.attrs[k]=v;},addEventListener(k,fn){this[k]=fn;}}]));

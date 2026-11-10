@@ -2,7 +2,7 @@
 from PIL import Image,ImageOps
 from pathlib import Path
 import json,sys,concurrent.futures
-P=Path(__file__).resolve().parents[1];raw=Path(sys.argv[1]);out=P/'dist/assets'
+P=Path(__file__).resolve().parents[1];raw=Path(sys.argv[1]);out=P/'public/assets'
 photos=json.loads((P/'source-model-photos.json').read_text());data=json.loads((P/'data.json').read_text())
 def process(photo):
  key=photo['key'];im=ImageOps.exif_transpose(Image.open(raw/(key+'.jpg'))).convert('RGB');result={}

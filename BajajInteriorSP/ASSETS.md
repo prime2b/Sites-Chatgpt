@@ -168,3 +168,50 @@ Capas de filmes nos produtos são fornecidas pelo próprio iframe YouTube, sem d
 A seção `#universo-bajaj` passou a usar exclusivamente as cinco artes anexadas pelo cliente nesta conversa, na ordem 1 a 5. Originais copiados byte a byte para `campaign-client-01.webp` até `campaign-client-05.webp`; nenhuma alteração de textos, logotipos, cores ou composição das artes. Dimensões originais 1672×941, com a quinta 1672×940. Variantes `-small.webp` limitadas a 800 px, redimensionadas proporcionalmente. Nomes originais e SHA256 em `home-art-slider.json`.
 
 Removidos os textos/CTAs HTML e os gradientes que se sobrepunham às imagens; contador visual removido, preservando identificação acessível. A seção acompanha a proporção 16:9 em todas as larguras, com imagem preenchendo 100% da área e sem faixas laterais ou verticais. Setas, teclado e arrasto continuam disponíveis. Não foram criados recortes verticais das artes, para preservar motos e chamadas nos celulares.
+
+
+### Fundo decorativo do login — 30/10/2026
+
+`public/assets/admin-login-backdrop.webp`: arte editada pelo ImageGen integrado a partir da imagem selecionada pelo usuário (`image-edit-target-f2b240ff657780cc.png`). Prompt: extrair a composição fotográfica das motos e criar fundo cinematográfico navy #13233A/azul #0052A1 para login, sem textos, preços, marcas Carrera, molduras de página ou pessoas. Arquivo usado somente como decoração da entrada; não substitui fotos oficiais de produtos, giros ou fotos editoriais. Original gerado preservado na saída da ferramenta.
+
+## Imagens oficiais de Consórcio e Pós-venda — 30/10/2026
+
+Aplicadas dez imagens retiradas das páginas oficiais indicadas por Fred: Garantia, Área do Proprietário e Serviços Autorizados, além da seção oficial de Consórcio. `owner-media.json` registra URLs exatas, página de origem, SHA-256 dos originais, textos alternativos e variantes. Os originais estão em `owner-media-originals/`; os arquivos responsivos são locais em `public/assets/owner-official-*`, sem dependência de hotlink.
+
+- Pós-venda: banner oficial do técnico, incluindo a composição própria para celular; cartões ilustrados e foto oficial de fachada na área de Serviços, identificada como divulgação da fabricante.
+- Garantia: banner oficial de rodagem e imagem de diagnóstico na seção de cobertura.
+- Manuais: imagem da área oficial do proprietário no banner; oito capas renderizadas da primeira página de cada PDF oficial. A capa da D250 2026/2027 vem do documento próprio dessa versão. `owner-media.json` relaciona cada capa ao PDF e ao hash verificado em `owner-resources.json`.
+- Revisões: imagem oficial de manutenção periódica no banner, com o texto no espaço azul reservado pela própria composição; foto da seção de primeira revisão no cartão da central.
+- Consórcio: imagem oficial de atendimento da seção Consórcio Nacional Bajaj. A imagem de produto já aprovada continua na introdução.
+
+As imagens conservam os enquadramentos originais e não receberam reconstrução por IA, recoloração, inserção de pessoas ou alteração de textos. Variantes WebP mantêm a proporção e não ampliam os pixels de origem. Capas exibidas com `contain`, sem cortar o documento. As fotos de divulgação não são apresentadas como registro das unidades InteriorSP. Não foram importados scripts, formulários, anúncios ou condições financeiras da fabricante.
+
+## Ajuste de aplicação das imagens — heroes das internas
+
+Por solicitação de Fred, os cinco heroes de Consórcio/Pós-venda voltaram ao componente compartilhado `service-hero`, com o mesmo fundo escuro, tipografia, espaçamento e abertura textual das demais páginas internas. A opção de hero fotográfico e seus estilos foram removidos.
+
+As imagens ilustram o conteúdo: atendimento na introdução de Consórcio, manual junto à apresentação da biblioteca e manutenção junto às orientações de Revisões. Garantia conserva a foto de diagnóstico e a central mantém cartões ilustrados e a fotografia de Serviços. Capas dos oito PDFs preservadas. Nas três artes oficiais que reservam metade da tela para texto, o enquadramento da coluna mostra a metade fotográfica correspondente, sem criar outra imagem de fundo nem sobrepor os títulos às fotos. Os arquivos originais não foram editados.
+
+
+## 31/10/2026 — Vídeo comercial da BIA
+
+- Origem: vídeo fornecido por Fred no anexo `Criar_vídeo_comercial_da_Bia_212efa72_1080p.mp4`. Não é identificado como filmagem oficial da fabricante.
+- `public/assets/bia-apresentacao.mp4`: 1920 × 1080, 24 fps, 9,963 segundos, H.264 e áudio AAC. Streams copiados sem recodificação; contêiner MP4 reorganizado com faststart (moov antes de mdat), 5.096.488 bytes. Sem cortes, mudanças de enquadramento ou de fala.
+- `public/assets/bia-apresentacao-poster.jpg`: quadro do próprio vídeo em 0,3 segundo, reduzido proporcionalmente a 1280 × 720, 79.390 bytes.
+- Uso exclusivo na apresentação Conheça a BIA da Home; proporção integral 16:9 em desktop e celular.
+
+
+## 03/11/2026 — Heroes das seis motos
+
+Enquadramento padronizado a partir da Dominar 250: vista de três quartos com a frente para a direita. A fotografia da referência permanece `official-dominar-250.webp`; as outras cinco são quadros oficiais já importados para os giros 360°. Não há espelhamento, alteração de pintura, reconstrução ou modificação dos arquivos. `heroBounds` em cada configuração registra os limites do conteúdo visível (alpha ≥ 12); o gerador posiciona a foto original em um quadro 8:5, com centro em 50% e base em 95%. A transparência excedente fica fora do quadro por CSS, sem cortar a motocicleta. Origem dos quadros em `official-360-sources.json`.
+
+| Modelo | Fotografia usada no hero | Cor da imagem |
+|---|---|---|
+| Pulsar N150 | `spin/pulsar-n150/white/02.webp` | Pearl Metallic White |
+| Dominar NS160 | `spin/dominar-ns160/red/01.webp` | Cocktail Wine Red |
+| Dominar NS200 | `spin/dominar-ns200/white/02.webp` | Pearl Metallic White |
+| Dominar 250 | `official-dominar-250.webp` | Referência existente |
+| Dominar 400 | `spin/dominar-400/black/02.webp` | Charcoal Black |
+| Dominar NS400Z | `spin/dominar-ns400z/black/02.webp` | Brooklyn Black |
+
+Quatro filmes de fundo acrescentados, publicados pelo canal Bajaj do Brasil: Pulsar N150 `cVJQqLX9_2A`, NS160 `S76QunE4hY8`, família NS160/NS200 `R2N-V9BWXEc` usado na NS200 e NS400Z `v0epzoJpspk`. Metadados oficiais de incorporação conferidos em 03/11/2026, incluindo autor, título e proporção horizontal. IDs e URLs em `media-video-sources.json`. Os fundos existentes de D250/D400 e os filmes das seções de conteúdo foram mantidos; os vinte contextos de vídeo do site continuam com IDs distintos. Camada de vídeo com opacidade 0,30 e vinheta mais suave. O cenário alternativo cobre a interface do YouTube durante o carregamento e é ocultado ao iniciar a reprodução.
